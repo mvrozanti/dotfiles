@@ -36,7 +36,6 @@ search mplayer
 search mpla
 search mplay
 shell clear;read;
-shell clear;
 shell mkdir 
 shell clear;npm 
 shell clear;npm i
@@ -48,3 +47,4 @@ shell clear;grep 2715;read
 delete
 search dot
 shell clear;./gra
+shell clear;
