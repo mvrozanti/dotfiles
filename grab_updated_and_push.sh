@@ -24,6 +24,7 @@ mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin
 cp -fR /usr/local/bin/scr usr-local-bin
 cp -fR /usr/local/bin/isthere usr-local-bin
+cp -fR /usr/local/bin/gitap usr-local-bin
 
 # push
-#gitap
+gitap "$(date)"

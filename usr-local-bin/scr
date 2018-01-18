@@ -1,0 +1,4 @@
+#!/bin/bash
+todo="$@"
+curdir="$PWD"
+screen -dm $todo
