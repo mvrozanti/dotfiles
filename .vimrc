@@ -3,15 +3,6 @@ autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 
-"execute pathogen#infect("")
-" vim javascript
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_plugin_ngdoc = 1
-let g:javascript_plugin_flow = 1
-augroup javascript_folding
-    au!
-    au FileType javascript setlocal foldmethod=syntax
-augroup END
 " \n not in v$
 nnoremap - $h
 vnoremap - $h
@@ -181,5 +172,4 @@ nmap <silent> <A-Right> :wincmd l<CR>
 set mouse=c
 
 " ==== custom commands
-command Jsonfix execute ":%!python3 -m json.tool"
-
+"command Jsonfix execute ":%!python3 -m json.tool"

@@ -1,7 +1,3 @@
-shell clear;git clone https://github.com/powerline/fonts
-cd fonts/
-shell clear;echo DroidSansMonoSlashed
-cd  set -g window-status-format "#[fg=colour244,bg=colour234]#I #[fg=colour240] #[default]#W "
 shell mkdir powerline
 qqq
 find g
@@ -42,9 +38,13 @@ search mplay
 shell clear;read;
 shell clear;
 shell mkdir 
-delete
 shell clear;npm 
 shell clear;npm i
 shell clear;npm start;read
 open_with 
 shell clear;sudo idle3
+shell clear;grep 2715
+shell clear;grep 2715;read
+delete
+search dot
+shell clear;./gra
