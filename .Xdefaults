@@ -37,7 +37,7 @@ URxvt.depth:		32
 URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:hinting=true:size=11
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#a50900
-URxvt.perl-ext-common:	default,matcher,config-reload
+URxvt.perl-ext-common:	default,matcher
 URxvt.perl-lib:		$HOME/.config/Scripts
 URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1

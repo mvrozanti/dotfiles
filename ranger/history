@@ -1,50 +1,30 @@
-shell mkdir powerline
-qqq
-find g
-open_with L:
-search mu
-cd  musik
-
-cd Music/
-cd Musik/
-search /
-search prai
-search snak
-shell clear;./bash-life.sh
-search .vim
-shell mkdir gif-daora
-shell clear;:::::
-rename main2.js
-touch gif.js
-shell clear;gitap "kekao2
-shell clear;gitap "kekao2"
-shell clear;s vim main.js
-shell clear;gitap\
-shell clear;gitap notsure
-find pw;llll
-rename defaulta.json
+rename gifa.js
 touch 
-rename default.json
-search steam
-search cnt
-shell clear;firefox index.html
-touch start_console.sh
-search exe
-search putt
-search 
-search mplayer
-search mpla
-search mplay
-shell clear;read;
+rename gif.js
+shell clear;gitap
+shell clear;gitap js can be inside html for now?
 shell mkdir 
-shell clear;npm 
-shell clear;npm i
-shell clear;npm start;read
-open_with 
-shell clear;sudo idle3
-shell clear;grep 2715
-shell clear;grep 2715;read
+shell clear;datagram-test
+shell mkdir datagram-test
+rename socket-test
+rename datagram-test
+shell clear;git clone 
+shell clear;git clone https://github.com/fmalcher/webrtc-minimal-example
+shell clear;git clone https://github.com/fmalcher/webrtc-simplems.git
+shell clear;npm install
+shell clear;node server.js
+shell clear;http-server 
+shell clear;node server.js;read
+shell clear;grep 25
+shell clear;vim bob.html
 delete
-search dot
-shell clear;./gra
+shell clear;grep 192.168
+shell clear;v index.html
+shell clear;vim index.html
+rename Javascript javascript
+rename javascript
+shell clear;vim index.html 
 shell clear;
+shell clear;firefox gradeImpressao_files
+shell clear;firefox gradeImpressao.html
+shell clear;nemo .

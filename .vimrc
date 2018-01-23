@@ -12,7 +12,8 @@ nnoremap <C-W> <Esc>:q<CR>
 inoremap <C-W> <Esc>:q<CR>
 nnoremap <C-S> <Esc>:w<CR>
 inoremap <C-S> <Esc>:w<CR>
-inoremap jk <Esc>
+inoremap jk <Esc>l
+vnoremap jk <Esc> 
 nnoremap ; ''
 
 " Commenting blocks of code.
@@ -141,7 +142,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%f
-let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
 let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
 let g:syntastic_yaml_checkers = ['jsyaml']
