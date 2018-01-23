@@ -1,0 +1,12 @@
+#!/bin/bash
+if [[ -n $(wmctrl -l|grep "minty tmux") ]]; then
+    wmctrl -a tmux
+else
+    tmux has-session -t sess0
+    hs=$?
+    if [ $hs -ne 0 ]; then # no session
+        urxvt -e tmux new -s sess0;
+    else # if got session, attach
+        urxvt -e tmux a -t sess0;
+    fi
+fi

@@ -24,7 +24,8 @@ shell clear;vim index.html
 rename Javascript javascript
 rename javascript
 shell clear;vim index.html 
-shell clear;
 shell clear;firefox gradeImpressao_files
 shell clear;firefox gradeImpressao.html
 shell clear;nemo .
+shell clear;
+shell clear;./grab_updated_and_push.sh

@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ -n $(wmctrl -l|grep Firefox) ]]; then
+    wmctrl -a Firefox;
+else
+    firefox;
+fi
