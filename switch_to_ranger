@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ -n $(wmctrl -l|grep ranger) ]]; then
+    wmctrl -a ranger;
+else
+    rngr;
+fi
