@@ -17,7 +17,6 @@ shell clear;http-server
 shell clear;node server.js;read
 shell clear;grep 25
 shell clear;vim bob.html
-delete
 shell clear;grep 192.168
 shell clear;v index.html
 shell clear;vim index.html
@@ -29,3 +28,10 @@ shell clear;firefox gradeImpressao.html
 shell clear;nemo .
 shell clear;
 shell clear;./grab_updated_and_push.sh
+rename usr-local-bin
+shell clear;read
+read
+shell clear;gitap moved script to own file;implemented squiggle class
+shell clear;isthere dropbox;read
+open_with vim
+delete

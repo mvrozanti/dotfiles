@@ -29,6 +29,7 @@ cp -fR /usr/local/bin/scr usr-local-bin
 cp -fR /usr/local/bin/isthere usr-local-bin
 cp -fR /usr/local/bin/gitap usr-local-bin
 cp -fR /usr/local/bin/gitai usr-local-bin
+cp -fR /usr/local/bin/dropbox usr-local-bin
 cp -fR /usr/local/bin/switch_to* usr-local-bin
 cp -fR /usr/local/bin/rngr usr-local-bin
 cp -fR /usr/local/bin/ping-steam-user usr-local-bin

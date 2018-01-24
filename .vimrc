@@ -64,6 +64,23 @@ let g:system_copy#paste_command='xclip -sel clipboard -o'
 "==== plugin manager
 Plugin 'VundleVim/Vundle.vim'
 
+"==== plugin manager
+Plugin 'pangloss/vim-javascript'
+set conceallevel=1
+let g:javascript_conceal_function = "ƒ"
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_conceal_null                 = "ø"
+let g:javascript_conceal_this                 = "@"
+let g:javascript_conceal_return               = "⇚"
+let g:javascript_conceal_undefined            = "¿"
+let g:javascript_conceal_NaN                  = "ℕ"
+let g:javascript_conceal_prototype            = "¶"
+let g:javascript_conceal_static               = "•"
+let g:javascript_conceal_super                = "Ω"
+let g:javascript_conceal_arrow_function       = "⇒"
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
+
 " ==== helpers
 Plugin 'vim-scripts/L9'
 
@@ -80,6 +97,7 @@ Plugin 'tpope/vim-fugitive'
 
 " ==== syntax helpers
 Plugin 'scrooloose/syntastic'
+let g:syntastic_javascript_checkers = ['eslint']
 Plugin 'tpope/vim-surround'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'othree/yajs.vim'
