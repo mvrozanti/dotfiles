@@ -7,6 +7,9 @@ cp -fR ~/.vimrc .
 # powerline
 cp -fR  ~/.config/powerline .
 
+# whatsapp css
+cp -fR /opt/whatsapp-desktop/resources/app/css/settings.css .
+
 # urlview
 cp -fR ~/.urlview .
 
