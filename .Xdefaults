@@ -11,8 +11,8 @@
 *color1: #ff3300
 *color8: #a0f000
 !! purple
-*color2: #501fb0
-*color10: #00ff00
+*color2: #00ff00
+*color10:#501fb0 
 !! 
 *color3: rgba:ff00/ff00/ff00/9900
 *color11: #f100ff

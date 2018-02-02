@@ -1,7 +1,7 @@
 autocmd FileType javascript         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 0.001; xdotool keyup alt'
 autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
-inoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
+inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 
 " \n not in v$
 nnoremap - $h
@@ -15,6 +15,10 @@ inoremap <C-S> <Esc>:w<CR>
 inoremap jk <Esc>l
 vnoremap jk <Esc> 
 nnoremap ; ''
+
+" Colorscheme
+colorscheme peachpuff
+
 
 " Commenting blocks of code.
 autocmd FileType c,cpp,java,scala,javascript let b:comment_leader = '// '
@@ -51,7 +55,7 @@ set exrc
 "nnoremap <C-J> :wincmd j
 
 "autocomplete colors
-highlight Pmenu ctermfg=1 ctermbg=4 guifg=1 guibg=4
+highlight Pmenu ctermfg=2 ctermbg=4 guifg=1 guibg=4
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -162,7 +166,7 @@ set statusline+=%*
 set statusline+=%f
 "let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
-let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
+let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python3']
 let g:syntastic_yaml_checkers = ['jsyaml']
 let g:syntastic_html_tidy_exec = 'tidy5'
 

@@ -95,7 +95,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-#alias xclip='xclip -selection clipboard'
+alias xclip='xsel -b -i'
 #alias mocp='mocp -T transparent-background'
 alias watch='watch -n1'
 alias agi='sudo apt-get install'
@@ -105,10 +105,19 @@ alias s='sudo'
 alias r='ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(if [ -z "$@" ]; then cat $HOME/.rangerdir; fi)";cd "`cat $HOME/.rangerdir`"'
 alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(if [ -z "$@" ]; then cat $HOME/.rangerdir; fi)";cd "`cat $HOME/.rangerdir`"'
 alias v='vim'
+alias vvrc='sudo vim $HOME/.vimrc'
+alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
 alias sv='sudo vim'
 alias srm='sudo rm'
+# tmux attach
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
+alias cfb='sudo vim $HOME/.bashrc'
+alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;gitap'
+# config dotfiles
+alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
+alias schmod='sudo chmod'
+alias snode='sudo node'
 if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh  ]; then
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi

@@ -12,12 +12,6 @@
         ],
         "right": [
             {
-                "function": "powerline.segments.common.net.external_ip",
-                "args":{
-                    "interval": "300000"
-                }
-            },
-            {
                 "function":"powerline.segments.common.players.mocp",
                 "name":"player",
                 "args":{

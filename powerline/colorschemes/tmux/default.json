@@ -11,6 +11,6 @@
 		"session":              {"fg": "red",  "bg":"gray0",    "attrs": ["bold"]},
 		"session:prefix":       {"fg": "white",     "bg": "gray1", "attrs": ["bold"]},
 		"external_ip":          {"fg": "white",     "bg": "gray1", "attrs": ["bold"]},
-        "weather":              {"fg": "red",     "bg": "gray1", "attrs": ["bold"]}
+        "weather":              {"fg": "red",     "bg": "gray0", "attrs": ["bold"]}
 	}
 }

@@ -1,37 +1,50 @@
-rename gifa.js
-touch 
-rename gif.js
-shell clear;gitap
-shell clear;gitap js can be inside html for now?
-shell mkdir 
-shell clear;datagram-test
-shell mkdir datagram-test
-rename socket-test
-rename datagram-test
-shell clear;git clone 
-shell clear;git clone https://github.com/fmalcher/webrtc-minimal-example
-shell clear;git clone https://github.com/fmalcher/webrtc-simplems.git
-shell clear;npm install
-shell clear;node server.js
-shell clear;http-server 
-shell clear;node server.js;read
-shell clear;grep 25
-shell clear;vim bob.html
-shell clear;grep 192.168
-shell clear;v index.html
-shell clear;vim index.html
-rename Javascript javascript
-rename javascript
-shell clear;vim index.html 
-shell clear;firefox gradeImpressao_files
 shell clear;firefox gradeImpressao.html
 shell clear;nemo .
 shell clear;
-shell clear;./grab_updated_and_push.sh
 rename usr-local-bin
 shell clear;read
 read
 shell clear;gitap moved script to own file;implemented squiggle class
 shell clear;isthere dropbox;read
 open_with vim
+shell clear;./grab_updated_and_push.sh
+search dro
+shell clear;./dropbox.py
+shell clear;sudo ./dropbox.py
+shell clear;mv /home/nexor/NetBeansProjects/TestesMarcelo .
+shell clear;dropbox filestatus;read
+shell clear;display animation.gif
+shell clear;snode
+shell clear;vim index.html
+shell clear;vim ga
+shell clear;gitap prettier squiggle
+shell clear;py3 mackapp.py
+shell clear;py3 mackapp.py;read
+shell clear;pythonq3 mackapp.py;read
+rename netbeans-shortcuts.zip
+rename .netbeans-shortcuts.zip
+search mocp
+shell clear;sudo vim cache
+shell clear;sudo vim config
+search .con
+search pidgin
+search finch
+open_with 
+rename Conexao2.java
+touch 
+rename Conexao_bk.java
+rename Conexao.java
+
+shell clear;sv settings.css
+shell clear;sudo vim settings.css
+shell clear;./kek https://youtu.be/foxD6ZQlnlU
+search Tic
+shell mkdir dqn-tic-tac-toe
+shell clear;vim ttt
+rename ttt.py
+shell mkdir 
+touch main.py
 delete
+search power
+search .myclip
+rename empty
