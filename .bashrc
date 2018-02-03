@@ -115,7 +115,7 @@ alias smv='sudo mv'
 alias cfb='sudo vim $HOME/.bashrc'
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;gitap'
 # config dotfiles
-alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
+alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh $DATE'
 alias schmod='sudo chmod'
 alias snode='sudo node'
 if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh  ]; then

@@ -1,13 +1,9 @@
-shell clear;firefox gradeImpressao.html
-shell clear;nemo .
-shell clear;
 rename usr-local-bin
 shell clear;read
 read
 shell clear;gitap moved script to own file;implemented squiggle class
 shell clear;isthere dropbox;read
 open_with vim
-shell clear;./grab_updated_and_push.sh
 search dro
 shell clear;./dropbox.py
 shell clear;sudo ./dropbox.py
@@ -34,7 +30,6 @@ rename Conexao2.java
 touch 
 rename Conexao_bk.java
 rename Conexao.java
-
 shell clear;sv settings.css
 shell clear;sudo vim settings.css
 shell clear;./kek https://youtu.be/foxD6ZQlnlU
@@ -44,7 +39,12 @@ shell clear;vim ttt
 rename ttt.py
 shell mkdir 
 touch main.py
-delete
 search power
 search .myclip
 rename empty
+shell clear;./grab_updated_and_push
+shell clear;./grab_updated_and_push.sh
+shell clear;cat 26239037_2040910649489422_6121612042429491201_n.jpg |xsel -i -b
+
+shell clear;vim 26993727_1685083934904168_7932098419174431238_n.png
+delete
