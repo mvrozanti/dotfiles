@@ -1,4 +1,3 @@
-rename usr-local-bin
 shell clear;read
 read
 shell clear;gitap moved script to own file;implemented squiggle class
@@ -48,3 +47,4 @@ shell clear;cat 26239037_2040910649489422_6121612042429491201_n.jpg |xsel -i -b
 
 shell clear;vim 26993727_1685083934904168_7932098419174431238_n.png
 delete
+shell clear;gitap +fix

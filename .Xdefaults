@@ -4,8 +4,7 @@
 *background: rgba:0500/0500/0500/f800
 
 !!test*color300: rgba:0000/0000/0000/d8000
-!! blue
-*color0: #1b00ff
+*color0:rgba:0500/0500/0500/fa00 
 *color9: #7600ff
 !! red
 *color1: #ff3300

@@ -112,10 +112,12 @@ alias srm='sudo rm'
 # tmux attach
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
+alias vxdef='sudo vim $HOME/.Xdefaults'
 alias cfb='sudo vim $HOME/.bashrc'
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
+alias serve='python3 -m http.server 2717'
 # config dotfiles
-alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh $DATE'
+alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
 alias schmod='sudo chmod'
 alias snode='sudo node'
 if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh  ]; then
