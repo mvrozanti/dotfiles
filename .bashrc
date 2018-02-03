@@ -113,7 +113,7 @@ alias srm='sudo rm'
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
 alias cfb='sudo vim $HOME/.bashrc'
-alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;gitap'
+alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
 # config dotfiles
 alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh $DATE'
 alias schmod='sudo chmod'
