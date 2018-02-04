@@ -43,8 +43,8 @@ shell clear;git clone https://github.com/mKaloer/powerline_mem_segmen
 shell clear;q
 search power
 rename powerline-disk-segment
-shell clear;
 rename powerlinedisk
 shell clear;git init 
 open_with dD
 delete
+shell clear;

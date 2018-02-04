@@ -1,6 +1,0 @@
-#!/bin/bash
-if [[ -n $(wmctrl -l|grep Rhythmbox) ]]; then
-    wmctrl -a Rhythmbox;
-else
-    rhythmbox;
-fi

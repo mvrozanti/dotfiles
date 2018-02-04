@@ -1,6 +1,0 @@
-usuario="$1"
-case $usuario in ''|*[!0-9]*) type_of_id="id";; *) type_of_id="profiles";; esac
-what_game() { curl -s https://steamcommunity.com/$type_of_id/$usuario|grep profile_in_game_name|cut -d'<' -f2|cut -d'>' -f2; };
-is_online() { if [ "$(curl -s https://steamcommunity.com/id/$usuario|grep "playerAvatar profile_header_size online")" ];then echo true; else echo false; fi };
-is_in_game=$(what_game)
-if [ -z "$is_in_game" ]; then is_online; else echo $is_in_game;fi
