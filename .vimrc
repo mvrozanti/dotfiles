@@ -37,6 +37,7 @@ nnoremap <C-E> dd
  " kill REPLACE mode
 inoremap <Insert> <Esc>
 
+set hlsearch
 set clipboard=unnamedplus
 "set paste " < does not work with jedi, but works w/ YCM
 set nocompatible  " be iMproved, required # ??
