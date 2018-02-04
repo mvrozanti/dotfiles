@@ -1,0 +1,8 @@
+#!/usr/bin/python3.5
+import json
+import sys
+notes_file = '/home/nexor/.cinnamon/configs/sticky@scollins/sticky@scollins.json'
+notes = json.load(open(notes_file, 'r'))
+current_text = notes['storedNotes']['value'][0]['text']
+notes['storedNotes']['value'][0]['text'] = current_text + " ".join(sys.argv[1:]) + '\n'
+json.dump(notes, open(notes_file,'w'))
