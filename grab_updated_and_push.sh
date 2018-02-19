@@ -42,6 +42,7 @@ cp -fR /usr/local/bin/clip usr-local-bin
 cp -fR /usr/local/bin/regextract usr-local-bin
 cp -fR /usr/local/bin/usage usr-local-bin
 cp -fR /usr/local/bin/todo usr-local-bin
+cp -fR /usr/local/bin/ncmpcpp-play-pause usr-local-bin
 
 # push
 gitap "$(date)"
