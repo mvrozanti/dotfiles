@@ -1,6 +1,5 @@
 #!/bin/bash
 message="$@"
-echo $message
 if [[ -n $message ]]; then
     git add .
     git commit -m "$message"

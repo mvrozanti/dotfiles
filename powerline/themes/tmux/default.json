@@ -37,7 +37,7 @@
                 }
             },
             {
-                "function":"powerline.segments.common.players.mocp",
+                "function":"powerline.segments.common.players.mpd",
                 "name":"player",
                 "args":{
                     "format":"{state_symbol} {title}-{elapsed}"
