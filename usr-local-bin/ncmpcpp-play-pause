@@ -1,1 +1,1 @@
- [[ "$(mpc)" == *playing*  ]] && mpc pause || mpc play
+[[ "$(mpc)" == *playing*  ]] && mpc pause || mpc play
