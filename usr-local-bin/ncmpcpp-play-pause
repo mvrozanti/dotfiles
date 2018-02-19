@@ -1,1 +1,2 @@
-[[ "$(mpc)" == *playing*  ]] && mpc pause || mpc play
+#!/bin/bash
+[[ "$(mpc)" == *playing* ]] && mpc pause || mpc play
