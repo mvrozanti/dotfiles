@@ -16,6 +16,9 @@ cp -fR ~/.urlview .
 # ranger
 cp -fR  ~/.config/ranger .
 
+# ncmpcpp
+cp -fR  ~/.ncmpcpp/ .
+
 # tmux
 cp -fR ~/.tmux.conf .
 

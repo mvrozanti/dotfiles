@@ -40,7 +40,7 @@
                 "function":"powerline.segments.common.players.mpd",
                 "name":"player",
                 "args":{
-                    "format":"{state_symbol} {title}-{elapsed}"
+                    "format":"{state_symbol} {title}"
                 }
             },
             {

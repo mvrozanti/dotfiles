@@ -1,5 +1,3 @@
-shell clear;vim ttt
-rename ttt.py
 shell mkdir 
 touch main.py
 search .myclip
@@ -46,5 +44,7 @@ rename config_dell.txt
 rename config_samsung.txt
 rename config.txt
 open_with vim
-open_with 
 open_with aspell-import
+rename run.sh
+open_with 
+search locate authenticator

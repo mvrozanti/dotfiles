@@ -19,6 +19,11 @@ nnoremap ; ''
 " Colorscheme
 colorscheme peachpuff
 
+" VIRTUALBOX NUCLEAR DISASTER PREVENTION 9/11 WAS NOTHING NEXT TO THIS AND NOW WE HAVE THE FOLLOWING:
+if has('persistent_undo')      "check if your vim version supports it
+  set undofile                 "turn on the feature  
+  set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
+  endif   
 
 " Commenting blocks of code.
 autocmd FileType c,cpp,java,scala,javascript let b:comment_leader = '// '

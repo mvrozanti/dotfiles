@@ -3,8 +3,8 @@
 *cursor: #ffffff
 *background: rgba:0500/0500/0500/f800
 
-!!test*color300: rgba:0000/0000/0000/d8000
-*color0:rgba:0500/0500/0500/fa00 
+!!*color0: #ff1050
+*color0: rgba:f500/0500/0500/c000
 *color9: #7600ff
 !! red
 *color1: #ff3300
@@ -14,7 +14,7 @@
 *color10:#501fb0 
 !! 
 *color3: rgba:ff00/ff00/ff00/9900
-*color11: #f100ff
+*color11: #f1f01f
 !! dark purple
 *color4: #606060
 *color12: #ff0937

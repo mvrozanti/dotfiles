@@ -112,6 +112,7 @@ alias srm='sudo rm'
 # tmux attach
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
+alias msk='ncmpcpp'
 alias vxdef='sudo vim $HOME/.Xdefaults'
 alias cfb='sudo vim $HOME/.bashrc'
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
