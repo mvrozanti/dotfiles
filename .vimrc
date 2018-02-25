@@ -20,10 +20,22 @@ nnoremap ; ''
 colorscheme peachpuff
 
 " VIRTUALBOX NUCLEAR DISASTER PREVENTION 9/11 WAS NOTHING NEXT TO THIS AND NOW WE HAVE THE FOLLOWING:
-if has('persistent_undo')      "check if your vim version supports it
-  set undofile                 "turn on the feature  
-  set undodir=$HOME/.vim/undo  "directory where the undo files will be stored
-  endif   
+" if has('persistent_undo')      "check if your vim version supports it
+" Put plugins and dictionaries in this dir (also on Windows)
+let vimDir = '$HOME/.vim'
+let &runtimepath.=','.vimDir
+
+" Keep undo history across sessions by storing it in a file
+if has('persistent_undo')
+    let myUndoDir = expand(vimDir . '/undodir')
+    " Create dirs
+    call system('mkdir ' . vimDir)
+    call system('mkdir ' . myUndoDir)
+    let &undodir = myUndoDir
+    set undofile
+endif
+
+" endif   
 
 " Commenting blocks of code.
 autocmd FileType c,cpp,java,scala,javascript let b:comment_leader = '// '

@@ -116,6 +116,7 @@ alias msk='ncmpcpp'
 alias vxdef='sudo vim $HOME/.Xdefaults'
 alias cfb='sudo vim $HOME/.bashrc'
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
+alias motd='sudo cat /var/run/motd.dynamic'
 alias serve='python3 -m http.server 2717'
 # config dotfiles
 alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
