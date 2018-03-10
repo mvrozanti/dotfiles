@@ -1,50 +1,50 @@
-search .myclip
-rename empty
-shell clear;./grab_updated_and_push
-shell clear;./grab_updated_and_push.sh
-shell clear;cat 26239037_2040910649489422_6121612042429491201_n.jpg |xsel -i -b
-shell clear;vim 26993727_1685083934904168_7932098419174431238_n.png
-shell clear;gitap +fix
-shell clear;gitap quickfix
-shell clear;git clonne https://github.com/mKaloer/powerline_mem_segmen
-shell clear;git clone https://github.com/mKaloer/powerline_mem_segmen
-shell clear;q
-search power
-rename powerline-disk-segment
-rename powerlinedisk
-shell clear;git init 
-open_with dD
-shell clear;py3 mackapp.py
-rename config_samsunng.txt
-search rat
-rename gear_wheel.png
-rename gear_wheel.png_
-search gear
-search Seta
-search seta
-
-open_with v
-touch montecarlo.py
-touch dqn_morvan.py
-search .ssh
-touch authorized_keys
-shell mkdir dotabuff
-touch scrape.py
-shell clear;
-shell clear;ytdl https://www.youtube.com/watch?v=UECFnTJdbZM
-rename pythont
-shell mkdir whatsapp
-search whatsapp
-touch scraper.py
-delete
-rename Inicio_4Control_Estruturada.form
-rename config_dell.txt
-rename config_samsung.txt
-rename config.txt
-open_with vim
-open_with aspell-import
 rename run.sh
-open_with 
 search locate authenticator
 search Nexor
 search nexo
+open_with 
+shell clear;py3 dqn_morvan.py
+search .con
+shell grep fc52382d-a022-4543-97a3-e651bbeaf9d1
+shell grep -r fc52382d-a022-4543-97a3-e651bbeaf9d1 .
+rename config_samsung.txt
+shell pinta color_balance.png
+shell pinta evento.png
+shell pinta lightbulb-icon.png
+shell 
+shell pinta img_352263.png
+rename personal_account.png
+rename conta_pessoal.png
+rename lampada.png
+rename group.png
+shell pinta group.png
+rename grupo.png
+rename esquema.png
+rename condicaopinta con.png
+rename condicao.png
+shell pinta condicao.png
+search empresa
+search corp
+shell nemo .
+rename estrela.png
+shell pinta estrela.png
+shell pinta moedas.png
+rename indexador.png
+search oficial
+shell pinta oficial.png
+shell pinta segmento.png
+search regional
+rename regional.png
+shell pinta regional.png
+rename rating.png
+rename config_dell.txt
+rename config_.txt
+rename config.txt
+search OBS
+shell mkdir obs
+search .ci
+search .cinn
+search menu
+rename hivemindyaqq
+shell sudo mkdir twitch-bot
+delete

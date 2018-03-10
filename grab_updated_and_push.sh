@@ -19,6 +19,9 @@ cp -fR  ~/.config/ranger .
 # ncmpcpp
 cp -fR  ~/.ncmpcpp/ .
 
+# urxvt
+cp -fR  ~/.urxvt/ .
+
 # tmux
 cp -fR ~/.tmux.conf .
 

@@ -6,15 +6,19 @@ inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " \n not in v$
 nnoremap - $h
 vnoremap - $h
-" systemcopy plugin
-vnoremap Y :cp<CR>
+
+" systemcopy plugin (beta)
+"nnoremap p cv
+"vnoremap y cp
+"
 nnoremap <C-W> <Esc>:q<CR>
 inoremap <C-W> <Esc>:q<CR>
 nnoremap <C-S> <Esc>:w<CR>
 inoremap <C-S> <Esc>:w<CR>
 inoremap jk <Esc>l
 vnoremap jk <Esc> 
-nnoremap ; ''
+" marks
+nnoremap ; '' 
 
 " Colorscheme
 colorscheme peachpuff

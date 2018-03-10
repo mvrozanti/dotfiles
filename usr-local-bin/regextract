@@ -2,9 +2,10 @@
 import re
 import sys
 import fileinput
+
 content=''
-for l in sys.stdin:
-    content+=l
+for l in sys.stdin: content+=l
 to_look=' '.join(sys.argv[1:])
 search=re.search(to_look,content)
 if search: print(search.group(1))
+else: print('No matches')

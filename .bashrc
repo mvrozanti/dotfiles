@@ -87,7 +87,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
-
+ 
+if [[ -f ~/.bash_prompt  ]]; then
+    . ~/.bash_prompt
+fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -116,7 +119,7 @@ alias msk='ncmpcpp'
 alias vxdef='sudo vim $HOME/.Xdefaults'
 alias cfb='sudo vim $HOME/.bashrc'
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
-alias motd='sudo cat /var/run/motd.dynamic'
+alias motd='sudo cat /etc/update-motd.d/nexor.asc'
 alias serve='python3 -m http.server 2717'
 # config dotfiles
 alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
