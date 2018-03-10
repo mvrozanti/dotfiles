@@ -1,6 +1,3 @@
-search locate authenticator
-search Nexor
-search nexo
 shell clear;py3 dqn_morvan.py
 search .con
 shell grep fc52382d-a022-4543-97a3-e651bbeaf9d1
@@ -9,7 +6,6 @@ rename config_samsung.txt
 shell pinta color_balance.png
 shell pinta evento.png
 shell pinta lightbulb-icon.png
-shell 
 shell pinta img_352263.png
 rename personal_account.png
 rename conta_pessoal.png
@@ -48,3 +44,7 @@ shell sudo mkdir twitch-bot
 search .rxv
 open_with 
 delete
+sq
+shell :q
+shell aq
+shell 
