@@ -1,8 +1,6 @@
-rename run.sh
 search locate authenticator
 search Nexor
 search nexo
-open_with 
 shell clear;py3 dqn_morvan.py
 search .con
 shell grep fc52382d-a022-4543-97a3-e651bbeaf9d1
@@ -47,4 +45,6 @@ search .cinn
 search menu
 rename hivemindyaqq
 shell sudo mkdir twitch-bot
+search .rxv
+open_with 
 delete
