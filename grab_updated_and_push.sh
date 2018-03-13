@@ -10,6 +10,9 @@ cp -fR  ~/.config/powerline .
 # whatsapp css
 cp -fR /opt/whatsapp-desktop/resources/app/css/settings.css .
 
+# qutebrowser css
+cp -fR ~/.qutebrowser.css .
+
 # urlview
 cp -fR ~/.urlview .
 

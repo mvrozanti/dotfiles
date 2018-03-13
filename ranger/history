@@ -1,7 +1,3 @@
-shell clear;py3 dqn_morvan.py
-search .con
-shell grep fc52382d-a022-4543-97a3-e651bbeaf9d1
-shell grep -r fc52382d-a022-4543-97a3-e651bbeaf9d1 .
 rename config_samsung.txt
 shell pinta color_balance.png
 shell pinta evento.png
@@ -43,8 +39,12 @@ rename hivemindyaqq
 shell sudo mkdir twitch-bot
 search .rxv
 open_with 
-delete
 sq
 shell :q
 shell aq
 shell 
+search power
+shell vim rc.conf
+shell sudo vim rc.conf
+rename teste.kxr
+delete

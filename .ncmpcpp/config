@@ -38,6 +38,7 @@ user_interface = "alternative"
 # user_interface =                    "classic"
 default_place_to_search_in = "database"
 
+allow_for_physical_item_deletion = "yes"
 
 # visualizer
 visualizer_fifo_path = "/tmp/mpd.fifo"

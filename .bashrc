@@ -105,15 +105,17 @@ alias agi='sudo apt-get install'
 alias py2='python2'
 alias py3='python3'
 alias s='sudo'
-alias cat='lolcat-c'
 alias create-readme='cp $HOME/.README.md ./README.md && vim README.md'
 alias r='ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(if [ -z "$@" ]; then cat $HOME/.rangerdir; fi)";cd "`cat $HOME/.rangerdir`"'
 alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(if [ -z "$@" ]; then cat $HOME/.rangerdir; fi)"|lolcat-c;cd "`cat $HOME/.rangerdir`"'
 alias v='vim'
 alias vvrc='sudo vim $HOME/.vimrc'
 alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
+alias qb='qutebrowser'
 alias sv='sudo vim'
 alias srm='sudo rm'
+# terminal geographic map
+alias termap='telnet mapscii.me'
 # tmux attach
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
@@ -133,6 +135,10 @@ alias snode='sudo node'
 if [ -f ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh  ]; then
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 fi
+
+# if [ -f ~/.config/.alwaysontop.sh  ]; then
+#     source ~/.config/.alwaysontop.sh
+# fi
 
 export RANGER_LOAD_DEFAULT_RC=FALSE
 # tmux Ctrl+s:
