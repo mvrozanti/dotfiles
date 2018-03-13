@@ -11,7 +11,7 @@ cp -fR  ~/.config/powerline .
 cp -fR /opt/whatsapp-desktop/resources/app/css/settings.css .
 
 # qutebrowser css
-cp -fR ~/.config/qutebrowser.css/dark-theme.css .
+cp -fR ~/.config/qutebrowser/dark-theme.css .
 
 # urlview
 cp -fR ~/.urlview .
