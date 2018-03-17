@@ -114,6 +114,7 @@ alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
 alias sv='sudo vim'
 alias vtmux='vim $HOME/.tmux.conf'
 alias srm='sudo rm'
+alias find='sudo find'
 # terminal geographic map
 alias termap='telnet mapscii.me'
 # tmux attach

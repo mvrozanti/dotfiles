@@ -46,5 +46,5 @@ shell cp /home/nexor/CompParalelaLab02.cp
 shell cp /home/nexor/CompParalelaLab02.cpp
 shell cp /home/nexor/CompParalelaLab02.cpp .
 shell sudo cp /home/nexor/CompParalelaLab02.cpp .
-search q
-search tmux
+shell sudo vim ponteiros
+shell sudo vim ponteiros.c
