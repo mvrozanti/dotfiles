@@ -1,4 +1,3 @@
-rename indexador.png
 search oficial
 shell pinta oficial.png
 shell pinta segmento.png
@@ -48,3 +47,4 @@ open_with
 open_with vim
 search gpg
 delete
+shell sudo rm muttmux

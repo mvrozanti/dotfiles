@@ -1,4 +1,3 @@
-
 # THIS SHOULD BE IN SYNC W/ RPI AND LAPTOP
 # ALIAS BLOCK START
 alias ll='ls -alF'
@@ -30,6 +29,7 @@ alias msk='ncmpcpp'
 alias vxdef='sudo vim $HOME/.Xdefaults'
 # config bashrc
 alias cfb='sudo vim $HOME/.bashrc'
+# config this
 alias cfa='sudo vim $HOME/.bash_aliases'
 # config dotfiles
 alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
