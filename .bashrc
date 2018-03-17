@@ -95,13 +95,13 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 
-envfile="$HOME/.gnupg/gpg-agent.env"
-if [[ -e "$envfile" ]] && kill -0 $(grep GPG_AGENT_INFO "$envfile" | cut -d: -f 2) 2>/dev/null; then
-    eval "$(cat "$envfile")"
-else
-    eval "$(gpg-agent --daemon --allow-preset-passphrase "$envfile")"
-fi
-export GPG_AGENT_INFO
+# envfile="$HOME/.gnupg/gpg-agent.env"
+# if [[ -e "$envfile" ]] && kill -0 $(grep GPG_AGENT_INFO "$envfile" | cut -d: -f 2) 2>/dev/null; then
+#     eval "$(cat "$envfile")"
+# else
+#     eval "$(gpg-agent --daemon --allow-preset-passphrase "$envfile")"
+# fi
+# export GPG_AGENT_INFO
 
 
 

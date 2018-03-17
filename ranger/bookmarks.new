@@ -1,9 +1,9 @@
-q:/home/nexor/.config/ranger
-o:/home/nexor/.config/ranger
-j:/home/nexor/prog/Java
-m:/home/nexor/.config/ranger
-':/home/nexor/disk/gdrive
-v:/home/nexor/.vim
 d:/home/nexor/.steam/steam/steamapps/common/dota 2 beta/game
-s:/home/nexor/.config/ranger
+j:/home/nexor/prog/Java
+v:/home/nexor/.vim
+q:/home/nexor/.config/ranger
 g:/home/nexor/Downloads
+o:/home/nexor/.config/ranger
+m:/home/nexor/.config/ranger
+s:/home/nexor/.config/ranger
+':/home/nexor/.mutt/cache

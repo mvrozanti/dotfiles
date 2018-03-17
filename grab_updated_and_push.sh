@@ -34,6 +34,9 @@ cp -fR ~/.bashrc .
 # .bashrc
 cp -fR ~/.bash_aliases .
 
+# mutt
+cp -fR ~/.muttrc .
+
 # ownscripts
 mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin
