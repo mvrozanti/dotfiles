@@ -1,5 +1,3 @@
-shell pinta estrela.png
-shell pinta moedas.png
 rename indexador.png
 search oficial
 shell pinta oficial.png
@@ -33,18 +31,20 @@ shell ./up2pi.sh
 search discord
 search disc
 search ds
-delete
 rename tat.jpg
 shell mkdir fe
 shell sudo mkdir fe
 shell sudo touch CompPa
-open_with vim
 shell sudo vim
 open_with q
-open_with 
 shell cp /home/nexor/CompParalelaLab02.cp
 shell cp /home/nexor/CompParalelaLab02.cpp
 shell cp /home/nexor/CompParalelaLab02.cpp .
 shell sudo cp /home/nexor/CompParalelaLab02.cpp .
 shell sudo vim ponteiros
 shell sudo vim ponteiros.c
+search pub
+open_with 
+open_with vim
+search gpg
+delete

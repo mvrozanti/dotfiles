@@ -31,6 +31,9 @@ cp -fR ~/.Xdefaults .
 # .bashrc
 cp -fR ~/.bashrc .
 
+# .bashrc
+cp -fR ~/.bash_aliases .
+
 # ownscripts
 mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin
