@@ -1,2 +1,2 @@
 #!/bin/bash
-urxvt -e mutt
+urxvt -e mutt -F ~/.muttrc $@
