@@ -11,10 +11,12 @@ vnoremap - $h
 "nnoremap p cv
 "vnoremap y cp
 "
-nnoremap <C-W> <Esc>:q<CR>
-inoremap <C-W> <Esc>:q<CR>
+nnoremap <C-W> <Esc>:wq<CR>
+inoremap <C-W> <Esc>:wq<CR>
 nnoremap <C-S> <Esc>:w<CR>
 inoremap <C-S> <Esc>:w<CR>
+" nnoremap <C-Q> <Esc>:wq<CR>
+" inoremap <C-Q> <Esc>:wq<CR>
 inoremap jk <Esc>l
 vnoremap jk <Esc> 
 " marks
