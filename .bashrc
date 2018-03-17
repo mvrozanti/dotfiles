@@ -111,8 +111,8 @@ alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true
 alias v='vim'
 alias vvrc='sudo vim $HOME/.vimrc'
 alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
-alias qb='qutebrowser'
 alias sv='sudo vim'
+alias vtmux='vim $HOME/.tmux.conf'
 alias srm='sudo rm'
 # terminal geographic map
 alias termap='telnet mapscii.me'
