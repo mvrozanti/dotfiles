@@ -1,7 +1,3 @@
-search oficial
-shell pinta oficial.png
-shell pinta segmento.png
-search regional
 rename regional.png
 shell pinta regional.png
 rename rating.png
@@ -48,3 +44,7 @@ open_with vim
 search gpg
 delete
 shell sudo rm muttmux
+find 
+
+shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-ib
+shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-i -ib

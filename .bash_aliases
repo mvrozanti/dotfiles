@@ -3,7 +3,7 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias xclip='xsel -b -i'
+# alias xclip='xsel -b -i'
 #alias mocp='mocp -T transparent-background'
 alias watch='watch -n1'
 alias agi='sudo apt-get install'
