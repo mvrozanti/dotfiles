@@ -1,7 +1,3 @@
-rename regional.png
-shell pinta regional.png
-rename rating.png
-rename config_dell.txt
 rename config_.txt
 search OBS
 shell mkdir obs
@@ -17,7 +13,6 @@ shell aq
 shell 
 search power
 shell vim rc.conf
-shell sudo vim rc.conf
 rename teste.kxr
 search qute
 rename config_samsung.txt
@@ -48,3 +43,8 @@ find
 
 shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-ib
 shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-i -ib
+rename 4chan
+rename 4chana
+rename micrograma
+rename microgram
+shell sudo vim rc.conf

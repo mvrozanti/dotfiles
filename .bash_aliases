@@ -20,6 +20,7 @@ alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
 alias sv='sudo vim'
 alias vtmux='vim $HOME/.tmux.conf'
 alias srm='sudo rm'
+alias sar='sudo apt-get remove'
 alias find='sudo find'
 # terminal geographic map
 alias termap='telnet mapscii.me'
