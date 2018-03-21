@@ -1,3 +1,2 @@
 #!/bin/bash
-stty -ixon
-urxvt -e mutt -F ~/.muttrc $@
+urxvt -e sh -c "stty -ixon;mutt -F ~/.muttrc $@"

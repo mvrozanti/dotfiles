@@ -114,7 +114,8 @@ fi
 # fi
 
 export RANGER_LOAD_DEFAULT_RC=FALSE
-# tmux Ctrl+s:
+
+# disable workflow control <C-S>,<C-Q>:
 stty -ixon
 
 # Add an "alert" alias for long running commands.  Use like so:
