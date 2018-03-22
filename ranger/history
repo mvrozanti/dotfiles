@@ -1,12 +1,9 @@
-shell sudo touch CompPa
-shell sudo vim
 open_with q
 shell cp /home/nexor/CompParalelaLab02.cp
 shell cp /home/nexor/CompParalelaLab02.cpp
 shell cp /home/nexor/CompParalelaLab02.cpp .
 shell sudo cp /home/nexor/CompParalelaLab02.cpp .
 search pub
-open_with 
 open_with vim
 search gpg
 shell sudo rm muttmux
@@ -33,7 +30,6 @@ search swit
 search rngr
 search .wat
 search wat
-shell 
 search water
 search 
 shell sudo vim murxvtt
@@ -46,5 +42,9 @@ search mutt
 search .mutt
 rename config_dell.txt
 rename config.txt
-search tmux
 search .conf
+shell nemo .
+search tmux
+open_with 
+shell 
+shell ./bash-life.sh

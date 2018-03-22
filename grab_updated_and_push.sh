@@ -59,4 +59,8 @@ cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
 
 # push
-gitap "$(date)"
+if [ -z "$@" ]; then
+    gitap "$(date)"
+else
+    gitap "$@"
+fi
