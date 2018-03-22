@@ -1,6 +1,3 @@
-shell cp /home/nexor/CompParalelaLab02.cp
-shell cp /home/nexor/CompParalelaLab02.cpp
-shell cp /home/nexor/CompParalelaLab02.cpp .
 shell sudo cp /home/nexor/CompParalelaLab02.cpp .
 search pub
 open_with vim
@@ -16,7 +13,6 @@ rename micrograma
 rename microgram
 shell sudo vim rc.conf
 search gdf
-delete
 shell sudo rm .gdfuse
 shell sudo rm -r .gdfuse
 shell q
@@ -32,7 +28,6 @@ search wat
 search water
 search 
 shell sudo vim murxvtt
-search parad
 shell mkdir trab4
 shell sudo vim ponteiros
 shell sudo vim ponteiros.c
@@ -48,3 +43,8 @@ open_with
 shell 
 shell ./bash-life.sh
 shell mkdir timelapses
+rename hotmail-recent-activity
+shell mkdir mackenzie
+search parad
+search model
+delete

@@ -17,10 +17,11 @@ alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true
 alias v='vim'
 # test .Xdefaults colors
 alias testx='echo;for a in {40..47}; do echo -ne "\e[0;30;$a""m  ""\e[0;37;39m "; done; echo ""'
-alias neofetch='while true; do screenfetch_out="$(screenfetch -a nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
+alias neofetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
 alias vmutt='sudo vim $HOME/.muttrc'
 alias vvrc='sudo vim $HOME/.vimrc'
 alias vr='sudo vim $HOME/.config/ranger'
+alias gc='git clone'
 alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
 alias sv='sudo vim'
 alias vtmux='vim $HOME/.tmux.conf'
