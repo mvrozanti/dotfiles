@@ -1,11 +1,3 @@
-shell sudo cp /home/nexor/CompParalelaLab02.cpp .
-search pub
-open_with vim
-search gpg
-shell sudo rm muttmux
-find 
-
-shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-ib
 shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-i -ib
 rename 4chan
 rename 4chana
@@ -39,7 +31,6 @@ rename config.txt
 search .conf
 shell nemo .
 search tmux
-open_with 
 shell 
 shell ./bash-life.sh
 shell mkdir timelapses
@@ -47,4 +38,13 @@ rename hotmail-recent-activity
 shell mkdir mackenzie
 search parad
 search model
+search jflap
+search flap
+open_with java -jar
+rename JFLAP.jar
+open_with java
+open_with 
+rename paradigmas
+shell mkdir automatos
+touch afd.c
 delete
