@@ -1,2 +1,2 @@
-[[https://github.com/mvrozanti/mint.files/raw/master/cinnamon.gif|alt=kek]]
+![kek](https://github.com/mvrozanti/mint.files/raw/master/cinnamon.gif)
 Backup
