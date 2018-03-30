@@ -5,7 +5,7 @@ alias la='ls -A'
 alias l='ls -CF'
 # alias xclip='xsel -b -i'
 #alias mocp='mocp -T transparent-background'
-alias watch='watch -n1'
+alias watch='watch --color -n1'
 alias agi='sudo apt-get install'
 alias agr='sudo apt-get remove'
 alias py2='python2'
@@ -17,7 +17,8 @@ alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true
 alias v='vim'
 # test .Xdefaults colors
 alias testx='echo;for a in {40..47}; do echo -ne "\e[0;30;$a""m  ""\e[0;37;39m "; done; echo ""'
-alias neofetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
+alias cutefetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
+alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
 alias vmutt='sudo vim $HOME/.muttrc'
 alias vvrc='sudo vim $HOME/.vimrc'
 alias vr='sudo vim $HOME/.config/ranger'
@@ -45,7 +46,6 @@ alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and
 alias cfp='cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh'
 alias motd='sudo cat /etc/update-motd.d/nexor.asc'
 alias serve='python3 -m http.server 2717'
-# config dotfiles
 alias schmod='sudo chmod'
 alias snode='sudo node'
-# ALIAS BLOCK END
+alias sf='sudo find / -iname'

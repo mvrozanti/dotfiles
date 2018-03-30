@@ -1,50 +1,50 @@
-shell echo 29249912_542696872779117_1260536754931236864_n.jpg |xsel-i -ib
-rename 4chan
-rename 4chana
-rename micrograma
-rename microgram
-shell sudo vim rc.conf
-search gdf
-shell sudo rm .gdfuse
-shell sudo rm -r .gdfuse
-shell q
-search watedr
-shell sudo
-search swi
-search /q
-search s
-search swit
-search rngr
-search .wat
-search wat
-search water
-search 
-shell sudo vim murxvtt
-shell mkdir trab4
-shell sudo vim ponteiros
-shell sudo vim ponteiros.c
-rename config_samsung.txt
-search mutt
-search .mutt
-rename config_dell.txt
-rename config.txt
-search .conf
-shell nemo .
-search tmux
-shell 
-shell ./bash-life.sh
-shell mkdir timelapses
-rename hotmail-recent-activity
-shell mkdir mackenzie
-search parad
-search model
-search jflap
-search flap
-open_with java -jar
 rename JFLAP.jar
 open_with java
-open_with 
 rename paradigmas
 shell mkdir automatos
 touch afd.c
+open_with 
+search urx
+shell less Aula\ 02.pdf
+shell 
+search gri
+search powerl
+open_with vim
+search .ncmp
+search ncmp
+search re
+search java
+search jre
+search 
+search jvm
+shell wget https://gist.githubusercontent.com/myano/1055442/raw/97fdb7446d29c1778742e9eeb66d26bbe2e08d43/cs.py
+shell mkdir waver
+touch 
+rename snake9.py
+search drea
+rename colorschemes
+mv dreams /System/Resources/Komorebi
+shell mv dreams /System/Resources/Komorebi
+shell mv % /System/Resources/Komorebi
+shell mv %p /System/Resources/Komorebi
+shell sudo mv %%f /System/Resources/Komorebi
+shell sudo mv liquid /System/Resources/Komorebi
+shell sudo mv dreams /System/Resources/Komorebi
+shell sudo mv waterbubbles /System/Resources/Komorebi
+shell sudo mv watterbubbles /System/Resources/Komorebi
+shell mkdir grvpp
+rename test.py
+rename keybinding_parser.py
+shell mkdir ext
+touch __init__.py
+rename .__init__.py
 delete
+shell mkdir core
+rename githubbot.py
+touch main.py
+shell mkdir container
+touch settings.py
+shell mkdir 
+touch loader.py
+rename loader.py__
+search Cinn
