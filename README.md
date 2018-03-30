@@ -1,2 +1,2 @@
-![nys rys](https://raw.githubusercontent.com/mvrozanti/mint.dotfiles/master/cinnamon.gif)
+![nys rys](https://raw.githubusercontent.com/mvrozanti/mint.files/raw/master/cinnamon.gif)
 Backup
