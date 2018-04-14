@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ -n $(wmctrl -l|grep ncmpcpp) ]]; then
+    wmctrl -a ncmpcpp;
+else
+    urxvt -e ncmpcpp;
+fi

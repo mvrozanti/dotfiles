@@ -1,50 +1,50 @@
-rename JFLAP.jar
-open_with java
-rename paradigmas
-shell mkdir automatos
-touch afd.c
-open_with 
-search urx
-shell less Aula\ 02.pdf
-shell 
-search gri
-search powerl
-open_with vim
-search .ncmp
-search ncmp
-search re
-search java
-search jre
-search 
-search jvm
-shell wget https://gist.githubusercontent.com/myano/1055442/raw/97fdb7446d29c1778742e9eeb66d26bbe2e08d43/cs.py
-shell mkdir waver
-touch 
-rename snake9.py
-search drea
-rename colorschemes
-mv dreams /System/Resources/Komorebi
-shell mv dreams /System/Resources/Komorebi
-shell mv % /System/Resources/Komorebi
-shell mv %p /System/Resources/Komorebi
-shell sudo mv %%f /System/Resources/Komorebi
 shell sudo mv liquid /System/Resources/Komorebi
 shell sudo mv dreams /System/Resources/Komorebi
 shell sudo mv waterbubbles /System/Resources/Komorebi
 shell sudo mv watterbubbles /System/Resources/Komorebi
-shell mkdir grvpp
 rename test.py
 rename keybinding_parser.py
 shell mkdir ext
-touch __init__.py
 rename .__init__.py
-delete
 shell mkdir core
 rename githubbot.py
 touch main.py
 shell mkdir container
 touch settings.py
-shell mkdir 
 touch loader.py
 rename loader.py__
-search Cinn
+shell mkdir grvpp
+touch __init__.py
+touch 
+rename mainn.py
+rename mai.py_
+rename main.py\
+rename main.py
+rename __init__.py
+rename grvpp
+rename ranger_
+shell sudo
+shell sudo rm -r ranger_
+rename VirtualBox VMs
+rename squirrel-sql-3.8.1
+rename ws-audio-api
+search mack
+shell mkdir 
+rename tv
+rename README.md
+rename README.pdf
+open_with v
+shell 
+rename dotabuff
+open_with vim
+shell unzip itext7-7.0.2.zip 
+delete
+shell mkdir itext
+shell unzip itext7-7.0.2.zip itext/
+shell unzip itext7-7.0.2.zip itext
+shell unzip itext7-7.0.2.zip
+rename grab_updated_and_push.sh
+search power
+rename config_marcelo.txt
+shell sudo vim rifle.conf
+open_with 

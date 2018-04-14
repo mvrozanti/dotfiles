@@ -1,10 +1,11 @@
 *foreground: #ff1100
-*foreground_bold: #ffff00
+*foreground_bold: #033f40
 *cursor: #ffffff
 *background: rgba:0500/0500/0500/f800
 
 !!*color0: #ff1050
-*color0: rgba:f500/0500/0500/c000
+!!rgba:f500/0500/0500/c000
+*color0: #989511
 *color9: #7600ff
 !! red
 *color1: #ff3300
@@ -12,9 +13,9 @@
 !! purple
 *color2: #00ff00
 *color10:#501fb0 
-!! 
-*color3: rgba:ff00/ff00/ff00/9900
-*color11: #f1f01f
+!! yellow 
+*color3: #faef00
+*color11: #01a07f
 !! dark purple
 *color4: #606060
 *color12: #ff0937
@@ -36,7 +37,7 @@ URxvt*saveLines: 0
 URxvt.depth:		32
 URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:hinting=true:size=10.5
 URxvt.scrollBar:	false
-URxvt.cursorColor:	#a50900
+URxvt.cursorColor:	#a0f000
 !!URxvt.perl-ext-common:	default,matcher
 URxvt.perl-lib:		$HOME/.config/Scripts
 URxvt.url-launcher:	/usr/bin/xdg-open

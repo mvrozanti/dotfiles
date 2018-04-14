@@ -5,7 +5,7 @@ mpd_host = "localhost"
 mpd_port = "6600"  
 mpd_connection_timeout = "5"  
 mpd_crossfade_time = "5"  
-startup_screen = browser
+startup_screen = visualizer
 
 # Playlist
 playlist_disable_highlight_delay = "0"  
@@ -15,7 +15,6 @@ playlist_show_remaining_time = "yes"
 browser_display_mode = "columns"  
 browser_sort_mode = "mtime"
 autocenter_mode = "yes"  
-#fancy_scrolling = "yes"  
 #follow_now_playing_lyrics = "yes"  
 #display_screens_numbers_on_start = "yes"  
 #ignore_leading_the = "yes"  
@@ -71,6 +70,7 @@ seek_time = "1"
 ## Visivility ##
 header_visibility = "yes"
 statusbar_visibility = "yes"
+song_window_title_format = "{%t - }{%a} | ncmpcpp"
 titles_visibility = "yes"
 
 progressbar_look =  "_-"
