@@ -36,7 +36,7 @@ alias termap='telnet mapscii.me'
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
 alias msk='ncmpcpp'
-alias vxdef='sudo vim $HOME/.Xdefaults'
+alias vxdef='sudo vim $HOME/.Xdefffmpeg -i video.mp4  -r 5 'frames/frame-%03d.jpg'aults'
 # config bashrc
 alias cfb='sudo vim $HOME/.bashrc'
 # config this
@@ -55,9 +55,13 @@ alias h='cd ..'
 alias eye='tail -f'
 alias ka='killall'
 alias e='echo'
+alias c='xsel -i -b'
 # alias gitap='whatdo () { message="$@"; if [[ -n $message ]]; then git add .;  git commit -m $message; git push; else echo "Commit message is missing"; fi }; whatdo'
 
 # alias replace-everywhere='grep -rl $oldstring /path/to/folder | xargs sed -i s@$oldstring@$newstring@g'
 alias feh='feh --sort mtime'
 alias cal='calcurse'
 alias randip="dd if=/dev/urandom bs=4 count=1 2>/dev/null | od -An -tu1 | sed -e 's/^ *//' -e 's/  */./g'"
+alias mp42wmv='ffmpeg -i "$@" -c:v wmv2 -b:v 1024k -c:a wmav2 -b:a 192k output.wmv'
+alias o='xdg-open'
+# alias mp42gif='mp4_file="$@"; mkdir -p animation_frames; ffmpeg -i "$mp4_file" -r 5 "animation_frames/frame-%03d.jpg"; convert -delay 20 -loop 0 animation_frames/*.jpg animation.gif; rm -r animation_frames'

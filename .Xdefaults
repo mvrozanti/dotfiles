@@ -28,7 +28,7 @@
 !! white
 *color7: #38313f
 *color15: #f1efee
-*color233:rgba:0000/0000/0000/e800
+*color233: rgba:0500/0500/0500/f800
 URxvt.intensityStyles:	false
 Xft*rgba:                   rgb
 URxvt.tintColor:    #5448ff

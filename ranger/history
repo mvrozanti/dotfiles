@@ -1,24 +1,3 @@
-shell sudo mv liquid /System/Resources/Komorebi
-shell sudo mv dreams /System/Resources/Komorebi
-shell sudo mv waterbubbles /System/Resources/Komorebi
-shell sudo mv watterbubbles /System/Resources/Komorebi
-rename test.py
-rename keybinding_parser.py
-shell mkdir ext
-rename .__init__.py
-shell mkdir core
-rename githubbot.py
-touch main.py
-shell mkdir container
-touch settings.py
-touch loader.py
-rename loader.py__
-shell mkdir grvpp
-touch __init__.py
-touch 
-rename mainn.py
-rename mai.py_
-rename main.py\
 rename main.py
 rename __init__.py
 rename grvpp
@@ -33,12 +12,8 @@ shell mkdir
 rename tv
 rename README.md
 rename README.pdf
-open_with v
-shell 
 rename dotabuff
-open_with vim
 shell unzip itext7-7.0.2.zip 
-delete
 shell mkdir itext
 shell unzip itext7-7.0.2.zip itext/
 shell unzip itext7-7.0.2.zip itext
@@ -47,4 +22,29 @@ rename grab_updated_and_push.sh
 search power
 rename config_marcelo.txt
 shell sudo vim rifle.conf
+shell sudo vim rc.conf
+delete
+find -iname *CV*
+search 
+find *CV*
+find -iname rc.conf
+find rc.conf
+find pos
+
+find ..
+find Syl
+find Levv
+find 
+find CV
+find ./
+shell mkdir emprendedorismo
+shell mkdir trabalho
+rename trabalho
+rename 
+touch 
+touch dao
+rename dao.py
+shell 
+open_with v
 open_with 
+open_with vim
