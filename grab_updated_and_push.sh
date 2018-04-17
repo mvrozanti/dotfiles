@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# .profile
+cp -fR ~/.profile
+
 # vim
 cp -fR ~/.vimrc .
 #cp -fR ~/.vim . # no space left on disk :I
