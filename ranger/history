@@ -1,9 +1,3 @@
-rename main.py
-rename __init__.py
-rename grvpp
-rename ranger_
-shell sudo
-shell sudo rm -r ranger_
 rename VirtualBox VMs
 rename squirrel-sql-3.8.1
 rename ws-audio-api
@@ -20,10 +14,8 @@ shell unzip itext7-7.0.2.zip itext
 shell unzip itext7-7.0.2.zip
 rename grab_updated_and_push.sh
 search power
-rename config_marcelo.txt
 shell sudo vim rifle.conf
 shell sudo vim rc.conf
-delete
 find -iname *CV*
 search 
 find *CV*
@@ -46,5 +38,13 @@ touch dao
 rename dao.py
 shell 
 open_with v
-open_with 
 open_with vim
+rename pendencias.txt
+rename config_marcelo.txt
+rename config_dell.txt
+rename config_samsung.txt
+rename config.txt
+search test
+search drop
+delete
+open_with 
