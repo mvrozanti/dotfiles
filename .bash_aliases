@@ -64,4 +64,5 @@ alias cal='calcurse'
 alias randip="dd if=/dev/urandom bs=4 count=1 2>/dev/null | od -An -tu1 | sed -e 's/^ *//' -e 's/  */./g'"
 alias mp42wmv='ffmpeg -i "$@" -c:v wmv2 -b:v 1024k -c:a wmav2 -b:a 192k output.wmv'
 alias o='xdg-open'
+alias it='ps aux|grep -c '
 # alias mp42gif='mp4_file="$@"; mkdir -p animation_frames; ffmpeg -i "$mp4_file" -r 5 "animation_frames/frame-%03d.jpg"; convert -delay 20 -loop 0 animation_frames/*.jpg animation.gif; rm -r animation_frames'
