@@ -32,6 +32,7 @@ rename
 touch 
 touch dao
 rename dao.py
+shell 
 open_with v
 rename pendencias.txt
 rename config_marcelo.txt
@@ -45,6 +46,5 @@ open_with vim
 search vimrc
 search .vim
 rename atv.pl
-open_with 
-shell 
 delete
+open_with 
