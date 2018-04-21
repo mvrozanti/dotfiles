@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # .profile
-cp -fR ~/.profile
+cp -fR ~/.profile .
 
 # vim
 cp -fR ~/.vimrc .
