@@ -1,7 +1,3 @@
-rename VirtualBox VMs
-rename squirrel-sql-3.8.1
-rename ws-audio-api
-search mack
 shell mkdir 
 rename tv
 rename README.md
@@ -36,9 +32,7 @@ rename
 touch 
 touch dao
 rename dao.py
-shell 
 open_with v
-open_with vim
 rename pendencias.txt
 rename config_marcelo.txt
 rename config_dell.txt
@@ -46,5 +40,11 @@ rename config_samsung.txt
 rename config.txt
 search test
 search drop
+shell mkdir tests
+open_with vim
+search vimrc
+search .vim
+rename atv.pl
 open_with 
+shell 
 delete
