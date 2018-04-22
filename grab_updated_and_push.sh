@@ -5,7 +5,9 @@ cp -fR ~/.profile .
 
 # vim
 cp -fR ~/.vimrc .
-cp -fR ~/.vim . # no space left on disk :I
+shopt -s extglob
+cp -fR ~/.vim/!*undodir* . 
+shopt -u extglob
 
 # powerline
 cp -fR  ~/.config/powerline .
