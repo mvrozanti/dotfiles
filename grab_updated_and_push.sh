@@ -71,3 +71,5 @@ if [ -z "$@" ]; then
 else
     gitap "$@"
 fi
+
+rm *
