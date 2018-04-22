@@ -72,4 +72,4 @@ else
     gitap "$@"
 fi
 
-rm -rf .[^.] .??*
+find . |grep -vE "*.(css|gif|sh)"|grep -v ".git"|xargs rm -rf
