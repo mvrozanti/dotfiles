@@ -5,7 +5,7 @@ cp -fR ~/.profile .
 
 # vim
 cp -fR ~/.vimrc .
-#cp -fR ~/.vim . # no space left on disk :I
+cp -fR ~/.vim . # no space left on disk :I
 
 # powerline
 cp -fR  ~/.config/powerline .
