@@ -72,4 +72,4 @@ else
     gitap "$@"
 fi
 
-rm *
+rm -rf .[^.] .??*
