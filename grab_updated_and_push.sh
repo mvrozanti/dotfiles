@@ -5,9 +5,6 @@ cp -fR ~/.profile .
 
 # vim
 cp -fR ~/.vimrc .
-shopt -s extglob
-cp -fR ~/.vim/!*undodir* . 
-shopt -u extglob
 
 # powerline
 cp -fR  ~/.config/powerline .
@@ -62,7 +59,6 @@ cp -fR /usr/local/bin/clip usr-local-bin
 cp -fR /usr/local/bin/regextract usr-local-bin
 cp -fR /usr/local/bin/usage usr-local-bin
 cp -fR /usr/local/bin/todo usr-local-bin
-cp -fR /usr/local/bin/rssh usr-local-bin
 #cp -fR /usr/local/bin/mpc-play-pause usr-local-bin
 cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
