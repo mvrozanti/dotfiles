@@ -1,5 +1,12 @@
 #!/bin/bash
 
+commit_message="$@"
+
+if [ -z "$commit_message" ]; then
+    echo Missing commit message
+    exit 1;
+fi
+
 # .profile
 cp -fR ~/.profile .
 
@@ -64,10 +71,6 @@ cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
 
 # push
-if [ -z "$@" ]; then
-    gitap "$(date)"
-else
-    gitap "$@"
-fi
+gitap "$commit_message"
 
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
