@@ -74,4 +74,4 @@ else
     gitap "$@"
 fi
 
-find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf
+find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
