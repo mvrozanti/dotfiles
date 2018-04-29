@@ -27,7 +27,7 @@
         "default": "2643743",
         "description": "Location",
         "tooltip": "Set your location here",
-        "value": "2643743"
+        "value": "3448439"
     },
     "apikey": {
         "type": "entry",
@@ -114,7 +114,7 @@
         "default": true,
         "description": "Current weather and icon",
         "tooltip": "Check to display the current weather and large icon",
-        "value": true
+        "value": false
     },
     "display__cc__pressure": {
         "type": "checkbox",
@@ -268,7 +268,7 @@
         "step": 0.05,
         "description": "Transparency",
         "tooltip": "Set the transparency of the desklet",
-        "value": 0.5
+        "value": 0.1
     },
     "textcolor": {
         "type": "colorchooser",
