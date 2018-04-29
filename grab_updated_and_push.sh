@@ -48,9 +48,7 @@ cp -fR ~/.muttrc .
 
 # .cinnamon
 cp -fR ~/.cinnamon/configs .
-
-# .cinnamon
-cp -fR /usr/share/themes/Mint-Y-Dark/cinnamon/cinnamon.css .
+cp -fR /usr/share/themes/Mint-Y-Dark/ .
 
 # ownscripts
 mkdir -p usr-local-bin
