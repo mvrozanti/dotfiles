@@ -49,6 +49,9 @@ cp -fR ~/.muttrc .
 # .cinnamon
 cp -fR ~/.cinnamon/configs .
 
+# .cinnamon
+cp -fR /usr/share/cinnamon/theme/cinnamon.css .
+
 # ownscripts
 mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin

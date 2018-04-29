@@ -1,4 +1,3 @@
-shell unzip itext7-7.0.2.zip 
 shell mkdir itext
 shell unzip itext7-7.0.2.zip itext/
 shell unzip itext7-7.0.2.zip itext
@@ -37,7 +36,6 @@ search drop
 shell mkdir tests
 search vimrc
 rename atv.pl
-open_with 
 search hands
 shell mkdir reddit-downloader
 open_with vim
@@ -48,3 +46,5 @@ search .vim
 open_with v
 delete
 shell mkdir 
+search telegr
+open_with 
