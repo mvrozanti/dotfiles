@@ -1,14 +1,9 @@
-rename tv
-rename README.md
-rename README.pdf
-rename dotabuff
 shell unzip itext7-7.0.2.zip 
 shell mkdir itext
 shell unzip itext7-7.0.2.zip itext/
 shell unzip itext7-7.0.2.zip itext
 shell unzip itext7-7.0.2.zip
 rename grab_updated_and_push.sh
-search power
 shell sudo vim rifle.conf
 shell sudo vim rc.conf
 find -iname *CV*
@@ -32,7 +27,6 @@ touch
 touch dao
 rename dao.py
 shell 
-open_with v
 rename pendencias.txt
 rename config_marcelo.txt
 rename config_dell.txt
@@ -41,10 +35,16 @@ rename config.txt
 search test
 search drop
 shell mkdir tests
-open_with vim
 search vimrc
-search .vim
 rename atv.pl
-delete
 open_with 
-shell sudo ./up2py.sh
+search hands
+shell mkdir reddit-downloader
+open_with vim
+search tmux.c
+search power
+search vim
+search .vim
+open_with v
+delete
+shell mkdir 

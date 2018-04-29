@@ -80,7 +80,7 @@
         "tooltip": "Select an icon to show in the panel.",
         "dependency": "menu-icon-custom",
         "indent": "true",
-        "value": "/home/nexor/Nexor_transparent.png"
+        "value": "/mnt/4ADE1465DE144C17/gdrive/Nexor_transparent.png"
     },
     "menu-label": {
         "type": "entry",
@@ -129,7 +129,7 @@
         "default": false,
         "description": "Enable filesystem path entry in search box",
         "tooltip": "Allows path entry in the menu search box.",
-        "value": true
+        "value": false
     },
     "activate-on-hover": {
         "type": "switch",
@@ -155,7 +155,7 @@
         "default": false,
         "description": "Use menu animations",
         "tooltip": "Allow the menu to animate on open and close",
-        "value": true
+        "value": false
     },
     "menu-editor-button": {
         "type": "button",

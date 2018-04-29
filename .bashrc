@@ -116,7 +116,8 @@ fi
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
 # disable workflow control <C-S>,<C-Q>:
-stty -ixon
+stty ixany
+stty ixoff -ixon
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

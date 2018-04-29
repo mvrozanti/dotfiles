@@ -1,1 +1,0 @@
- [[ "$(mpc)" == *playing*  ]] && mpc pause || mpc play

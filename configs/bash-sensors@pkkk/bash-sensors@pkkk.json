@@ -18,13 +18,13 @@
         "default": "echo 'hello, cinnamon!'",
         "description": "Command 1",
         "tooltip": "first line of output",
-        "value": ""
+        "value": "echo kek"
     },
     "enableScript2": {
         "type": "checkbox",
         "default": true,
         "description": "Two-line mode (command 2 enabled)",
-        "value": false
+        "value": true
     },
     "script2": {
         "type": "entry",
@@ -32,7 +32,7 @@
         "description": "Command 2",
         "tooltip": "second line of output (optional)",
         "dependency": "enableScript2",
-        "value": "echo $(sudo tcpdump -vXSs0 -c 3 -i any|awk -F\"  \" '{print $2}'|awk -F\" \" '{print $2}'|grep .)|tr -d '0 '"
+        "value": "echo kek"
     },
     "menuScript": {
         "type": "entry",
