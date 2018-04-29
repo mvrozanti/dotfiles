@@ -50,7 +50,7 @@ cp -fR ~/.muttrc .
 cp -fR ~/.cinnamon/configs .
 
 # .cinnamon
-cp -fR /usr/share/cinnamon/theme/cinnamon.css .
+cp -fR /usr/share/themes/Mint-Y-Dark/cinnamon/cinnamon.css .
 
 # ownscripts
 mkdir -p usr-local-bin
