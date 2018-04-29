@@ -1,3 +1,4 @@
+shell unzip itext7-7.0.2.zip itext
 shell unzip itext7-7.0.2.zip
 rename grab_updated_and_push.sh
 shell sudo vim rifle.conf
@@ -33,6 +34,7 @@ search drop
 shell mkdir tests
 search vimrc
 rename atv.pl
+open_with 
 search hands
 shell mkdir reddit-downloader
 open_with vim
@@ -43,8 +45,6 @@ search .vim
 open_with v
 delete
 shell mkdir 
-search telegr
-open_with 
-search cinn
-search .themes
-search th
+search close
+search clos
+search button
