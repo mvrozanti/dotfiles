@@ -1,6 +1,3 @@
-shell unzip itext7-7.0.2.zip itext
-shell unzip itext7-7.0.2.zip
-rename grab_updated_and_push.sh
 shell sudo vim rifle.conf
 shell sudo vim rc.conf
 find -iname *CV*
@@ -48,3 +45,6 @@ shell mkdir
 search close
 search clos
 search button
+search nemo
+rename index2.html
+touch index2.js

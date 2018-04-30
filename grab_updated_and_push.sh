@@ -49,6 +49,7 @@ cp -fR ~/.muttrc .
 # .cinnamon
 cp -fR ~/.cinnamon/configs .
 cp -fR /usr/share/themes/Mint-Y-Dark/ .
+dconf dump /org/cinnamon/desktop/keybindings/ > dconf-settings.conf
 
 # ownscripts
 mkdir -p usr-local-bin
