@@ -3,7 +3,6 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -lF'
-# alias xclip='xsel -b -i'
 #alias mocp='mocp -T transparent-background'
 alias watch='watch --color -n1'
 alias grep='grep --color'
