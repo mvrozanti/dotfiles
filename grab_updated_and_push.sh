@@ -51,6 +51,9 @@ cp -fR ~/.cinnamon/configs .
 cp -fR /usr/share/themes/Mint-Y-Dark/ .
 dconf dump /org/cinnamon/desktop/keybindings/ > dconf-settings.conf
 
+# some of waterfox
+cp -fR ~/.waterfox/yky6952o.default/chrome .
+
 # ownscripts
 mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin
