@@ -1,6 +1,7 @@
 #!/bin/bash
-
-commit_message="$@"
+last_directory="$1"
+#echo $last_directory
+commit_message="${@:2}"
 
 if [ -z "$commit_message" ]; then
     echo Missing commit message
@@ -79,3 +80,4 @@ cp -fR /usr/local/bin/murxvtt usr-local-bin
 gitap "$commit_message"
 
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
+cd $last_directory

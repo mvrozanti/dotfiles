@@ -43,7 +43,7 @@ alias cfa='sudo vim $HOME/.bash_aliases'
 # config dotfiles
 alias cfd='sudo vim $HOME/disk/gdrive/Programming/bash/dotfiles/grab_updated_and_push.sh'
 # config push
-alias cfp='commit_message="$@";cd $HOME/disk/gdrive/Programming/bash/dotfiles;./grab_updated_and_push.sh $commit_message'
+alias cfp='cur_dir="$PWD"; cd $HOME/disk/gdrive/Programming/bash/dotfiles; ./grab_updated_and_push.sh $cur_dir'
 alias motd='sudo cat /etc/update-motd.d/nexor.asc'
 alias serve='python3 -m http.server 2717'
 alias schmod='sudo chmod'
