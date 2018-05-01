@@ -81,4 +81,5 @@ cp -fR /usr/local/bin/murxvtt usr-local-bin
 # push
 gitap "$commit_message"
 
+echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
