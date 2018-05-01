@@ -1,6 +1,3 @@
-shell sudo vim rifle.conf
-shell sudo vim rc.conf
-find -iname *CV*
 search 
 find *CV*
 find -iname rc.conf
@@ -48,3 +45,6 @@ search button
 search nemo
 rename index2.html
 touch index2.js
+search svg
+find *.svg
+find *
