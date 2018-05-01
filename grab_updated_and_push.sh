@@ -1,5 +1,6 @@
 #!/bin/bash
 
+le_pwd="$(pwd)"
 this_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #echo $last_directory
 cd "$this_directory"
@@ -83,3 +84,5 @@ gitap "$commit_message"
 
 echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
+
+cd "$le_pwd"
