@@ -1,4 +1,3 @@
-search 
 find *CV*
 find -iname rc.conf
 find rc.conf
@@ -37,7 +36,6 @@ search power
 search vim
 search .vim
 open_with v
-delete
 shell mkdir 
 search close
 search clos
@@ -45,6 +43,8 @@ search button
 search nemo
 rename index2.html
 touch index2.js
-search svg
-find *.svg
-find *
+delete
+rename fib.pl
+rename testfib
+shell mkdir atv2
+shell mkdir atv1
