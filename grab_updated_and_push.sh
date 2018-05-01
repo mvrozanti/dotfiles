@@ -1,7 +1,9 @@
 #!/bin/bash
-last_directory="$1"
+
+this_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 #echo $last_directory
-commit_message="${@:2}"
+cd "$this_directory"
+commit_message="$@"
 
 if [ -z "$commit_message" ]; then
     echo Missing commit message
@@ -80,5 +82,3 @@ cp -fR /usr/local/bin/murxvtt usr-local-bin
 gitap "$commit_message"
 
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
-echo "$last_directory"
-cd "$last_directory"
