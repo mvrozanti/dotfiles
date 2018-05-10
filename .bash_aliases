@@ -75,3 +75,4 @@ alias R='R --silent '
 # alias corner="kek=\"$@\";echo $kek|tail -n1|grep -oE '[^ ]+$'"
 
 # alias mp42gif='mp4_file="$@"; mkdir -p animation_frames; ffmpeg -i "$mp4_file" -r 5 "animation_frames/frame-%03d.jpg"; convert -delay 20 -loop 0 animation_frames/*.jpg animation.gif; rm -r animation_frames'
+alias acs='apt-cache search'
