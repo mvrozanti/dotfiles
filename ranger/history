@@ -1,5 +1,3 @@
-rename dao.py
-shell 
 rename pendencias.txt
 rename config_marcelo.txt
 rename config_dell.txt
@@ -32,7 +30,6 @@ rename test8.pl
 rename 8.pl
 open_with v
 find ff
-delete
 touch README.md
 shell mkdir gardin
 touch watson
@@ -48,3 +45,6 @@ search vim
 search c++
 search cpp
 open_with vim
+delete
+search sys
+search Syss
