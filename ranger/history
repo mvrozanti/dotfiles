@@ -37,7 +37,6 @@ rename watson
 open_with 
 rename watson.py
 touch watson.sh
-shell mkdir 
 shell mkdir angular
 touch angular.js
 rename angular-test.js
@@ -48,3 +47,4 @@ open_with vim
 delete
 search sys
 search Syss
+shell mkdir 
