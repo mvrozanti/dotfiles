@@ -1,4 +1,5 @@
 autocmd FileType javascript         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 0.001; xdotool keyup alt'
+autocmd FileType javascript         set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
@@ -110,6 +111,7 @@ let g:javascript_conceal_arrow_function       = "⇒"
 let g:javascript_plugin_ngdoc = 1
 let g:javascript_plugin_flow = 1
 
+let g:CXXFLAGS='-std=c++11'
 " ==== helpers
 Plugin 'vim-scripts/L9'
 
@@ -190,6 +192,8 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%f
 "let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
 let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
 let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python3']
 let g:syntastic_yaml_checkers = ['jsyaml']
