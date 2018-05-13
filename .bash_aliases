@@ -55,9 +55,6 @@ alias eye='tail -f'
 alias ka='killall'
 alias e='echo'
 alias c='xsel -i -b'
-# alias gitap='whatdo () { message="$@"; if [[ -n $message ]]; then git add .;  git commit -m $message; git push; else echo "Commit message is missing"; fi }; whatdo'
-
-# alias replace-everywhere='grep -rl $oldstring /path/to/folder | xargs sed -i s@$oldstring@$newstring@g'
 alias feh='feh --sort mtime'
 alias cal='calcurse'
 alias randip="dd if=/dev/urandom bs=4 count=1 2>/dev/null | od -An -tu1 | sed -e 's/^ *//' -e 's/  */./g'"
@@ -68,13 +65,11 @@ alias it='ps aux|head -n -1|grep '
 alias prolog='swipl -q'
 alias t='date +%s'
 alias rsync='rsync -a --info=progress2'
-
 # open in existing browser window
 alias waterfox='[[ $(ps aux|grep -c waterfox) -eq 1 ]] && waterfox || waterfox -new-tab'
 alias R='R --silent '
-# alias corner="kek=\"$@\";echo $kek|tail -n1|grep -oE '[^ ]+$'"
-
 # alias mp42gif='mp4_file="$@"; mkdir -p animation_frames; ffmpeg -i "$mp4_file" -r 5 "animation_frames/frame-%03d.jpg"; convert -delay 20 -loop 0 animation_frames/*.jpg animation.gif; rm -r animation_frames'
 alias acs='apt-cache search'
 alias lisp='clisp --silent'
 alias pa='ps aux|grep'
+alias jsonify='python -m json.tool'

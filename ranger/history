@@ -34,7 +34,6 @@ open_with v
 find ff
 delete
 touch README.md
-open_with vim
 shell mkdir gardin
 touch watson
 rename watson
@@ -48,3 +47,4 @@ rename angular-test.js
 search vim
 search c++
 search cpp
+open_with vim
