@@ -1,12 +1,3 @@
-rename pendencias.txt
-rename config_marcelo.txt
-rename config_dell.txt
-rename config_samsung.txt
-rename config.txt
-search test
-search drop
-shell mkdir tests
-search vimrc
 rename atv.pl
 search hands
 shell mkdir reddit-downloader
@@ -34,7 +25,6 @@ touch README.md
 shell mkdir gardin
 touch watson
 rename watson
-open_with 
 rename watson.py
 touch watson.sh
 shell mkdir angular
@@ -44,7 +34,17 @@ search vim
 search c++
 search cpp
 open_with vim
-delete
 search sys
-search Syss
 shell mkdir 
+delete
+search Syss
+search Daft
+rename daft.mp3
+search Red Hot
+rename Red Hot Chili Peppers - Venice Queen w_lyrics on descriptio.mp3
+search Pink
+rename pinkfloyd.mp3
+shell mkdir gtm
+touch slaveAddresses.txt
+open_with g
+open_with 

@@ -84,7 +84,7 @@
                 "theme": "purple",
                 "title": "TODO",
                 "type": "note",
-                "text": "-grafico MMR/QI by country (line graph, 2 lines)\n-"
+                "text": "-grafico MMR/QI by country (line graph, 2 lines)\n-edit jtable maintain column class\n-how does ant work\n"
             }
         ],
         "type": "generic"
