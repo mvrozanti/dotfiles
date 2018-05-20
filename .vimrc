@@ -8,7 +8,7 @@ inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap - $h
 vnoremap - $h
 
-nnoremap F gg==G'
+nnoremap F gg=G''
 
 " systemcopy plugin (beta)
 "nnoremap p cv
@@ -62,7 +62,7 @@ vnoremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')
 inoremap <C-E> <Esc> ddi
 nnoremap <C-E> dd
 
- " kill REPLACE mode
+" kill REPLACE mode
 inoremap <Insert> <Esc>
 
 set hlsearch
