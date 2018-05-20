@@ -1,6 +1,3 @@
-rename atv.pl
-search hands
-shell mkdir reddit-downloader
 search tmux.c
 search power
 search .vim
@@ -48,3 +45,6 @@ shell mkdir gtm
 touch slaveAddresses.txt
 open_with g
 open_with 
+rename ex.lisp
+rename ex1.lisp
+shell 

@@ -8,6 +8,8 @@ inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap - $h
 vnoremap - $h
 
+nnoremap F gg==G'
+
 " systemcopy plugin (beta)
 "nnoremap p cv
 "vnoremap y cp
