@@ -30,7 +30,7 @@
 *color15: #f1efee
 *color233: rgba:0500/0500/0500/f800
 URxvt.intensityStyles:	false
-Xft*rgba:                   rgb
+!!Xft*rgba:                   rgb
 URxvt.tintColor:    #5448ff
 URxvt.letterSpace: -1
 URxvt*saveLines: 0
@@ -38,13 +38,14 @@ URxvt.depth:		32
 URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:hinting=true:size=10.5
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#a0f000
+URxvt*dynamicColors: true
 !!URxvt.perl-ext-common:	default,matcher
 URxvt.perl-lib:		$HOME/.config/Scripts
 URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
 URxvt.geometry: 101x42
 URxvt.iconFile: /usr/share/icons/Mint-X/apps/96/gnome-eterm.svg
-rofi.color-enabled:	true
+!!rofi.color-enabled:	true
 URxvt.perl-ext-common: default,matcher,font-size
 URxvt.keysym.C-Up:     perl:font-size:increase
 URxvt.keysym.C-Down:   perl:font-size:decrease
@@ -59,7 +60,7 @@ URxvt.keysym.C-M-v:    builtin-string:
 URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
 URxvt.keysym.C-S-0x56: eval:paste_clipboard
 !!rofi.color-window:	#000, #000, #000
-rofi.color-normal:	#111, #819396, #222, #ff0e04, #ffffff
+!!rofi.color-normal:	#111, #819396, #222, #ff0e04, #ffffff
 !!rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
 !!rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
 !!rofi.lines:		3
