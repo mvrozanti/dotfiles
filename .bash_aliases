@@ -80,3 +80,6 @@ alias usdbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=USD_BR
 alias eurbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=EUR_BRL&compact=y" 2>&1 | regextract "\:(\d[^}]+)}" | e R\$ $(cat -)'
 alias btcbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=BTC_BRL&compact=y" 2>&1 | regextract "\:(\d[^}]+)}" | e R\$ $(cat -)'
 alias ali='apt list --installed'
+alias alsao2i='pacmd set-default-source "alsa_output.pci-0000_00_1b.0.analog-stereo.monitor"'
+alias alsai2i='pacmd set-default-source "alsa_input.pci-0000_00_1b.0.analog-stereo"'
+alias alsawat='pacmd list-sources|grep -A 5 \* '
