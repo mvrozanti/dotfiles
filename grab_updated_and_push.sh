@@ -75,7 +75,7 @@ cp -fR /usr/local/bin/clip usr-local-bin
 cp -fR /usr/local/bin/regextract usr-local-bin
 cp -fR /usr/local/bin/usage usr-local-bin
 cp -fR /usr/local/bin/todo usr-local-bin
-cp -fR /usr/local/bin/youtube-pl
+cp -fR /usr/local/bin/youtube-pl usr-local-bin
 #cp -fR /usr/local/bin/mpc-play-pause usr-local-bin
 cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
