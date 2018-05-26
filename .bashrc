@@ -52,7 +52,7 @@ if [ -n "$force_color_prompt" ]; then
 	# a case would tend to support setf rather than setaf.)
 	color_prompt=yes
     else
-	color_prompt=
+	olor_prompt=
     fi
 fi
 
@@ -92,7 +92,7 @@ if [[ -f ~/.bash_prompt  ]]; then
     . ~/.bash_prompt
 fi
 # colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 
 # envfile="$HOME/.gnupg/gpg-agent.env"
@@ -118,10 +118,6 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 # disable workflow control <C-S>,<C-Q>:
 stty ixany
 stty ixoff -ixon
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
