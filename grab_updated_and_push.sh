@@ -58,6 +58,9 @@ dconf dump /org/cinnamon/desktop/keybindings/ > dconf-settings.conf
 # some of waterfox
 cp -fR ~/.waterfox/yky6952o.default/chrome .
 
+# mpd
+cp -fR /etc/mpd.conf .
+
 # ownscripts
 mkdir -p usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin

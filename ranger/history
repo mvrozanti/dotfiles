@@ -1,3 +1,4 @@
+rename index2.html
 touch index2.js
 rename fib.pl
 rename testfib
@@ -35,7 +36,6 @@ rename pinkfloyd.mp3
 shell mkdir gtm
 touch slaveAddresses.txt
 open_with g
-open_with 
 rename ex.lisp
 rename ex1.lisp
 shell 
@@ -45,6 +45,6 @@ search squirr
 delete
 filter z
 search cava
-search 
-search tmux
-search power
+open_with 
+search ment
+search mpd

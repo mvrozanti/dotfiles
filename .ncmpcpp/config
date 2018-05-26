@@ -9,22 +9,22 @@ startup_screen = visualizer
 
 # Playlist
 playlist_disable_highlight_delay = "0"  
-playlist_display_mode = "classic"  
+playlist_display_mode = "columns"  
 playlist_show_remaining_time = "yes"
-
 browser_display_mode = "columns"  
 browser_sort_mode = "mtime"
+media_library_sort_by_mtime = "yes"
+media_library_primary_tag = "date"
 autocenter_mode = "yes"  
 #follow_now_playing_lyrics = "yes"  
 #display_screens_numbers_on_start = "yes"  
-#ignore_leading_the = "yes"  
-#lyrics_database = "1"  
-song_columns_list_format = "(10)[blue]{l} (50)[yellow]{t} (30)[green]{a} (30)[magenta]{b} "  
+song_columns_list_format = "(10)[blue]{l} (50)[yellow]{t} (30)[green]{a}"  
 colors_enabled = "yes"  
 main_window_color = "white"  
 main_window_highlight_color =  "blue"
 header_window_color = "cyan"  
 volume_color = "red"  
+volume_change_step = "1"
 progressbar_color = "red"  
 statusbar_color = "red"  
 active_column_color = "cyan"  
@@ -37,7 +37,7 @@ user_interface = "alternative"
 # user_interface =                    "classic"
 default_place_to_search_in = "database"
 
-allow_for_physical_item_deletion = "yes"
+allow_for_physical_item_deletion = "no"
 
 # visualizer
 visualizer_fifo_path = "/tmp/mpd.fifo"
@@ -47,7 +47,7 @@ visualizer_type = "wave" (spectrum/wave)
 visualizer_color = red,blue,green,magenta,yellow
 # visualizer_type = "spectrum" (spectrum/wave)
 visualizer_in_stereo = "yes"
-visualizer_look = "-"
+visualizer_look = "♦-"
 
 ## Navigation ##
 cyclic_scrolling = "yes"
