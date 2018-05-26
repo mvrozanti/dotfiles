@@ -1,4 +1,3 @@
-rename index2.html
 touch index2.js
 rename fib.pl
 rename testfib
@@ -25,7 +24,6 @@ search c++
 search cpp
 open_with vim
 search sys
-shell mkdir 
 search Syss
 search Daft
 rename daft.mp3
@@ -48,3 +46,5 @@ search cava
 open_with 
 search ment
 search mpd
+shell mkdir 
+touch colorcalc
