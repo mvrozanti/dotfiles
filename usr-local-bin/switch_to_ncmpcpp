@@ -1,6 +1,7 @@
 #!/bin/bash
-if [[ -n $(wmctrl -l|grep ncmpcpp) ]]; then
-    wmctrl -a ncmpcpp;
-else
-    urxvt -e ncmpcpp;
-fi
+if [[ "$(ps aux|grep -c tmux)" -gt 7 ]]; then tmux neww ncmpcpp; else urxvt -e tmux -c ncmpcpp; fi
+# if [[ -n $(wmctrl -l|grep ncmpcpp) ]]; then
+#     wmctrl -a ncmpcpp;
+# else
+#     urxvt -e ncmpcpp;
+# fi

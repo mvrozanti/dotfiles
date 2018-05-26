@@ -67,4 +67,5 @@ URxvt.keysym.C-S-0x56: eval:paste_clipboard
 !!rofi.bw:		0
 !!rofi.hide-scrollbar:	true
 !!rofi.width:		30
-
+URxvt.keysym.C-8: command:\033]11;#000000\007
+URxvt.keysym.C-9: command:\033]11;rgba:0500/0500/0500/f800\007
