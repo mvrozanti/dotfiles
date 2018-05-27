@@ -1,0 +1,2 @@
+#!/bin/bash
+if [[ "$(ps aux|grep -c mutt)" -gt 1 ]]; then tmux neww mutt; switch_to_tmux; else urxvt -e tmux -c "sh -c stty ixany;stty ixoff -ixon;mutt"; fi

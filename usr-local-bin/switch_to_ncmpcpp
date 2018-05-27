@@ -1,3 +1,3 @@
 #!/bin/bash
-if [[ "$(ps aux|grep -c tmux)" -gt 7 ]]; then tmux neww ncmpcpp; else urxvt -e tmux -c ncmpcpp; fi
-switch_to_tmux
+if [[ "$(ps aux|grep -c tmux)" -gt 7 ]]; then tmux neww ncmpcpp; switch_to_tmux; else urxvt -e tmux -c ncmpcpp;  fi
+# 
