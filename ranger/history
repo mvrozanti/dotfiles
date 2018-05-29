@@ -1,4 +1,3 @@
-shell mkdir atv1
 search horas
 
 shell libreoffice horas-abril.csv
@@ -48,3 +47,4 @@ touch
 rename getimage.png
 delete
 open_with 
+search power

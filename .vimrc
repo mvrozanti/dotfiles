@@ -4,7 +4,7 @@ autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 
-nnoremap <C-o> i<CR>
+nnoremap <C-o> i<CR>jk
 " vnoremap <C-J> i<CR>jk
 
 " \n not in v$
@@ -17,6 +17,7 @@ nnoremap F gg=G''
 "nnoremap p cv
 "vnoremap y cp
 " 
+command Reversefilelines g/^/m0
 
 nnoremap <C-W> <Esc>:q<CR> 
 inoremap <C-W> <Esc>:q<CR>
