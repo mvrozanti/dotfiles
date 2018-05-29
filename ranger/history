@@ -38,7 +38,6 @@ touch randcompiler.py
 search squirr
 filter z
 search cava
-open_with 
 search ment
 search mpd
 shell mkdir 
@@ -48,3 +47,4 @@ search obs
 touch 
 rename getimage.png
 delete
+open_with 

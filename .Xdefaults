@@ -3,28 +3,27 @@
 *cursor: #ffffff
 *background: rgba:0500/0500/0500/f800
 
-!!*color0: #ff1050
 !!rgba:f500/0500/0500/c000
-*color0: #995311
+*color0: #af1351
 *color9: #7600ff
 !! red
-*color1: #ff3300
-*color8: #a0f000
+*color1: #ff3311
+*color8: #ff5511
 !! purple
-*color2: #00ff00
+*color2: #ff5500
 *color10:#501fb0 
 !! yellow 
-*color3: #faba00
+*color3: #f5bb00
 *color11: #01a07f
 !! dark purple
 *color4: #606060
-*color12: #ff0937
+*color12: #a01100
 !! background on autocomplete:
 *color5: rgba:fa00/0a00/0000/f900
 *color13: #ff00ff
 !! green
-*color6: #00aa10
-*color14: #003d0f
+*color6: #ddee00
+*color14: #bbcc00
 !! white
 *color7: #38313f
 *color15: #f1efee
@@ -59,13 +58,5 @@ URxvt.keysym.C-M-c:    builtin-string:
 URxvt.keysym.C-M-v:    builtin-string:
 URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
 URxvt.keysym.C-S-0x56: eval:paste_clipboard
-!!rofi.color-window:	#000, #000, #000
-!!rofi.color-normal:	#111, #819396, #222, #ff0e04, #ffffff
-!!rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
-!!rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
-!!rofi.lines:		3
-!!rofi.bw:		0
-!!rofi.hide-scrollbar:	true
-!!rofi.width:		30
 URxvt.keysym.C-8: command:\033]11;#000000\007
 URxvt.keysym.C-9: command:\033]11;rgba:0500/0500/0500/f800\007
