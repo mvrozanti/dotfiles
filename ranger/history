@@ -45,6 +45,6 @@ shell mkdir
 touch colorcalc
 search OBS
 search obs
-delete
 touch 
 rename getimage.png
+delete

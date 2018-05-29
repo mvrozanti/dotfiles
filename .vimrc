@@ -4,6 +4,9 @@ autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 
+nnoremap <C-o> i<CR>
+" vnoremap <C-J> i<CR>jk
+
 " \n not in v$
 nnoremap - $h
 vnoremap - $h
@@ -19,8 +22,12 @@ nnoremap <C-W> <Esc>:q<CR>
 inoremap <C-W> <Esc>:q<CR>
 nnoremap <C-S> <Esc>:w<CR>
 inoremap <C-S> <Esc>:w<CR>
-" nnoremap <C-Q> <Esc>:wq<CR>
-" inoremap <C-Q> <Esc>:wq<CR>
+
+nnoremap _ :split<CR>
+vnoremap _ :split<CR>
+nnoremap \| :vsplit<CR>
+vnoremap \| :vsplit<CR>
+
 inoremap jk <Esc>l
 vnoremap jk <Esc> 
 " marks
@@ -229,3 +236,4 @@ set mouse=c
 " ==== custom commands
 "command Jsonfix execute ":%!python3 -m json.tool"
 Plugin 'christoomey/vim-tmux-navigator'
+let g:BASH_Ctrl_j = 'off'
