@@ -228,3 +228,4 @@ set mouse=c
 
 " ==== custom commands
 "command Jsonfix execute ":%!python3 -m json.tool"
+Plugin 'christoomey/vim-tmux-navigator'
