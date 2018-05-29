@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import re
+import sys
+import fileinput
+
+content=''.join(sys.stdin)
+regex = sys.argv[1]
+search=re.findall(regex,content)
+if len(search) > 0:
+    for result in search:
+        print(result, flush=True)
+        sys.stdout.flush()
+else:
+   print('No matches') 
