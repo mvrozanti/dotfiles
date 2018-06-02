@@ -2,9 +2,8 @@
 *foreground_bold: #033f40
 *cursor: #ffffff
 *background: rgba:0500/0500/0500/f800
-
 !!rgba:f500/0500/0500/c000
-*color0: #af1351
+*color0: #000
 *color9: #7600ff
 !! red
 *color1: #ff3311
@@ -26,7 +25,8 @@
 *color14: #e1ee00
 !! white
 *color7: #38313f
-*color15: #f1efee
+*color15: #eeeeee
+*color17: #ae0000
 *color233: rgba:0500/0500/0500/f800
 URxvt.intensityStyles:	false
 !!Xft*rgba:                   rgb
@@ -34,6 +34,7 @@ URxvt.tintColor:    #5448ff
 URxvt.letterSpace: -1
 URxvt*saveLines: 0
 URxvt.depth:		32
+!URxvt*termName:  xterm-256color
 URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:hinting=true:size=10.5
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#a0f000

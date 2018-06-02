@@ -1,37 +1,4 @@
-search horas
-
-shell libreoffice horas-abril.csv
-rename test8.pl
-rename 8.pl
-open_with v
-find ff
-touch README.md
-shell mkdir gardin
-touch watson
-rename watson
-rename watson.py
-touch watson.sh
-shell mkdir angular
-touch angular.js
-rename angular-test.js
-search vim
-search c++
-search cpp
-open_with vim
-search sys
-search Syss
-search Daft
-rename daft.mp3
-search Red Hot
-rename Red Hot Chili Peppers - Venice Queen w_lyrics on descriptio.mp3
-search Pink
-rename pinkfloyd.mp3
-shell mkdir gtm
-touch slaveAddresses.txt
-open_with g
-rename ex.lisp
 rename ex1.lisp
-shell 
 shell mkdir randcompiler
 touch randcompiler.py
 search squirr
@@ -45,6 +12,39 @@ search OBS
 search obs
 touch 
 rename getimage.png
-delete
-open_with 
+search tmux
+
+rename d.json
+rename default1.json
+rename solarized.json
+rename default.json
+search tmp
+search so
+shell -p help
+shell  %s
+shell 
+ex
+extracthere
+search trell
+tar zxvf Tre
+!
+shell -p tar -zxvf Trello-linux-0.1.9.zip
+delet
+open_with v
+shell mkdir kek
+search kek
+find 
+cd /usr/local/bin/
 search power
+search ddq
+open_with 
+search tic
+search 
+search guess
+search tv
+delete
+search rock
+search QV
+search *zip
+search braz
+search vuls

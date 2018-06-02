@@ -21,7 +21,7 @@
 		"line_percent":             { "fg": "gray8", "bg": "gray3", "attrs": [] },
 		"line_percent_gradient":    { "fg": "GREEN_Orange_red", "bg": "gray3", "attrs": [] },
 		"position":                 { "fg": "gray8", "bg": "gray3", "attrs": [] },
-		"position_gradient":        { "fg": "GREEN_Orange_red", "bg": "gray3", "attrs": [] },
+		"position_gradient":        { "fg": "black_orange_red", "bg": "gray3", "attrs": [] },
 		"line_current":             { "fg": "gray10", "bg": "gray6", "attrs": ["bold"] },
 		"line_current_symbol":      { "fg": "gray10", "bg": "gray5", "attrs": [] },
 		"virtcol_current_gradient": { "fg": "dark_GREEN_Orange_red", "bg": "gray1", "attrs": [] },

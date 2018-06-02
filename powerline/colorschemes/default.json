@@ -24,7 +24,7 @@
 		"weather":                   { "fg": "gray1", "bg": "gray0", "attrs": [] },
 		"weather_temp_gradient":     { "fg": "dark_GREEN_Orange_red", "bg": "gray0", "attrs": [] },
 		"network_load":              { "fg": "red", "bg": "red", "attrs": [] },
-        "network_load_sent_gradient":{ "fg": "dark_GREEN_Orange_red", "bg":"gray0", "attrs":[]  },
+        "network_load_sent_gradient":{ "fg": "black_orange_red", "bg":"gray0", "attrs":[]  },
         "network_load_recv_gradient":{ "fg": "dark_GREEN_Orange_red", "bg":"gray0", "attrs":[]  },
 		"weather_condition_hot":     { "fg": "brightestred", "bg": "gray0", "attrs": [] },
 		"weather_condition_snowy":   { "fg": "skyblue1", "bg": "gray0", "attrs": [] },
