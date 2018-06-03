@@ -1,6 +1,3 @@
-search mpd
-shell mkdir 
-touch colorcalc
 search OBS
 search obs
 touch 
@@ -48,3 +45,6 @@ shell unp %s;read
 search dic
 search dictio
 delete
+search suck
+search st
+open_with g4

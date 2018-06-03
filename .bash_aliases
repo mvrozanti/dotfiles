@@ -1,5 +1,6 @@
 # THIS SHOULD BE IN SYNC W/ RPI AND LAPTOP
 # ALIAS BLOCK START
+alias rm='rm -f'
 alias ll='ls -alF'
 alias la='ls -A'
 alias lo='ls --sort=time'
@@ -76,15 +77,15 @@ alias jsonify='python -m json.tool'
 alias iftop='sudo iftop -Nlp'
 alias cava='cava -p $HOME/.config/cava/config'
 alias usdbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=USD_BRL&compact=y" 2>&1 | re "\:(\d[^}]+)}" | e R\$ $(cat -)'
-alias eurbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=EUR_BRL&compact=y" 2>&1 | regextract "\:(\d[^}]+)}" | e R\$ $(cat -)'
-alias btcbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=BTC_BRL&compact=y" 2>&1 | regextract "\:(\d[^}]+)}" | e R\$ $(cat -)'
+alias eurbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=EUR_BRL&compact=y" 2>&1 | re "\:(\d[^}]+)}" | e R\$ $(cat -)'
+alias btcbrl='curl "http://free.currencyconverterapi.com/api/v5/convert?q=BTC_BRL&compact=y" 2>&1 | re "\:(\d[^}]+)}" | e R\$ $(cat -)'
 alias ali='apt list --installed'
 alias alsao2i='pacmd set-default-source "alsa_output.pci-0000_00_1b.0.analog-stereo.monitor"'
 alias alsai2i='pacmd set-default-source "alsa_input.pci-0000_00_1b.0.analog-stereo"'
 alias alsawat='pacmd list-sources|grep -A 5 \* '
-alias giquo='regextract "\"([^\"]+)"'
-alias gipar='regextract "\(([^\)]+)"'
-alias gip='regextract "((\d{1,3}\.){3}\d{1,3})"'
+alias giquo='re "\"([^\"]+)"'
+alias gipar='re "\(([^\)]+)"'
+alias gip='re "((\d{1,3}\.){3}\d{1,3})"'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
