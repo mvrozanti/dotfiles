@@ -44,7 +44,7 @@ shell unp %s
 shell unp %s;read
 search dic
 search dictio
-delete
 search suck
 search st
 open_with g4
+delete
