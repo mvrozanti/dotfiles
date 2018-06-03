@@ -89,5 +89,6 @@ alias gip='re "((\d{1,3}\.){3}\d{1,3})"'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias cutecat='awk "{print $0; system(\"sleep .1\");}"'
 #   text to speech:
 function tts(){ printf "(SayText \"$1\")" | festival -i;}
