@@ -1,10 +1,3 @@
-rename ex1.lisp
-shell mkdir randcompiler
-touch randcompiler.py
-search squirr
-filter z
-search cava
-search ment
 search mpd
 shell mkdir 
 touch colorcalc
@@ -21,8 +14,6 @@ rename default.json
 search tmp
 search so
 shell -p help
-shell  %s
-shell 
 ex
 extracthere
 search trell
@@ -46,5 +37,14 @@ search rock
 search QV
 search *zip
 search braz
-delete
 search vuls
+q
+quit
+shell mkdir unpc
+shell 
+shell  %s
+shell unp %s
+shell unp %s;read
+search dic
+search dictio
+delete
