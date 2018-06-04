@@ -1,5 +1,3 @@
-search obs
-touch 
 rename getimage.png
 search tmux
 
@@ -26,7 +24,6 @@ search power
 search ddq
 open_with 
 search tic
-search 
 search guess
 search tv
 search rock
@@ -46,5 +43,8 @@ search dictio
 search suck
 search st
 open_with g4
-delete
 shell mkdir mercadobtc
+search 
+shell mkdir mbtc
+touch alerter.sh
+delete

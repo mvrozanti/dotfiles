@@ -3,20 +3,13 @@ autocmd FileType javascript         set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
-
-nnoremap <C-o> i<CR>jk
-" vnoremap <C-J> i<CR>jk
-
-" \n not in v$
+" reverse J
+nnoremap <C-o> i<CR>jk 
 nnoremap - $h
 vnoremap - $h
 
 nnoremap F gg=G''
 
-" systemcopy plugin (beta)
-"nnoremap p cv
-"vnoremap y cp
-" 
 command Reversefilelines g/^/m0
 
 nnoremap <C-W> <Esc>:q<CR> 
@@ -237,4 +230,9 @@ set mouse=c
 " ==== custom commands
 "command Jsonfix execute ":%!python3 -m json.tool"
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'kien/rainbow_parentheses.vim'
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 let g:BASH_Ctrl_j = 'off'

@@ -1,11 +1,11 @@
-s:/home/nexor/.config/ranger
-d:/home/nexor/.steam/steam/steamapps/common/dota 2 beta/game
-q:/home/nexor/.config/ranger
-j:/home/nexor/prog/Java
-':/home/nexor/prog/python/mercadobtc
-k:/home/nexor/disk/gdrive/Programming/python
-o:/home/nexor/.config/ranger
-v:/home/nexor
-g:/home/nexor/Downloads
 a:/media/nexor
+s:/home/nexor/.config/ranger
+k:/home/nexor/disk/gdrive/Programming/python
+':/home/nexor/disk/gdrive/Programming/bash/mbtc
 m:/home/nexor/.config/ranger
+o:/home/nexor/.config/ranger
+g:/home/nexor/Downloads
+v:/home/nexor
+j:/home/nexor/prog/Java
+q:/home/nexor/.config/ranger
+d:/home/nexor/.steam/steam/steamapps/common/dota 2 beta/game
