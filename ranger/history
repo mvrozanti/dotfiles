@@ -1,12 +1,3 @@
-rename getimage.png
-search tmux
-
-rename d.json
-rename default1.json
-rename solarized.json
-rename default.json
-search tmp
-search so
 shell -p help
 ex
 extracthere
@@ -22,10 +13,8 @@ find
 cd /usr/local/bin/
 search power
 search ddq
-open_with 
 search tic
 search guess
-search tv
 search rock
 search QV
 search *zip
@@ -42,9 +31,20 @@ search dic
 search dictio
 search suck
 search st
-open_with g4
 shell mkdir mercadobtc
 search 
 shell mkdir mbtc
 touch alerter.sh
+shell mkdir nvim
+search .vimrc
+rename config_samsung.txt
+rename config.txt
+search C:
+search tv
+search term
+open_with g4
 delete
+search py
+search corre
+open_with J
+open_with 

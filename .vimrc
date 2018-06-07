@@ -12,6 +12,9 @@ nnoremap F gg=G''
 
 command Reversefilelines g/^/m0
 
+" nnoremap <C-L> :10winc -
+" nnoremap <C-3> :res +5<CR>
+
 nnoremap <C-W> <Esc>:q<CR> 
 inoremap <C-W> <Esc>:q<CR>
 nnoremap <C-S> <Esc>:w<CR>
@@ -24,6 +27,8 @@ vnoremap \| :vsplit<CR>
 
 inoremap jk <Esc>l
 vnoremap jk <Esc> 
+inoremap JK <Esc>l
+vnoremap JK <Esc> 
 " marks
 nnoremap ; '' 
 
