@@ -99,3 +99,5 @@ alias d='trash'
 alias mbtc='/mnt/4ADE1465DE144C17/gdrive/Programming/bash/mbtc/alerter.sh'
 alias rp='realpath'
 # alias catcolors=''
+# short whereis for scripting
+function wis(){ whereis "$1" | cut -d':' -f2;}
