@@ -4,9 +4,10 @@ set smtp_url = "smtp://mvrozanti@hotmail.com@smtp.live.com:587/"
 set imap_user = "mvrozanti@hotmail.com"
 set folder = "imaps://imap-mail.outlook.com:993"
 set spoolfile = "+INBOX"
-set header_cache = "~/.mutt/cache/headers"
+#set header_cache = "~/.mutt/cache/headers"
 set message_cachedir = "~/.mutt/cache/bodies"
-set certificate_file = "~/.mutt/certificates"
+#set ssl_ca_certificates_file="/etc/ssl/certs/ca-certificates.crt"
+#set certificate_file = "~/.mutt/certificates"
 set mail_check = 30
 set move = no
 set imap_keepalive = 900
@@ -14,7 +15,7 @@ set imap_authenticators="login"
 set sort = reverse-last-date-received
 set editor = "vim"
 bind index G imap-fetch-mail
-set ssl_force_tls = yes
+#set ssl_force_tls = yes
 
 # encrypt session
 source "gpg -d ~/.mutt/password.gpg |"

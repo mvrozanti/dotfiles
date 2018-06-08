@@ -1,12 +1,8 @@
-shell -p help
-ex
-extracthere
 search trell
 tar zxvf Tre
 !
 shell -p tar -zxvf Trello-linux-0.1.9.zip
 delet
-open_with v
 shell mkdir kek
 search kek
 find 
@@ -48,3 +44,7 @@ search py
 search corre
 open_with J
 open_with 
+search neomutt
+open_with v
+open_with vim
+open_with bash

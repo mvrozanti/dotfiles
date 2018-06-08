@@ -103,3 +103,4 @@ alias rp='realpath'
 function wis(){ whereis "$1" | cut -d':' -f2;}
 alias reip='re "\d+\.\d+\.\d+\.\d+"'
 alias ecdsa='ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub'
+alias pi='pip3 install'
