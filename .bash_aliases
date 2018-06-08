@@ -101,3 +101,4 @@ alias rp='realpath'
 # alias catcolors=''
 # short whereis for scripting
 function wis(){ whereis "$1" | cut -d':' -f2;}
+alias reip='re "\d+\.\d+\.\d+\.\d+"'
