@@ -59,6 +59,8 @@ URxvt.keysym.C-M-c:    builtin-string:
 URxvt.keysym.C-M-v:    builtin-string:
 URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
 URxvt.keysym.C-S-0x56: eval:paste_clipboard
+URxvt.keysym.C-4: command:\033]11;rgba:0500/0500/0500/4800\007
+URxvt.keysym.C-5: command:\033]11;rgba:0500/0500/0500/8800\007
 URxvt.keysym.C-6: command:\033]11;rgba:0500/0500/0500/a800\007
 URxvt.keysym.C-7: command:\033]11;rgba:0500/0500/0500/c800\007
 URxvt.keysym.C-8: command:\033]11;rgba:0500/0500/0500/f800\007

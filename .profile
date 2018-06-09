@@ -20,3 +20,4 @@ fi
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 export STEAM_FRAME_FORCE_CLOSE=0
 export QT_IM_MODULE=xim
+export EDITOR='nvim'

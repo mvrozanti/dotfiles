@@ -1,7 +1,3 @@
-search trell
-tar zxvf Tre
-!
-shell -p tar -zxvf Trello-linux-0.1.9.zip
 delet
 shell mkdir kek
 search kek
@@ -39,7 +35,6 @@ search C:
 search tv
 search term
 open_with g4
-delete
 search py
 search corre
 open_with J
@@ -48,3 +43,8 @@ search neomutt
 open_with v
 open_with vim
 open_with bash
+rename depicker.py_
+rename debuff.py
+rename depicker.py
+delete
+search steam
