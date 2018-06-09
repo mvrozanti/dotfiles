@@ -4,7 +4,7 @@ autocmd FileType python             let b:run_script = '!clear;python3 %'
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " reverse J
-nnoremap <C-o> i<CR>jk 
+nnoremap <C-o> a<CR><Esc> 
 nnoremap - $h
 vnoremap - $h
 
