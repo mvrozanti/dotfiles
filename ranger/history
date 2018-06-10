@@ -1,9 +1,7 @@
 delet
 shell mkdir kek
 search kek
-find 
 cd /usr/local/bin/
-search power
 search ddq
 search tic
 search guess
@@ -48,3 +46,5 @@ rename debuff.py
 rename depicker.py
 delete
 search steam
+find 
+search power

@@ -84,7 +84,7 @@
                 "theme": "purple",
                 "title": "TODO",
                 "type": "note",
-                "text": "Prova de Matemática:\n---------------------------------------------------------------------\nhttps://askubuntu.com/questions/613973/how-can-i-start-up-an-application-with-a-pre-defined-window-size-and-position\n\nhttps://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash#192266\n\nmakescripts\n\ncompletar campos jcomponent\n\nhttps://sanctum.geek.nz/arabesque/vi-mode-in-tmux/"
+                "text": "Prova de Matemática:\n---------------------------------------------------------------------\nhttps://askubuntu.com/questions/613973/how-can-i-start-up-an-application-with-a-pre-defined-window-size-and-position\n\nhttps://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash#192266\n\nmakescripts"
             }
         ],
         "type": "generic"

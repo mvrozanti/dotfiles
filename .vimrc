@@ -1,16 +1,29 @@
-autocmd FileType javascript         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 0.001; xdotool keyup alt'
+autocmd FileType c,cpp,java,scala,javascript                        let b:comment_leader = '// '
+autocmd FileType sh,ruby,python                                     let b:comment_leader = '# '
+autocmd FileType conf,fstab                                         let b:comment_leader = '# '
+autocmd FileType swipl,perl,tex                                     let b:comment_leader = '% '
+autocmd FileType mail                                               let b:comment_leader = '> '
+autocmd FileType vim                                                let b:comment_leader = '" '
+autocmd FileType lisp                                               let b:comment_leader = '; '
+autocmd FileType javascript                                         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 2.001; xdotool keyup alt'
 autocmd FileType javascript         set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python             let b:run_script = '!clear;python3 %'
+autocmd FileType python                                             let b:run_script = '! clear;python3 %'
+autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
+
+" nnoremap <Space><Space> /<++><CR>
+
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
-inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
+" inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " reverse J
 nnoremap <C-o> a<CR><Esc> 
 nnoremap - $h
 vnoremap - $h
 
 nnoremap F gg=G''
+nnoremap QQ :q!<CR>
 
 command Reversefilelines g/^/m0
+command Json execute ":%!python3 -m json.tool"
 
 " nnoremap <C-L> :10winc -
 " nnoremap <C-3> :res +5<CR>
@@ -30,7 +43,6 @@ vnoremap jk <Esc>
 inoremap JK <Esc>l
 vnoremap JK <Esc> 
 " marks
-nnoremap ; '' 
 
 " Colorscheme
 colorscheme peachpuff
@@ -54,13 +66,6 @@ endif
 " endif   
 
 " Commenting blocks of code.
-autocmd FileType c,cpp,java,scala,javascript let b:comment_leader = '// '
-autocmd FileType sh,ruby,python   let b:comment_leader = '# '
-autocmd FileType conf,fstab       let b:comment_leader = '# '
-autocmd FileType swipl,perl,tex     let b:comment_leader = '% '
-autocmd FileType mail             let b:comment_leader = '> '
-autocmd FileType vim              let b:comment_leader = '" '
-autocmd FileType lisp              let b:comment_leader = '; '
 vnoremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
 vnoremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
 
@@ -201,7 +206,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%f
 "let g:syntastic_javascript_checkers = ['eslint']
-" let g:syntastic_cpp_compiler = 'clang++'
+"let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
 let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
 let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python3']
@@ -233,7 +238,6 @@ nmap <silent> <A-Right> :wincmd l<CR>
 set mouse=c
 
 " ==== custom commands
-"command Jsonfix execute ":%!python3 -m json.tool"
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'kien/rainbow_parentheses.vim'
 au VimEnter * RainbowParenthesesToggle
@@ -241,3 +245,9 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 let g:BASH_Ctrl_j = 'off'
+" let g:tmux_navigator_no_mappings = 1
+
+" nnoremap <silent> <A-Left >  :TmuxNavigateLeft<cr>
+" nnoremap <silent> <A-Down >  :TmuxNavigateDown<cr>
+" nnoremap <silent> <A-Up   >  :TmuxNavigateUp<cr>
+" nnoremap <silent> <A-Right>  :TmuxNavigateRight<cr>

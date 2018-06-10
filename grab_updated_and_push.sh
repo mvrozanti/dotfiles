@@ -8,7 +8,7 @@ commit_message="$@"
 
 if [ -z "$commit_message" ]; then
     echo Missing commit message
-    exit 1;
+    return 1;
 fi
 
 # .profile
@@ -83,6 +83,10 @@ cp -fR /usr/local/bin/youtube-pl usr-local-bin
 #cp -fR /usr/local/bin/mpc-play-pause usr-local-bin
 cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
+
+# pip packages
+pip2 list > pip2_packages.txt
+pip3 list > pip3_packages.txt
 
 # push
 gitap "$commit_message"
