@@ -1,8 +1,8 @@
 #!/bin/bash
 
-le_pwd="$(pwd)"
-this_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-#echo $last_directory
+old_directory="$(pwd)"
+this_directory="/mnt/4ADE1465DE144C17/gdrive/Programming/bash/dotfiles"
+
 cd "$this_directory"
 commit_message="$@"
 
@@ -11,6 +11,8 @@ if [ -z "$commit_message" ]; then
     return 1;
 fi
 
+# zsh
+cp -fR ~/.zshrc . 
 # .profile
 cp -fR ~/.profile .
 
@@ -94,4 +96,4 @@ gitap "$commit_message"
 echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
 
-cd "$le_pwd"
+cd "$old_directory"

@@ -6,13 +6,15 @@ autocmd FileType mail                                               let b:commen
 autocmd FileType vim                                                let b:comment_leader = '" '
 autocmd FileType lisp                                               let b:comment_leader = '; '
 autocmd FileType javascript                                         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 2.001; xdotool keyup alt'
-autocmd FileType javascript         set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType javascript                                             set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python                                             let b:run_script = '! clear;python3 %'
 autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
 
 " nnoremap <Space><Space> /<++><CR>
+" let mapleader = ","
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
+nnoremap , '
 " inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " reverse J
 nnoremap <C-o> a<CR><Esc> 

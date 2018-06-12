@@ -1,0 +1,13 @@
+#!/bin/bash
+if [[ -n $(wmctrl -l|grep "urxvt") ]]; then
+    wmctrl -a urxvt
+else
+#     tmux has-session -t sess0
+#     hs=$?
+    urxvt
+#     if [ $hs -ne 0 ]; then # no session
+#         urxvt; 
+#     else # if got session, attach
+#         urxvt -e tmux a -t sess0;
+#     fi
+fi

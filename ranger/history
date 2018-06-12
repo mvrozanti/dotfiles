@@ -1,25 +1,3 @@
-search rock
-search QV
-search *zip
-search braz
-search vuls
-q
-quit
-shell mkdir unpc
-shell 
-shell  %s
-shell unp %s
-shell unp %s;read
-search dic
-search dictio
-search suck
-search st
-shell mkdir mercadobtc
-search 
-shell mkdir mbtc
-touch alerter.sh
-shell mkdir nvim
-search .vimrc
 rename config_samsung.txt
 rename config.txt
 search C:
@@ -32,15 +10,12 @@ open_with J
 open_with 
 search neomutt
 open_with v
-open_with vim
 open_with bash
 rename depicker.py_
 rename debuff.py
 rename depicker.py
 search steam
 find 
-search power
-delete
 open_with g
 search candle
 shell mkdir candle
@@ -48,3 +23,28 @@ help rename
 help
 rename output.wmv
 rename Animated-lighting-Candle-1920x1200-Wallpape.wmv
+rename wallpaper.png
+rename wallpaper.jpg
+search .ncmp
+search ncmp
+shell mkdir btcd
+search Power
+search power
+search rat
+open_with vim
+search alpha
+delete
+
+sudo rm
+shell sudo rm -r python-docx-template
+search C#gC
+search 
+search C#
+rename squirrel-sql-3.81.1
+rename squirrel-sql-3.8.1
+shell sudo rm -r powerline-disk-segment
+open_with 
+delete
+deleteyy
+delete
+search vim
