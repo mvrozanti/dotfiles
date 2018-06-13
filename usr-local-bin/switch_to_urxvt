@@ -1,13 +1,6 @@
 #!/bin/bash
-if [[ -n $(wmctrl -l|grep "urxvt") ]]; then
-    wmctrl -a urxvt
+if [[ $(wmctrl -l|grep urxvt|grep -c -v Waterfox) -gt 0 ]]; then
+    wmctrl -i -a "$(wmctrl -l|grep urxvt|grep -v Waterfox|cut -d' ' -f1)"
 else
-#     tmux has-session -t sess0
-#     hs=$?
     urxvt
-#     if [ $hs -ne 0 ]; then # no session
-#         urxvt; 
-#     else # if got session, attach
-#         urxvt -e tmux a -t sess0;
-#     fi
 fi
