@@ -3,5 +3,5 @@ if [[ "$(wmctrl -l|grep -c urxvt)" -ne 0 ]]; then
     tmux neww mutt 
     switch_to_urxvt
 else 
-    urxvt -e tmux -c "stty -ixon; mutt"
+    urxvt -e mutt
 fi
