@@ -1,7 +1,3 @@
-search C:
-search tv
-search term
-open_with g4
 search py
 search corre
 open_with J
@@ -42,9 +38,13 @@ rename squirrel-sql-3.8.1
 shell sudo rm -r powerline-disk-segment
 open_with 
 deleteyy
-delete
 search vim
 delete
 search Mack
 search 
 search IM 21
+search jpg
+search urx
+search conf
+search i3
+delete

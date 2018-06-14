@@ -1,58 +1,12 @@
-autocmd FileType c,cpp,java,scala,javascript                        let b:comment_leader = '// '
-autocmd FileType sh,ruby,python                                     let b:comment_leader = '# '
-autocmd FileType conf,fstab                                         let b:comment_leader = '# '
-autocmd FileType swipl,perl,tex                                     let b:comment_leader = '% '
-autocmd FileType mail                                               let b:comment_leader = '> '
-autocmd FileType vim                                                let b:comment_leader = '" '
-autocmd FileType lisp                                               let b:comment_leader = '; '
-autocmd FileType javascript                                         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 2.001; xdotool keyup alt'
-autocmd FileType javascript                                             set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python                                             let b:run_script = '! clear;python3 %'
-autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
-
 " nnoremap <Space><Space> /<++><CR>
 " let mapleader = ","
-set timeoutlen=1000 ttimeoutlen=0
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap , '
 " inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " reverse J
-nnoremap <C-o> i<CR><Esc> 
-nnoremap - $h
-vnoremap - $h
-
-nnoremap F gg=G''
-nnoremap QQ :q!<CR>
-
 command Reversefilelines g/^/m0
 command Jsonify execute ":%!python3 -m json.tool"
-
-" nnoremap <C-L> :10winc -
-" nnoremap <C-3> :res +5<CR>
-inoremap <A-Left> <ESC>h
-inoremap <A-Down> <ESC>j
-inoremap <A-Up> <ESC>k
-inoremap <A-Right> <ESC>l
-
-nnoremap <C-W> <Esc>:q<CR> 
-inoremap <C-W> <Esc>:q<CR>
-nnoremap <C-S> <Esc>:w<CR>
-inoremap <C-S> <Esc>:w<CR>
-
-nnoremap _ :split<CR>
-vnoremap _ :split<CR>
-nnoremap \| :vsplit<CR>
-vnoremap \| :vsplit<CR>
-
-inoremap jk <Esc>l
-vnoremap jk <Esc> 
-inoremap JK <Esc>l
-vnoremap JK <Esc> 
-" marks
-
-" Colorscheme
-colorscheme desert
 
 " VIRTUALBOX NUCLEAR DISASTER PREVENTION 9/11 WAS NOTHING NEXT TO THIS AND NOW WE HAVE THE FOLLOWING:
 " if has('persistent_undo')      "check if your vim version supports it
@@ -216,7 +170,7 @@ set statusline+=%f
 "let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
 let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
-let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python3']
+let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python3', 'pymode']
 let g:syntastic_yaml_checkers = ['jsyaml']
 let g:syntastic_html_tidy_exec = 'tidy5'
 
@@ -230,19 +184,12 @@ let g:UltiSnipsJumpBackwardTrigger="<A-BACKSPACE>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
-" ==== Easymotion
-let g:EasyMotion_do_mapping = 0
-let g:EasyMotion_smartcase = 1
-nmap f <Plug>(easymotion-s)
-
 " ==== moving around
 nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
-" ==== disable mouse
-set mouse=c
 
 " ==== custom commands
 Plugin 'christoomey/vim-tmux-navigator'
@@ -251,10 +198,61 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-let g:BASH_Ctrl_j = 'off'
 " let g:tmux_navigator_no_mappings = 1
 
 " nnoremap <silent> <A-Left >  :TmuxNavigateLeft<cr>
 " nnoremap <silent> <A-Down >  :TmuxNavigateDown<cr>
 " nnoremap <silent> <A-Up   >  :TmuxNavigateUp<cr>
 " nnoremap <silent> <A-Right>  :TmuxNavigateRight<cr>
+set mouse=c
+let g:BASH_Ctrl_j = 'off'
+
+" ==== Easymotion
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+nmap f <Plug>(easymotion-s)
+
+autocmd FileType c,cpp,java,scala,javascript                        let b:comment_leader = '// '
+autocmd FileType sh,ruby,python                                     let b:comment_leader = '# '
+autocmd FileType conf,fstab                                         let b:comment_leader = '# '
+autocmd FileType swipl,perl,tex                                     let b:comment_leader = '% '
+autocmd FileType mail                                               let b:comment_leader = '> '
+autocmd FileType vim                                                let b:comment_leader = '" '
+autocmd FileType lisp                                               let b:comment_leader = '; '
+autocmd FileType javascript                                         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 2.001; xdotool keyup alt'
+autocmd FileType javascript                                             set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python                                             let b:run_script = '! clear;python3 %'
+autocmd FileType python                                             let g:pymode_python = 'python3'
+autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
+
+inoremap <A-Left> <ESC>h
+inoremap <A-Down> <ESC>j
+inoremap <A-Up> <ESC>k
+inoremap <A-Right> <ESC>l
+
+nnoremap <C-W> <Esc>:q<CR> 
+inoremap <C-W> <Esc>:q<CR>
+nnoremap <C-S> <Esc>:w<CR>
+inoremap <C-S> <Esc>:w<CR>
+
+nnoremap _ :split<CR>
+vnoremap _ :split<CR>
+nnoremap \| :vsplit<CR>
+vnoremap \| :vsplit<CR>
+
+inoremap jk <Esc>l
+vnoremap jk <Esc> 
+inoremap JK <Esc>l
+vnoremap JK <Esc> 
+
+" ==== Visual timeouts
+set timeoutlen=1000 ttimeoutlen=0
+
+nnoremap <C-o> i<CR><Esc> 
+nnoremap - $h
+vnoremap - $h
+
+nnoremap F gg=G''
+nnoremap QQ :q!<CR>
+
+colorscheme desert

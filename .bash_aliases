@@ -93,12 +93,10 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias cutecat='awk "{print $0; system(\"sleep .001\");}"'
 #   text to speech:
 function tts(){ printf "(SayText \"$1\")" | festival -i;}
-# function vapor(){ echo "$1" | perl -wpe 's/(\w)/"\$1 "/eg'; }
-alias vapor='sed -r "s/(\w)/\1 /g"'
+alias vapor='sed -r "s/(.)/\1 /g"'
 alias d='trash'
 alias mbtc='/mnt/4ADE1465DE144C17/gdrive/Programming/bash/mbtc/alerter.sh'
 alias rp='realpath'
-# alias catcolors=''
 # short whereis for scripting
 function wis(){ whereis "$1" | cut -d':' -f2;}
 alias reip='re "\d+\.\d+\.\d+\.\d+"'
