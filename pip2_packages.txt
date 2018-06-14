@@ -56,6 +56,7 @@ ipaddress                    1.0.16
 isodate                      0.6.0                                                   
 itsdangerous                 0.24                                                    
 Jinja2                       2.9.6                                                   
+jsonpickle                   0.9.6                                                   
 jsonschema                   2.5.1                                                   
 Keras                        1.2.2                                                   
 kitchen                      1.2.5                                                   
@@ -81,6 +82,7 @@ PAM                          0.4.2
 pandas                       0.21.0                                                  
 paramiko                     1.16.0                                                  
 pbr                          3.1.1                                                   
+pd                           0.0.1                                                   
 pefile                       1.2.10.post139                                          
 pexpect                      4.0.1                                                   
 phonenumbers                 8.9.7                                                   
@@ -136,6 +138,7 @@ setuptools                   36.6.0
 sh                           1.12.14                                                 
 six                          1.11.0                                                  
 SQLAlchemy                   1.2.6                                                   
+telepot                      12.7                                                    
 tensorflow                   1.4.1                                                   
 tensorflow-tensorboard       0.4.0rc3                                                
 texttable                    0.8.1                                                   

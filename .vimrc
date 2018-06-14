@@ -12,12 +12,13 @@ autocmd FileType cpp                                                let b:run_sc
 
 " nnoremap <Space><Space> /<++><CR>
 " let mapleader = ","
+set timeoutlen=1000 ttimeoutlen=0
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap , '
 " inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
 " reverse J
-nnoremap <C-o> a<CR><Esc> 
+nnoremap <C-o> i<CR><Esc> 
 nnoremap - $h
 vnoremap - $h
 
@@ -25,10 +26,14 @@ nnoremap F gg=G''
 nnoremap QQ :q!<CR>
 
 command Reversefilelines g/^/m0
-command Json execute ":%!python3 -m json.tool"
+command Jsonify execute ":%!python3 -m json.tool"
 
 " nnoremap <C-L> :10winc -
 " nnoremap <C-3> :res +5<CR>
+inoremap <A-Left> <ESC>h
+inoremap <A-Down> <ESC>j
+inoremap <A-Up> <ESC>k
+inoremap <A-Right> <ESC>l
 
 nnoremap <C-W> <Esc>:q<CR> 
 inoremap <C-W> <Esc>:q<CR>
@@ -47,7 +52,7 @@ vnoremap JK <Esc>
 " marks
 
 " Colorscheme
-colorscheme peachpuff
+colorscheme desert
 
 " VIRTUALBOX NUCLEAR DISASTER PREVENTION 9/11 WAS NOTHING NEXT TO THIS AND NOW WE HAVE THE FOLLOWING:
 " if has('persistent_undo')      "check if your vim version supports it
