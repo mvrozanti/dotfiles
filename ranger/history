@@ -1,4 +1,3 @@
-open_with g
 search candle
 shell mkdir candle
 help rename
@@ -34,7 +33,6 @@ search urx
 search conf
 search i3
 search sql
-delete
 search 4Utils
 search Sys
 search netbeas
@@ -48,3 +46,5 @@ shell mkdir hta
 touch hta-powershell.rc
 open_with 
 open_with vim
+shell mkdir kekao
+delete

@@ -109,3 +109,4 @@ alias up2pi='rsync -a "`pwd`" torta:'
 # alias sumlines='python3 -c "import sys; print(eval("+".join(sys.stdin).replace("\n",""))"'
 # alias backup='rsync -e "ssh -p 22" -avzp /home/nexor/kekao 25.25.25.25:'
 alias tf='tail -f'
+function knock(){ nc -z "$1" "$2"; echo $?; }
