@@ -1,15 +1,3 @@
-search py
-search corre
-open_with J
-open_with 
-search neomutt
-open_with v
-open_with bash
-rename depicker.py_
-rename debuff.py
-rename depicker.py
-search steam
-find 
 open_with g
 search candle
 shell mkdir candle
@@ -25,7 +13,6 @@ shell mkdir btcd
 search Power
 search power
 search rat
-open_with vim
 search alpha
 delete
 
@@ -41,10 +28,23 @@ deleteyy
 search vim
 delete
 search Mack
-search 
 search IM 21
 search jpg
 search urx
 search conf
 search i3
+search sql
 delete
+search 4Utils
+search Sys
+search netbeas
+search 
+search netbeans
+search netbea
+rename Inicio_4Rulesq.java
+rename 
+rename metasploit
+shell mkdir hta
+touch hta-powershell.rc
+open_with 
+open_with vim

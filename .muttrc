@@ -172,4 +172,3 @@ color body          red             default         "([a-z][a-z0-9+-]*://(((([a-
 #folder-hook gmail/important    "color status        J_black         yellow          "
 
 set mailcap_path 	= ~/.mutt/.mailcap
-source "stty -ixon"

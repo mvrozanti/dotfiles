@@ -11,14 +11,14 @@
         "step": 1,
         "units": "seconds",
         "description": "Refresh interval",
-        "value": 60.0
+        "value": 60
     },
     "script1": {
         "type": "entry",
         "default": "echo 'hello, cinnamon!'",
         "description": "Command 1",
         "tooltip": "first line of output",
-        "value": "echo \u0e3f=`/home/nexor/disk/gdrive/Programming/bash/mbtc/alerter.sh`"
+        "value": "echo ฿=`/home/nexor/disk/gdrive/Programming/bash/mbtc/alerter.sh`"
     },
     "enableScript2": {
         "type": "checkbox",

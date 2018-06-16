@@ -11,8 +11,12 @@ if [ -z "$commit_message" ]; then
     return 1;
 fi
 
+# netbeans
+# cp -fR ~/.zshrc . 
+
 # zsh
 cp -fR ~/.zshrc . 
+
 # .profile
 cp -fR ~/.profile .
 

@@ -57,6 +57,7 @@ alias eye='tail -f'
 alias ka='killall'
 alias e='echo'
 alias c='xsel -i -b'
+alias co='xsel -o -b'
 alias feh='feh --sort mtime'
 alias cal='calcurse'
 alias randip="dd if=/dev/urandom bs=4 count=1 2>/dev/null | od -An -tu1 | sed -e 's/^ *//' -e 's/  */./g'"
@@ -93,7 +94,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias cutecat='awk "{print $0; system(\"sleep .001\");}"'
 #   text to speech:
 function tts(){ printf "(SayText \"$1\")" | festival -i;}
-alias vapor='sed -r "s/(.)/\1 /g"'
+function vapor(){ vapore="`cat -`"; n=1;if [[ "$1" == "-n" ]]; then n=$2;fi;for i in {1..$n};do vapore="`echo $vapore | sed -r 's/(.)/\1 /g'`";done;echo $vapore; }
 alias d='trash'
 alias mbtc='/mnt/4ADE1465DE144C17/gdrive/Programming/bash/mbtc/alerter.sh'
 alias rp='realpath'
