@@ -14,6 +14,9 @@ fi
 # netbeans
 # cp -fR ~/.zshrc . 
 
+# vimfx
+cp -fR ~/.vimfx .
+
 # zsh
 cp -fR ~/.zshrc . 
 

@@ -1,5 +1,3 @@
-search power
-search rat
 search alpha
 delete
 sudo rm
@@ -23,7 +21,6 @@ search sql
 search 4Utils
 search Sys
 search netbeas
-search 
 search netbeans
 search netbea
 rename Inicio_4Rulesq.java
@@ -46,5 +43,8 @@ search yba
 open_with 
 search una
 
-delete
 search pdf
+search 
+search mint
+rename Musiq
+delete
