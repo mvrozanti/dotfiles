@@ -37,7 +37,7 @@ alias termap='telnet mapscii.me'
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
 alias msk='ncmpcpp'
-alias vxdef='sudo vim $HOME/.Xdefaults'
+alias vxdef='sudo vim $HOME/.Xdefaults; xrdb $HOME/.Xdefaults'
 # config bashrc
 alias cfb='sudo vim $HOME/.bashrc'
 # config this

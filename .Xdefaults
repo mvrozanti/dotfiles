@@ -28,13 +28,15 @@
 *color15: #eeeeee
 *color17: #ae0000
 *color233: rgba:0500/0500/0500/f800
+URxvt*.letterSpacing: 29
 URxvt.intensityStyles:	false  
 URxvt.tintColor:    #5448ff
-URxvt.letterSpace: -1
 URxvt*saveLines: 0
 URxvt*.depth:		32
 URxvt*.termName:  screen-256color
-URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:hinting=true:size=10.5
+!!URxvt.font: xft:Droid Sans Mono Slashed for Powerline:antialias:size=11
+URxvt.font: xft:DroidSansMono Nerd Font:antialias:size=10
+!!URxvt.font: xft:DejaVu Sans Mono Nerd Font Complete:antialias:hinting=true:size=9.5
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#a0f000
 URxvt*dynamicColors: true

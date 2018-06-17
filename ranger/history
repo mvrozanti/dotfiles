@@ -1,16 +1,7 @@
-rename output.wmv
-rename Animated-lighting-Candle-1920x1200-Wallpape.wmv
-rename wallpaper.png
-rename wallpaper.jpg
-search .ncmp
-search ncmp
-shell mkdir btcd
-search Power
 search power
 search rat
 search alpha
 delete
-
 sudo rm
 shell sudo rm -r python-docx-template
 search C#gC
@@ -40,11 +31,20 @@ rename
 rename metasploit
 shell mkdir hta
 touch hta-powershell.rc
-open_with 
 open_with vim
 shell mkdir kekao
 edit
 edit kek
 e scrape.sh
 search cry
+search Deja
+search ranger
+search fonts
+open_with q
+search yu
+search yba
+open_with 
+search una
+
 delete
+search pdf
