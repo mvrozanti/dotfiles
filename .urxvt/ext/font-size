@@ -126,8 +126,8 @@ sub on_init {
 
    $self->bind_action ("C-plus", "%:increase")
       or warn "unable to register 'C-plus' as font-size increase hotkey\n";
-   $self->bind_action ("C-minus", "%:decrease")
-      or warn "unable to register 'C-minus' as font-size decrease hotkey\n";
+#    $self->bind_action ("C-minus", "%:decrease")
+#       or warn "unable to register 'C-minus' as font-size decrease hotkey\n";
    $self->bind_action ("C-0", "%:reset")
       or warn "unable to register 'C-0' as font-size reset hotkey\n";
 }

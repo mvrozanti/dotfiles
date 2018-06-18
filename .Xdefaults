@@ -28,7 +28,7 @@
 *color15: #eeeeee
 *color17: #ae0000
 *color233: rgba:0500/0500/0500/f800
-URxvt*.letterSpacing: 29
+!!URxvt*.letterSpacing: 
 URxvt.intensityStyles:	false  
 URxvt.tintColor:    #5448ff
 URxvt*saveLines: 0
@@ -52,8 +52,8 @@ URxvt.keysym.C-Up:     perl:font-size:increase
 URxvt.keysym.C-Down:   perl:font-size:decrease
 URxvt.keysym.C-S-Up:   perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
-URxvt.keysym.C-equal:  perl:font-size:reset
-URxvt.keysym.C-slash:  perl:font-size:show
+!!URxvt.keysym.C-equal:  perl:font-size:reset
+!!URxvt.keysym.C-slash:  perl:font-size:show
 URxvt.iso14755:        false
 URxvt.iso14755_52:     false
 URxvt.keysym.C-M-c:    builtin-string:
@@ -70,3 +70,4 @@ URxvt.keysym.C-6: command:\033]11;rgba:0500/0500/0500/a800\007
 URxvt.keysym.C-7: command:\033]11;rgba:0500/0500/0500/c800\007
 URxvt.keysym.C-8: command:\033]11;rgba:0500/0500/0500/f800\007
 URxvt.keysym.C-9: command:\033]11;#000000\007
+URxvt.keysym.C-minus:  perl:font-size:show

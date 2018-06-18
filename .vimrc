@@ -13,6 +13,7 @@ command Jsonify execute ":%!python3 -m json.tool"
 " Put plugins and dictionaries in this dir (also on Windows)
 let vimDir = '$HOME/.vim'
 let &runtimepath.=','.vimDir
+inoremap QQ <Esc>:q!<CR>
 
 " Keep undo history across sessions by storing it in a file
 if has('persistent_undo')
@@ -256,3 +257,5 @@ nnoremap F gg=G''
 nnoremap QQ :q!<CR>
 
 colorscheme desert
+let g:EclimFileTypeValidate = 0
+let g:syntastic_java_javac_config_file_enabled = 1
