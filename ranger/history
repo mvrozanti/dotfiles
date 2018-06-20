@@ -1,5 +1,3 @@
-search vim
-delete
 search Mack
 search IM 21
 search jpg
@@ -48,3 +46,5 @@ search meu-deus
 search minha
 rename config_4Desk.properties
 deletevv
+search sys
+rename sys4bank
