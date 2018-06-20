@@ -1,5 +1,9 @@
 " nnoremap <Space><Space> /<++><CR>
 " let mapleader = ","
+nnoremap gJ gT
+nnoremap gK gt
+nnoremap M :tabedit %<CR>
+nnoremap <C-N> :tabe<CR>
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap , '
@@ -105,6 +109,7 @@ Plugin 'tpope/vim-fugitive'
 " ==== syntax helpers
 Plugin 'scrooloose/syntastic'
 let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_java_checkers=['eclim']
 Plugin 'tpope/vim-surround'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'othree/yajs.vim'
@@ -257,5 +262,5 @@ nnoremap F gg=G''
 nnoremap QQ :q!<CR>
 
 colorscheme desert
-let g:EclimFileTypeValidate = 0
+" let g:EclimFileTypeValidate = 0
 let g:syntastic_java_javac_config_file_enabled = 1

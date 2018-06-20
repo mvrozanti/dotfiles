@@ -12,7 +12,7 @@ if [ -z "$commit_message" ]; then
 fi
 
 # netbeans
-# cp -fR ~/.zshrc . 
+cp -fR ~/.config/netbeans . 
 
 # vimfx
 cp -fR ~/.vimfx .
