@@ -93,7 +93,7 @@ alias gip='re "((\d{1,3}\.){3}\d{1,3})"'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias cutecat='awk "{print $0; system(\"sleep .001\");}"'
 #   text to speech:
-function tts(){ printf "(SayText \"$1\")" | festival -i;}
+function tts(){ printf "(SayText "`cat -`")" | festival -i;}
 function vapor(){ vapore="`cat -`"; n=1;if [[ "$1" == "-n" ]]; then n=$2;fi;for i in {1..$n};do vapore="`echo $vapore | sed -r 's/(.)/\1 /g'`";done;echo $vapore; }
 alias d='trash'
 alias mbtc='/mnt/4ADE1465DE144C17/gdrive/Programming/bash/mbtc/alerter.sh'
@@ -111,7 +111,8 @@ alias up2pi='rsync -a "`pwd`" torta:'
 alias tf='tail -f'
 function t2d(){ timestamp="`cat -`"; date -d "@$timestamp"; }
 function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
-function sshasap(){ watch -g "nc -z $1 $2; echo $?"; ssh "$1":"$2"; }
+function ec() { [[ "$1" == "-h" ]] && { shift && eval $* > /dev/null 2>&1; ec=$?; echo $ec; } || eval $*; ec=$?; }
+function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]];do sleep 1; done; ssh "$1"; }
 function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
 alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/config_*.properties|v -'
 alias diff='diff --color=auto'
