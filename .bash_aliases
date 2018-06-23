@@ -113,3 +113,5 @@ function t2d(){ timestamp="`cat -`"; date -d "@$timestamp"; }
 function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
 function sshasap(){ watch -g "nc -z $1 $2; echo $?"; ssh "$1":"$2"; }
 function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
+alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/config_*.properties|v -'
+alias diff='diff --color=auto'

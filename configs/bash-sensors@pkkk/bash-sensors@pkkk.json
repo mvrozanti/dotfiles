@@ -24,7 +24,7 @@
         "type": "checkbox",
         "default": true,
         "description": "Two-line mode (command 2 enabled)",
-        "value": false
+        "value": true
     },
     "script2": {
         "type": "entry",
@@ -39,7 +39,7 @@
         "default": "sensors",
         "description": "Menu command (on applet left-click)",
         "tooltip": "allows to display lots of information in popup menu",
-        "value": "echo vol:`curl -s https://www.mercadobitcoin.net/api/BTC/ticker/ | jq '.[\"ticker\"].vol' | tr -d '\"' | sed -e 's/\\.[0-9]\\+//'`"
+        "value": "kek=\"$(curl -s http://worldcup.sfg.io/matches/current)\"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'"
     },
     "__md5__": "7431f3fcf35d8b1829c86f9ac00e557a"
 }

@@ -1,11 +1,3 @@
-search Mack
-search IM 21
-search jpg
-search urx
-search conf
-search i3
-search sql
-search 4Utils
 search Sys
 search netbeas
 search netbeans
@@ -15,7 +7,6 @@ rename
 rename metasploit
 shell mkdir hta
 touch hta-powershell.rc
-open_with vim
 shell mkdir kekao
 edit
 edit kek
@@ -28,23 +19,32 @@ open_with q
 search yu
 search yba
 search una
-
 search pdf
 search 
 search mint
 rename Musiq
 cd .eclipse/
 search tmux
-delete
 search ext
 search urxvt
 search s4U
 [1;5A[1;5A[1;5A
 open_with gS
-open_with 
 search meu-deus
 search minha
-rename config_4Desk.properties
 deletevv
 search sys
 rename sys4bank
+rename config_4Corp.properties
+rename config_4Desk.properties
+shell ./enc.sh
+shell 
+
+search Ru
+rename config_4rules.properties
+open_with 
+open_with vim
+search wall
+delete
+search they
+quit

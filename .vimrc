@@ -1,9 +1,14 @@
 " nnoremap <Space><Space> /<++><CR>
 " let mapleader = ","
+set nofoldenable
+set foldmethod=manual
+autocmd BufWinLeave .vimrc mkview
+autocmd BufWinEnter .vimrc silent loadview 
 nnoremap gJ gT
 nnoremap gK gt
 nnoremap M :tabedit %<CR>
 nnoremap <C-N> :tabe<CR>
+nnoremap <Leader>w <C-W>
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap , '
