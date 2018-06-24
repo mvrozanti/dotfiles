@@ -4,6 +4,8 @@ set nofoldenable
 set foldmethod=manual
 autocmd BufWinLeave .vimrc mkview
 autocmd BufWinEnter .vimrc silent loadview 
+" hits bong: 
+vnoremap ( xi()<Esc>PF(i
 nnoremap gJ gT
 nnoremap gK gt
 nnoremap M :tabedit %<CR>
@@ -17,7 +19,6 @@ nnoremap , '
 command Reversefilelines g/^/m0
 command Jsonify execute ":%!python3 -m json.tool"
 
-" VIRTUALBOX NUCLEAR DISASTER PREVENTION 9/11 WAS NOTHING NEXT TO THIS AND NOW WE HAVE THE FOLLOWING:
 " if has('persistent_undo')      "check if your vim version supports it
 " Put plugins and dictionaries in this dir (also on Windows)
 let vimDir = '$HOME/.vim'
