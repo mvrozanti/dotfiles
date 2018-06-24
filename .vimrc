@@ -2,12 +2,13 @@
 " let mapleader = ","
 set nofoldenable
 set foldmethod=manual
-autocmd BufWinLeave .vimrc mkview
-autocmd BufWinEnter .vimrc silent loadview 
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
+
+" tabs
 nnoremap gJ gT
 nnoremap gK gt
+
 nnoremap M :tabedit %<CR>
 nnoremap <C-N> :tabe<CR>
 nnoremap <Leader>w <C-W>

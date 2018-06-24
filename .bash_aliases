@@ -114,5 +114,5 @@ function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
 function ec() { [[ "$1" == "-h" ]] && { shift && eval $* > /dev/null 2>&1; ec=$?; echo $ec; } || eval $*; ec=$?; }
 function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]];do sleep 1; done; beep; ssh "$1"; }
 function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
-alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/config_*.properties|v -'
+alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.properties|v -'
 alias diff='diff --color=auto'

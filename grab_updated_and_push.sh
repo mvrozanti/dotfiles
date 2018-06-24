@@ -36,7 +36,9 @@ cp -fR /opt/whatsapp-desktop/resources/app/css/settings.css .
 cp -fR ~/.urlview .
 
 # ranger
-cp -fR  ~/.config/ranger .
+cp -fR  ~/.config/ranger/rc.conf .
+cp -fR  ~/.config/ranger/scope.sh .
+cp -fR  ~/.config/ranger/rifle.conf .
 
 # ncmpcpp
 cp -fR  ~/.ncmpcpp/ .
