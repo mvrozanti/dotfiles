@@ -1,7 +1,7 @@
 # THIS SHOULD BE IN SYNC W/ RPI AND LAPTOP
 # ALIAS BLOCK START
 alias rm='rm -f'
-alias ll='ls -alF'
+alias ll='ls -alFh'
 alias la='ls -A'
 alias lo='ls --sort=time'
 alias l='ls -lF --sort=time'
@@ -111,8 +111,10 @@ alias up2pi='rsync -a "`pwd`" torta:'
 alias tf='tail -f'
 function t2d(){ timestamp="`cat -`"; date -d "@$timestamp"; }
 function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
+# exit code of arg
 function ec() { [[ "$1" == "-h" ]] && { shift && eval $* > /dev/null 2>&1; ec=$?; echo $ec; } || eval $*; ec=$?; }
 function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]];do sleep 1; done; beep; ssh "$1"; }
 function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
 alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.properties|v -'
 alias diff='diff --color=auto'
+alias fslint='/usr/share/fslint/fslint/fslint'

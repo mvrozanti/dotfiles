@@ -1,7 +1,7 @@
 " nnoremap <Space><Space> /<++><CR>
-" let mapleader = ","
 set nofoldenable
 set foldmethod=manual
+
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 
@@ -15,8 +15,6 @@ nnoremap <Leader>w <C-W>
 
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
 nnoremap , '
-" inoremap <buffer> <F5><silent> <Esc>:w<CR>:call system(b:run_script)<CR>
-" reverse J
 command Reversefilelines g/^/m0
 command Jsonify execute ":%!python3 -m json.tool"
 
@@ -162,6 +160,7 @@ set tabstop=4
 :set guioptions-=r  "remove right-hand scroll bar
 :set guioptions-=L  "remove left-hand scroll bar
 
+
 " ==== NERDTREE
 let NERDTreeIgnore = ['\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '[a-zA-Z]*cache[a-zA-Z]*', '.DS_Store']
 
@@ -233,7 +232,7 @@ autocmd FileType mail                                               let b:commen
 autocmd FileType vim                                                let b:comment_leader = '" '
 autocmd FileType lisp                                               let b:comment_leader = '; '
 autocmd FileType javascript                                         let b:run_script = '!clear;xvkbd -window Firefox -text "\Cr" && xdotool keydown alt key Tab; sleep 2.001; xdotool keyup alt'
-autocmd FileType javascript                                             set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType javascript                                         set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python                                             let b:run_script = '! clear;python3 %'
 autocmd FileType python                                             let g:pymode_python = 'python3'
 autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
@@ -261,7 +260,10 @@ vnoremap JK <Esc>
 " ==== Visual timeouts
 set timeoutlen=1000 ttimeoutlen=0
 
+" reverse J
 nnoremap <C-o> i<CR><Esc> 
+
+" endl but not really
 nnoremap - $h
 vnoremap - $h
 
