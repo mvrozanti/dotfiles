@@ -4,6 +4,7 @@ set foldmethod=manual
 
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " tabs
 nnoremap gJ gT
@@ -225,8 +226,7 @@ let g:EasyMotion_smartcase = 1
 nmap f <Plug>(easymotion-s)
 
 autocmd FileType c,cpp,java,scala,javascript                        let b:comment_leader = '// '
-autocmd FileType sh,ruby,python                                     let b:comment_leader = '# '
-autocmd FileType conf,fstab                                         let b:comment_leader = '# '
+autocmd FileType conf,fstab,sh,ruby,python                          let b:comment_leader = '# '
 autocmd FileType swipl,perl,tex                                     let b:comment_leader = '% '
 autocmd FileType mail                                               let b:comment_leader = '> '
 autocmd FileType vim                                                let b:comment_leader = '" '
