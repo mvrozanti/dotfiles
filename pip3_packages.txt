@@ -121,6 +121,7 @@ pexpect                    4.0.1
 pickleshare                0.7.4                 
 Pillow                     4.3.0                 
 pip                        10.0.1                
+pipenv                     2018.6.25             
 piston-mini-client         0.7.5                 
 pluggy                     0.3.1                 
 pocket                     0.3.6                 
@@ -177,6 +178,7 @@ ranger-fm                  1.9.1
 reportlab                  3.3.0                 
 requests                   2.18.4                
 requests-oauthlib          0.8.0                 
+requests-threads           0.1.1                 
 rtv                        1.20.0                
 scikit-image               0.13.1                
 scikit-learn               0.19.1                
@@ -227,6 +229,7 @@ urllib3                    1.22
 vboxapi                    1.0                   
 virtkey                    0.63.0                
 virtualenv                 15.0.1                
+virtualenv-clone           0.3.0                 
 watson-developer-cloud     1.3.3                 
 wcwidth                    0.1.7                 
 websocket-client           0.44.0                
