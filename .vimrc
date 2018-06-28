@@ -5,6 +5,7 @@ set foldmethod=manual
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+inoremap \ci code.interact(local=locals())<Esc> 
 
 " tabs
 nnoremap gJ gT
