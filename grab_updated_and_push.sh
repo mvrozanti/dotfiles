@@ -74,6 +74,8 @@ cp -fR /etc/mpd.conf .
 
 # ownscripts
 mkdir -p usr-local-bin
+cp -fR /usr/local/bin/mbtc-add.sh usr-local-bin
+cp -fR /usr/local/bin/mbtc-remove.sh usr-local-bin
 cp -fR /usr/local/bin/dota usr-local-bin
 cp -fR /usr/local/bin/scr usr-local-bin
 cp -fR /usr/local/bin/isthere usr-local-bin

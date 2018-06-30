@@ -5,7 +5,8 @@ set foldmethod=manual
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
-inoremap \ci code.interact(local=locals())<Esc> 
+inoremap ,ci code.interact(local=locals())<Esc> 
+inoremap ,ld LOG.debug()<Esc>i
 
 " tabs
 nnoremap gJ gT
@@ -26,28 +27,9 @@ let vimDir = '$HOME/.vim'
 let &runtimepath.=','.vimDir
 inoremap QQ <Esc>:q!<CR>
 
-" Keep undo history across sessions by storing it in a file
-if has('persistent_undo')
-    let myUndoDir = expand(vimDir . '/undodir')
-    " Create dirs
-    call system('mkdir ' . vimDir)
-    call system('mkdir ' . myUndoDir)
-    let &undodir = myUndoDir
-    set undofile
-endif
-
-" endif   
-
-" Commenting blocks of code.
-vnoremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-vnoremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
-
 " netbeans<3
 inoremap <C-E> <Esc> ddi
 nnoremap <C-E> dd
-
-" kill REPLACE mode
-inoremap <Insert> <Esc>
 
 set hlsearch
 set clipboard=unnamedplus
@@ -265,12 +247,31 @@ set timeoutlen=1000 ttimeoutlen=0
 nnoremap <C-o> i<CR><Esc> 
 
 " endl but not really
-nnoremap - $h
-vnoremap - $h
+" this is actually not needed since d$
+" nnoremap - $h
+" vnoremap - $h
 
 nnoremap F gg=G''
 nnoremap QQ :q!<CR>
 
-colorscheme desert
+colorscheme peachpuff
 " let g:EclimFileTypeValidate = 0
 let g:syntastic_java_javac_config_file_enabled = 1
+
+" kill REPLACE mode
+inoremap <Insert> <Esc>
+
+" Commenting blocks of code.
+vnoremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+vnoremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
+
+" Keep undo history across sessions by storing it in a file
+if has('persistent_undo')
+    let myUndoDir = expand(vimDir . '/undodir')
+    " Create dirs
+    call system('mkdir ' . vimDir)
+    call system('mkdir ' . myUndoDir)
+    let &undodir = myUndoDir
+    set undofile
+endif
+
