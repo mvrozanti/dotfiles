@@ -122,3 +122,4 @@ alias diff='diff --color=auto'
 alias fslint='/usr/share/fslint/fslint/fslint'
 alias stream='pkill darkice; alsao2i; tmux new -d darkice'
 alias tailor='curl -s https://raw.githubusercontent.com/toddsifleet/tailor/master/main.py|py2 - .'
+cd() { builtin cd "$@" && ls; }

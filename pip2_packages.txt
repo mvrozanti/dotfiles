@@ -125,6 +125,7 @@ python-axolotl-curve25519    0.4.1.post2
 python-dateutil              2.6.1                                                   
 python-debian                0.1.27                                                  
 python-gflags                1.5.1                                                   
+python-ldap                  2.4.22                                                  
 python-xlib                  0.14                                                    
 pyttsx                       1.1                                                     
 pytz                         2014.10                                                 
