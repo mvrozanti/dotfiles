@@ -49,8 +49,8 @@ cp -fR  ~/.urxvt/ .
 # tmux
 cp -fR ~/.tmux.conf .
 
-# .Xdefaults ; move to Xresources?
-cp -fR ~/.Xdefaults .
+# .Xresources
+cp -fR ~/.Xresources .
 
 # .bashrc
 cp -fR ~/.bashrc .

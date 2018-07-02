@@ -18,7 +18,7 @@ alias r='ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(i
 alias sr='sudo ranger --choosedir=$HOME/.rangerdir --cmd="set preview_files=true" "$(if [ -z "$@" ]; then cat $HOME/.rangerdir; fi)";cd "`cat $HOME/.rangerdir`"'
 alias v='vim'
 alias em='emacs -nw'
-# test .Xdefaults colors
+# test .Xresources colors
 alias testx='echo;for a in {40..47}; do echo -ne "\e[0;30;$a""m  ""\e[0;37;39m "; done; echo ""'
 alias cutefetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
 alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
@@ -39,7 +39,7 @@ alias termap='telnet mapscii.me'
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
 alias msk='ncmpcpp'
-alias vxdef='sudo vim $HOME/.Xdefaults; xrdb $HOME/.Xdefaults'
+alias vxdef='sudo vim $HOME/.Xresources; xrdb $HOME/.Xresources'
 # config bashrc
 alias cfb='sudo vim $HOME/.bashrc'
 # config this
