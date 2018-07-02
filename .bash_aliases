@@ -120,5 +120,6 @@ function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -
 alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.properties|v -'
 alias diff='diff --color=auto'
 alias fslint='/usr/share/fslint/fslint/fslint'
-alias stream='pkill darkice; alsao2i; tmux new -d darkice'
-cd() { builtin cd "$@" && ls; }
+alias stream='pkill darkice; alsao2i; tmux new -d darkice'  
+# cd() { builtin cd "$@" && ls; }
+alias READTHIS='grip -b'
