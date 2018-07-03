@@ -218,7 +218,7 @@ autocmd FileType javascript                                         let b:run_sc
 autocmd FileType javascript                                         set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python                                             let b:run_script = '! clear;python3 %'
 autocmd FileType python                                             let g:pymode_python = 'python3'
-autocmd FileType cpp                                                let b:run_script = '! clear; echo % -o %:s?.cp\*?? ;read'
+autocmd FileType cpp                                                let b:run_script = '! clear; make && !%:r'
 
 inoremap <A-Left> <ESC>h
 inoremap <A-Down> <ESC>j
