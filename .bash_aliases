@@ -101,7 +101,7 @@ alias d='trash'
 alias mbtc='/mnt/4ADE1465DE144C17/gdrive/Programming/bash/mbtc/alerter.sh'
 alias rp='realpath'
 # short whereis for scripting
-function wis(){ whereis "$1" | cut -d':' -f2;}
+function wis(){ whereis "$1" | cut -d':' -f2 | cut -d' ' -f2;}
 alias reip='re "\d+\.\d+\.\d+\.\d+"'
 alias ecdsa='ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub'
 alias pi2='sudo -H pip2 install'
