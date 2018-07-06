@@ -121,5 +121,8 @@ alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.prope
 alias diff='diff --color=auto'
 alias fslint='/usr/share/fslint/fslint/fslint'
 alias stream='pkill darkice; alsao2i; tmux new -d darkice'  
+# show directory content after changing to it; except it also works in scripts so idk
 # cd() { builtin cd "$@" && ls; }
+# for real time READMEs editing:
 alias READTHIS='grip -b'
+function cdt(){ wis_smth="`wis "$1"`"; abs_path="`readlink -f "$wis_smth"`"; cd `dirname "$abs_path"`; }
