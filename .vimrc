@@ -2,22 +2,31 @@
 set nofoldenable
 set foldmethod=manual
 
+" lets try this out
+nnoremap p P
+
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
-inoremap ,ci code.interact(local=locals())<Esc> 
-inoremap ,ld LOG.debug()<Esc>i
+autocmd FileType python inoremap ,ci code.interact(local=locals())<Esc> 
+autocmd FileType python inoremap ,ld LOG.debug()<Esc>i
+autocmd FileType python inoremap ,pr print()<Esc>i
 
 " tabs
 nnoremap gJ gT
 nnoremap gK gt
 
-nnoremap M :tabedit %<CR>
+" nnoremap M :tabedit %<CR>
 nnoremap <C-N> :tabe<CR>
 nnoremap <Leader>w <C-W>
 
+" WIP
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
+
+" remap mark
 nnoremap , '
+
+" general
 command Reversefilelines g/^/m0
 command Jsonify execute ":%!python3 -m json.tool"
 

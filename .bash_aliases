@@ -126,3 +126,4 @@ alias stream='pkill darkice; alsao2i; tmux new -d darkice'
 # for real time READMEs editing:
 alias READTHIS='grip -b'
 function cdt(){ wis_smth="`wis "$1"`"; abs_path="`readlink -f "$wis_smth"`"; cd `dirname "$abs_path"`; }
+alias filesize='du -h'
