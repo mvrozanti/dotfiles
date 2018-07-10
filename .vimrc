@@ -2,15 +2,14 @@
 set nofoldenable
 set foldmethod=manual
 
-" lets try this out
-nnoremap p P
-
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 autocmd FileType python inoremap ,ci code.interact(local=locals())<Esc> 
 autocmd FileType python inoremap ,ld LOG.debug()<Esc>i
 autocmd FileType python inoremap ,pr print()<Esc>i
+autocmd FileType python inoremap ,shebang #!/usr/bin/env python
+autocmd FileType sh     inoremap ,shebang #!/bin/bash
 
 " tabs
 nnoremap gJ gT

@@ -17,7 +17,9 @@ if 'file' in parsed and parsed.file: content = '\n'.join(open(parsed.file).readl
 else: content = ''.join(sys.stdin)
 
 regex = sys.argv[1]
-search = re.findall(regex, content,  re.MULTILINE) if parsed.m else re.findall(regex, content)
+if parsed.m: search = re.findall(regex, content,  re.MULTILINE)
+else: re.findall(regex, content)
+
 if len(search) > 0:
     for result in search:
         print(result,  flush=True)

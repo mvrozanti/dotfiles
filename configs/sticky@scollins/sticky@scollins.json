@@ -77,14 +77,14 @@
         "default": [],
         "value": [
             {
-                "x": 2638.998291015625,
-                "y": 610.99951171875,
+                "x": 1309.998291015625,
+                "y": 598.99951171875,
                 "height": 425,
                 "width": 601,
                 "theme": "purple",
                 "title": "TODO",
                 "type": "note",
-                "text": "https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash#192266\n\nmakescripts\n\naddalias\n\n\n123 men theory\n\ncloud ipfs"
+                "text": "https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash#192266\n\nmakescripts\n\naddalias\n\n\n123 men theory\n\ncloud ipfs\n\nRL804101593CN\nRG950720747CN"
             }
         ],
         "type": "generic"
