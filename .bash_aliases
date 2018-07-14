@@ -110,7 +110,7 @@ alias vzsh='sudo vim $HOME/.zshrc'
 alias up2pi='rsync -a "`pwd`" torta:'
 # alias sumlines='python3 -c "import sys; print(eval("+".join(sys.stdin).replace("\n",""))"'
 # alias backup='rsync -e "ssh -p 22" -avzp /home/nexor/kekao 25.25.25.25:'
-alias tf='tail -f'
+function tf() { tail -f "$1" 2>&1 | perl -ne 'if (/file truncated/) {system 'clear'; print} else {print}'; }
 function t2d(){ timestamp="`cat -`"; date -d "@$timestamp"; }
 function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
 # exit code of arg
