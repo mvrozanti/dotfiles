@@ -6,11 +6,21 @@ set foldmethod=manual
 vnoremap ( xi()<Esc>PF(i
 nnoremap c( $F(lvt)c
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+
+" python shortcuts
 autocmd FileType python inoremap ,ci code.interact(local=locals())<Esc> 
 autocmd FileType python inoremap ,ld LOG.debug()<Esc>i
 autocmd FileType python inoremap ,pr print()<Esc>i
 autocmd FileType python inoremap ,she #!/usr/bin/env python
+autocmd FileType python inoremap Fa<tab> False
+autocmd FileType python inoremap Tr<tab> True
+
+" bash shortcuts
 autocmd FileType sh     inoremap ,she #!/bin/bash
+
+
+" remove highlight
 nnoremap <Esc><Esc> :nohl<CR>
 
 " tabs
