@@ -9,9 +9,9 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 
 " python shortcuts
-autocmd FileType python inoremap ,ci code.interact(local=locals())<Esc> 
-autocmd FileType python inoremap ,ld LOG.debug()<Esc>i
-autocmd FileType python inoremap ,pr print()<Esc>i
+autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
+autocmd FileType python inoremap ld<tab> LOG.debug()<Esc>i
+autocmd FileType python inoremap pr<tab> print()<Esc>i
 autocmd FileType python inoremap ,she #!/usr/bin/env python
 autocmd FileType python inoremap Fa<tab> False
 autocmd FileType python inoremap Tr<tab> True
