@@ -11,6 +11,7 @@ autocmd FileType python inoremap ,ld LOG.debug()<Esc>i
 autocmd FileType python inoremap ,pr print()<Esc>i
 autocmd FileType python inoremap ,she #!/usr/bin/env python
 autocmd FileType sh     inoremap ,she #!/bin/bash
+nnoremap <Esc><Esc> :nohl<CR>
 
 " tabs
 nnoremap gJ gT
