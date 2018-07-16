@@ -6,6 +6,7 @@ set foldmethod=manual
 vnoremap ( xi()<Esc>PF(i
 nnoremap c( $F(lvt)c
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+nnoremap cW eF_hvbx
 
 
 " python shortcuts

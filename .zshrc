@@ -2,7 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/nexor/.oh-my-zsh
+export ZSH=/home/nexor/.oh-my-zsh
+# export PATH=/home/nexor/miniconda3/bin:$PATH
 
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_FIXTERM=true
