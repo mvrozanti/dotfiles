@@ -15,12 +15,12 @@ nnoremap cW eF_hvbc
 autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
 autocmd FileType python inoremap ld<tab> LOG.debug()<Esc>i
 autocmd FileType python inoremap pr<tab> print()<Esc>i
-autocmd FileType python inoremap ,she #!/usr/bin/env python
+autocmd FileType python inoremap she #!/usr/bin/env python
 autocmd FileType python inoremap Fa<tab> False
 autocmd FileType python inoremap Tr<tab> True
 
 " bash shortcuts
-autocmd FileType sh     inoremap ,she #!/bin/bash
+autocmd FileType sh     inoremap she #!/bin/bash
 
 
 " remove highlight
