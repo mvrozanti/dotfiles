@@ -12,6 +12,7 @@ nnoremap c( $F(lvt)c
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 nnoremap cW eF_hvbc
 
+nmap S ysiw
 
 " python shortcuts
 autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
