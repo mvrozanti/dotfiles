@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import code
 import re
 import sys
 import argparse
@@ -7,18 +8,16 @@ import fileinput
 # parse args
 parser = argparse.ArgumentParser(description='Regex simplified')
 parser.add_argument('-m',  action='store_true',  help='enable multiline search')
-# parser.add_argument('-c', help='enable multiline search')
 parser.add_argument('regex', nargs=1, help='regex')
 parser.add_argument('file', nargs='?', help='file')
 parsed = parser.parse_args()
 
-# actual regex stuff
 if 'file' in parsed and parsed.file: content = '\n'.join(open(parsed.file).readlines())
-else: content = ''.join(sys.stdin)
+else: content = '\n'.join(sys.stdin)
 
-regex = sys.argv[1]
+regex = ''.join(parsed.regex)
 if parsed.m: search = re.findall(regex, content,  re.MULTILINE)
-else: re.findall(regex, content)
+else: search = re.findall(regex, content)
 
 if len(search) > 0:
     for result in search:
