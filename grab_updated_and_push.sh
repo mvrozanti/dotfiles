@@ -95,6 +95,7 @@ cp -fR /usr/local/bin/youtube-pl usr-local-bin
 #cp -fR /usr/local/bin/mpc-play-pause usr-local-bin
 cp -fR /usr/local/bin/pipes usr-local-bin
 cp -fR /usr/local/bin/murxvtt usr-local-bin
+cp -fR `realpath /usr/local/bin/xpath` usr-local-bin
 
 # pip packages
 pip2 list > pip2_packages.txt
