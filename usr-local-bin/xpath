@@ -1,21 +1,44 @@
 #!/usr/bin/env python3
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import code
 import argparse
 import requests
 import sys
 from lxml import html
 
-parser      = argparse.ArgumentParser(description='get text of xpath element in html document')
+parser      = argparse.ArgumentParser(description='extract text of xpath element in html documents')
 group       = parser.add_mutually_exclusive_group(required=True)
 group.add_argument('-u', metavar='url', help='parse url')
+parser.add_argument('-j', action='store_true', help='parse javascript (requires -u)')
 group.add_argument('-f', metavar='input-file', help='parse file')
 group.add_argument('-i', action='store_true', default=not any([w in sys.argv for w in ['-u', '-f']]), help='parse stdin (default)')
-parser.add_argument('-x', metavar='xpath', required=True, help='the xpath to extract')
-parser.add_argument('-j', action='store_true', help='javascript context')
+parser.add_argument('query', help='the xpath to extract')
 parsed = parser.parse_args()
 
-if parsed.u: content = requests.get(parsed.u).text
+query = parsed.query + '/text()'
+
+if parsed.u: 
+    if parsed.j: 
+        from selenium import webdriver
+        from selenium.webdriver.support import expected_conditions as EC
+        from selenium.webdriver.support.ui import WebDriverWait
+        from selenium.webdriver.common.by import By
+        user_agent = (
+            'Mozilla/5.0 (X11; CrOS armv7l 9592.96.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.114 Safari/537.36'
+        )
+
+        dcap = dict(DesiredCapabilities.PHANTOMJS)
+        dcap["phantomjs.page.settings.userAgent"] = user_agent
+        driver = webdriver.PhantomJS(desired_capabilities=dcap)
+        driver.set_window_size(1024, 768)
+        driver.get(parsed.u)
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, parsed.query)))
+        content = driver.page_source
+        code.interact(local=locals())
+        driver.close()
+    else: content = requests.get(parsed.u).text
 elif parsed.f: content = ''.join(open(parsed.f).readlines())
 elif parsed.i: content = ''.join(sys.stdin)
 tree = html.fromstring(content)
-smth = tree.xpath(parsed.x + '/text()')
+smth = tree.xpath()
 print(smth)

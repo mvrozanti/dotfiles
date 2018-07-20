@@ -221,6 +221,7 @@ testpath                   0.3.1
 tf-nightly-gpu             1.5.0.dev20171202     
 Theano                     0.9.0                 
 thin-client-config-agent   0.8                   
+tinydb                     3.9.0.post1           
 torch                      0.4.0                 
 tornado                    4.2.1                 
 torrequest                 0.1.0                 
