@@ -23,7 +23,8 @@ autocmd FileType python inoremap Fa<tab> False
 autocmd FileType python inoremap Tr<tab> True
 
 " bash shortcuts
-autocmd FileType sh     inoremap she #!/bin/bash
+" autocmd FileType sh     
+inoremap she #!/bin/bash
 
 " remove highlight
 nnoremap <Esc><Esc> :nohl<CR>

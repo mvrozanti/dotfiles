@@ -115,7 +115,7 @@ function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
 # exit code of arg
 function ec() { [[ "$1" == "-h" ]] && { shift && eval $* > /dev/null 2>&1; ec=$?; echo $ec; } || eval $*; ec=$?; }
 function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]];do sleep 1; done; beep; ssh "$1"; }
-function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
+# function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
 alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.properties|v -'
 alias diff='diff --color=auto'
 alias fslint='/usr/share/fslint/fslint/fslint'
@@ -128,3 +128,4 @@ function cdt(){ wis_smth="`wis "$1"`"; abs_path="`readlink -f "$wis_smth"`"; cd 
 alias filesize='du -h'
 function addalias(){ echo "alias $1='${@:2}'" >> $HOME/.bash_aliases; }
 function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@:3}"; for i in {1..$n}; do sh -c $cmd; done; }
+function yt2komorebi(){ ytlink="$1"; echo -n "Name of new wallpaper:"; read name; cd /System/Resources/Komorebi/; sudo cp -r lava $name; cd $name; sudo youtube-dl "$1"; sudo rm wallpaper.jpg; sudo ffmpeg -i *.mp4 -r 0.0033 -vf scale=-1:120 -vcodec png wallpaper.jpg; sudo 2wmv *.mp4; sudo rm *.mp4; }
