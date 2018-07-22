@@ -174,6 +174,7 @@ python-xapp                1.0.0
 pytz                       2017.2                
 pyudev                     0.16.1                
 pyusb                      1.0.2                 
+pywal                      3.1.0                 
 PyWavelets                 0.5.2                 
 pyxdg                      0.25                  
 PyYAML                     3.12                  

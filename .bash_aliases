@@ -127,3 +127,4 @@ alias filesize='du -h'
 function addalias(){ echo "alias $1='${@:2}'" >> $HOME/.bash_aliases; }
 function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@:3}"; for i in {1..$n}; do sh -c $cmd; done; }
 function vw() { whereis "$1" | cut -d':' -f2 | cut -d' ' -f2 | xargs vim; }
+function wi(){ wal --staturate 1.0 -i "${@:1}"; }

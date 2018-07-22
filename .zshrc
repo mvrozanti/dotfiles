@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
 stty -ixon
 unsetopt HIST_VERIFY
+xrdb ~/.Xresources

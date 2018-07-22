@@ -38,7 +38,7 @@ URxvt.font: xft:DroidSansMono Nerd Font:antialias:size=10
 !!URxvt.font: xft:DejaVu Sans Mono Nerd Font Complete:antialias:hinting=true:size=9.5
 URxvt.scrollBar:	false
 URxvt.cursorColor:	#406
-URxvt*dynamicColors: true
+URxvt*dynamicColors: false
 !!URxvt.perl-ext-common:	default,matcher
 URxvt.perl-lib:		$HOME/.config/Scripts
 URxvt.url-launcher:	/usr/bin/xdg-open
