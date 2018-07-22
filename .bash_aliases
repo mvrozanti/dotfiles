@@ -120,11 +120,10 @@ alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.prope
 alias diff='diff --color=auto'
 alias fslint='/usr/share/fslint/fslint/fslint'
 alias stream='pkill darkice; alsao2i; tmux new -d darkice'  
-# show directory content after changing to it; except it also works in scripts so idk
-# cd() { builtin cd "$@" && ls; }
 # for real time READMEs editing:
 alias READTHIS='grip -b'
 function cdt(){ wis_smth="`wis "$1"`"; abs_path="`readlink -f "$wis_smth"`"; cd `dirname "$abs_path"`; }
 alias filesize='du -h'
 function addalias(){ echo "alias $1='${@:2}'" >> $HOME/.bash_aliases; }
 function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@:3}"; for i in {1..$n}; do sh -c $cmd; done; }
+function vw() { whereis "$1" | cut -d':' -f2 | cut -d' ' -f2 | xargs vim; }
