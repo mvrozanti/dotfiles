@@ -1,3 +1,4 @@
+let g:colorizer_auto_color = 1
 " nnoremap <Space><Space> /<++><CR>
 set nofoldenable
 set foldmethod=manual
@@ -77,7 +78,7 @@ set exrc
 "nnoremap <C-J> :wincmd j
 
 "autocomplete colors
-highlight Pmenu ctermfg=2 ctermbg=4 guifg=1 guibg=4
+"highlight Pmenu ctermfg=2 ctermbg=4 guifg=1 guibg=4
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -127,7 +128,8 @@ Plugin 'scrooloose/syntastic'
 let g:syntastic_javascript_checkers = ['eslint']
 " let g:syntastic_java_checkers=['eclim']
 Plugin 'tpope/vim-surround'
-Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'chrisbra/Colorizer'
+
 Plugin 'othree/yajs.vim'
 Plugin 'mitsuhiko/vim-jinja'
 
