@@ -22,7 +22,7 @@ alias testx='echo;for a in {40..47}; do echo -ne "\e[0;30;$a""m  ""\e[0;37;39m "
 alias cutefetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.ascii -p)$(testx;echo;echo;echo)";clear;printf "$screenfetch_out"|lolcat-c;sleep 0.01; done'
 alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
 alias vmutt='sudo vim $HOME/.muttrc'
-alias vvrc='sudo vim $HOME/.vimrc'
+alias cfv='sudo vim $HOME/.vimrc'
 alias vr='sudo vim $HOME/.config/ranger'
 alias gc='git clone'
 alias gac='git add -A; git commit -m '
