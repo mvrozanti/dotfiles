@@ -128,4 +128,3 @@ function cdt(){ wis_smth="`wis "$1"`"; abs_path="`readlink -f "$wis_smth"`"; cd 
 alias filesize='du -h'
 function addalias(){ echo "alias $1='${@:2}'" >> $HOME/.bash_aliases; }
 function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@:3}"; for i in {1..$n}; do sh -c $cmd; done; }
-function yt2komorebi(){ ytlink="$1"; echo -n "Name of new wallpaper:"; read name; cd /System/Resources/Komorebi/; sudo cp -r lava $name; cd $name; sudo youtube-dl "$1"; sudo rm wallpaper.jpg; sudo ffmpeg -i *.mp4 -r 0.0033 -vf scale=-1:120 -vcodec png wallpaper.jpg; sudo 2wmv *.mp4; sudo rm *.mp4; }
