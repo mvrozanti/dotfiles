@@ -6,7 +6,7 @@ set foldmethod=manual
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
 vnoremap " xi""<Esc>PF"i
-nnoremap yF :Copyfile<CR>
+nnoremap yF maggyG'a
 
 " vnoremap ) 
 nnoremap c( $F(lvt)c
@@ -47,7 +47,6 @@ nnoremap , '
 " general
 command Reversefilelines g/^/m0
 command Jsonify execute ":%!python3 -m json.tool"
-command Copyfile execute ":!cat % | xsel -i -b" <CR>
 
 " if has('persistent_undo')      "check if your vim version supports it
 " Put plugins and dictionaries in this dir (also on Windows)
