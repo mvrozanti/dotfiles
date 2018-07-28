@@ -163,7 +163,7 @@ pypng                      0.0.18
 PyQt5                      5.9                   
 pyroute2                   0.4.21                
 PySocks                    1.6.8                 
-python-apt                 1.1.0b1+ubuntu0.16.4.1
+python-apt                 1.1.0b1+ubuntu0.16.4.2
 python-axolotl             0.1.39                
 python-axolotl-curve25519  0.1                   
 python-dateutil            2.7.3                 

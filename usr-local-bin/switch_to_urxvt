@@ -2,5 +2,5 @@
 if [[ $(wmctrl -l|grep urxvt|grep -c -v Waterfox) -gt 0 ]]; then
     wmctrl -i -a "$(wmctrl -l|grep urxvt|grep -v Waterfox|cut -d' ' -f1)"
 else
-    urxvt
+    urxvt -geometry 100x50+1000+100
 fi

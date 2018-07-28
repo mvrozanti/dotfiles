@@ -128,7 +128,7 @@ pyserial                     3.0.1
 pysmbc                       1.0.15.5                                                
 pysqlite                     1.0.1                                                   
 Pyste                        0.9.10                                                  
-python-apt                   1.1.0b1+ubuntu0.16.4.1                                  
+python-apt                   1.1.0b1+ubuntu0.16.4.2                                  
 python-axolotl               0.1.42                                                  
 python-axolotl-curve25519    0.4.1.post2                                             
 python-dateutil              2.6.1                                                   

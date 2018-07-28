@@ -14,6 +14,7 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 nnoremap cW eF_hvbc
 
 nmap S ysiw
+nnoremap <Space><Space> f<Space>i
 
 " python shortcuts
 autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
