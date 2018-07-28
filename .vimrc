@@ -16,6 +16,11 @@ nnoremap cW eF_hvbc
 nmap S ysiw
 nnoremap <Space><Space> f<Space>i
 
+" general shortcuts
+inoremap #!/bin/bash #!/bin/bash
+inoremap re<tab> return
+
+
 " python shortcuts
 autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
 autocmd FileType python inoremap ld<tab> LOG.debug()<Esc>i
@@ -26,7 +31,6 @@ autocmd FileType python inoremap Tr<tab> True
 
 " bash shortcuts
 " autocmd FileType sh     
-inoremap she #!/bin/bash
 
 " remove highlight
 nnoremap <Esc><Esc> :nohl<CR>
