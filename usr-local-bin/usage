@@ -1,0 +1,2 @@
+#!/bin/bash
+df -P / | awk '/%/ {print 100 -$5 "%"}'

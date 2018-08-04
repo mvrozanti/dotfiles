@@ -1,0 +1,2 @@
+kill_steam_window(){ wmctrl -i -a `wmctrl -l|grep "N/A N/A"|cut -d' ' -f1`;xdotool keydown Control_L;xdotool keydown w;xdotool keyup w;xdotool keyup Control_L;  }
+if [[ `wmctrl -l|grep "N/A N/A"` ]];then kill_steam_window;fi;sleep 5;nohup steamautoclose 0<&- &>/dev/null &

@@ -1,0 +1,11 @@
+#!/bin/bash
+what="$1"
+if [ $what  ]; then
+    is__=$(ps aux|grep -v sed|grep -v isthere|grep $what|sed s/.*00\s+$what\(.*\)$/\1/g)
+    if [ "$is__" ];then
+        echo true;
+    else
+        echo false;
+    fi
+fi
+

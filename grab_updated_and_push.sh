@@ -78,7 +78,7 @@ cp -fR /usr/local/bin/mbtc-toggle            usr-local-bin
 cp -fR /usr/local/bin/dota           usr-local-bin
 cp -fR /usr/local/bin/scr            usr-local-bin
 cp -fR /usr/local/bin/isthere            usr-local-bin
-cp -fR /usr/local/bin/ga             usr-local-bin
+cp -fR /usr/local/bin/gitap             usr-local-bin
 cp -fR /usr/local/bin/gitai          usr-local-bin
 cp -fR /usr/local/bin/gitundo            usr-local-bin
 cp -fR /usr/local/bin/dropbox            usr-local-bin
@@ -104,7 +104,7 @@ cp -fR /usr/local/bin/add-komorebi-wallpaper             usr-local-bin
 
 # push
 echo kek
-ga $commit_message
+gitap $commit_message
 
 echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null

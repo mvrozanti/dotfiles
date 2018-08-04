@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ -z "$@" ]]; then
+    echo "Usage: youtube-pl <url>"
+else
+    mplayer -framedrop -cache 42400  -cache-min 99 -fs -cookies -cookies-file /tmp/cookie.txt $(youtube-dl -g --cookies /tmp/cookie.txt "$@")
+fi

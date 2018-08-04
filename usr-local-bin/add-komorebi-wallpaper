@@ -1,0 +1,17 @@
+#!/bin/bash
+echo -n "Name of new wallpaper: "
+read name
+cd /System/Resources/Komorebi/
+sudo cp -r lava $name
+cd $name
+sudo rm -f *.wmv
+sudo rm -f wallpaper.jpg
+sudo youtube-dl "$1"
+sudo ffmpeg -i *.mp4 -r 0.0033 -vf scale=-1:120 -vcodec png wallpaper.png
+sudo ffmpeg -i *.mkv -r 0.0033 -vf scale=-1:120 -vcodec png wallpaper.png
+sudo convert wallpaper.png wallpaper.jpg
+sudo rm wallpaper.png
+sudo ffmpeg -c:v wmv2 -b:v 99M -c:a wmav2 -b:a 192k output.wmv -i *.mp4
+sudo ffmpeg -c:v wmv2 -b:v 99M -c:a wmav2 -b:a 192k output.wmv -i *.mkv
+sudo rm -f *.mkv
+sudo rm -f *.mp4

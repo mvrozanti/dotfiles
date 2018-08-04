@@ -1,0 +1,4 @@
+#!/bin/bash
+urxvt -e sh -c "stty -ixon;ranger --choosedir=$HOME/.rangerdir  --cmd=\"set preview_files=true\" \"$(cat $HOME/.rangerdir)\""
+
+
