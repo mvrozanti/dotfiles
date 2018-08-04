@@ -8,7 +8,7 @@ commit_message="$@"
 
 if [ -z "$commit_message" ]; then
     echo Missing commit message
-    return 1;
+    return 1
 fi
 
 # netbeans
@@ -74,36 +74,37 @@ cp -fR /etc/mpd.conf .
 
 # ownscripts
 mkdir -p usr-local-bin
-cp -fR /usr/local/bin/mbtc-toggle usr-local-bin
-cp -fR /usr/local/bin/dota usr-local-bin
-cp -fR /usr/local/bin/scr usr-local-bin
-cp -fR /usr/local/bin/isthere usr-local-bin
-cp -fR /usr/local/bin/gitap usr-local-bin
-cp -fR /usr/local/bin/gitai usr-local-bin
-cp -fR /usr/local/bin/gitundo usr-local-bin
-cp -fR /usr/local/bin/dropbox usr-local-bin
-cp -fR /usr/local/bin/switch_to* usr-local-bin
-cp -fR /usr/local/bin/rngr usr-local-bin
-cp -fR /usr/local/bin/steamautoclose usr-local-bin
-cp -fR /usr/local/bin/ping-steam-user usr-local-bin
-cp -fR /usr/local/bin/ytdl usr-local-bin
-cp -fR /usr/local/bin/clip usr-local-bin
-cp -fR /usr/local/bin/re usr-local-bin
-cp -fR /usr/local/bin/usage usr-local-bin
-cp -fR /usr/local/bin/todo usr-local-bin
-cp -fR /usr/local/bin/youtube-pl usr-local-bin
+cp -fR /usr/local/bin/mbtc-toggle            usr-local-bin
+cp -fR /usr/local/bin/dota           usr-local-bin
+cp -fR /usr/local/bin/scr            usr-local-bin
+cp -fR /usr/local/bin/isthere            usr-local-bin
+cp -fR /usr/local/bin/ga             usr-local-bin
+cp -fR /usr/local/bin/gitai          usr-local-bin
+cp -fR /usr/local/bin/gitundo            usr-local-bin
+cp -fR /usr/local/bin/dropbox            usr-local-bin
+cp -fR /usr/local/bin/switch_to*             usr-local-bin
+cp -fR /usr/local/bin/rngr           usr-local-bin
+cp -fR /usr/local/bin/steamautoclose             usr-local-bin
+cp -fR /usr/local/bin/ping-steam-user            usr-local-bin
+cp -fR /usr/local/bin/ytdl           usr-local-bin
+cp -fR /usr/local/bin/clip           usr-local-bin
+cp -fR /usr/local/bin/re             usr-local-bin
+cp -fR /usr/local/bin/usage          usr-local-bin
+cp -fR /usr/local/bin/todo           usr-local-bin
+cp -fR /usr/local/bin/youtube-pl             usr-local-bin
 #cp -fR /usr/local/bin/mpc-play-pause usr-local-bin
-cp -fR /usr/local/bin/pipes usr-local-bin
-cp -fR /usr/local/bin/murxvtt usr-local-bin
-cp -fR `realpath /usr/local/bin/xpath` usr-local-bin
-cp -fR /usr/local/bin/add-komorebi-wallpaper usr-local-bin
+cp -fR /usr/local/bin/pipes          usr-local-bin
+cp -fR /usr/local/bin/murxvtt            usr-local-bin
+cp -fR `realpath /usr/local/bin/xpath`           usr-local-bin
+cp -fR /usr/local/bin/add-komorebi-wallpaper             usr-local-bin
 
 # pip packages
-pip2 list > pip2_packages.txt
-pip3 list > pip3_packages.txt
+# pip2 list > pip2_packages.txt
+# pip3 list > pip3_packages.txt
 
 # push
-gitap "$commit_message"
+echo kek
+ga $commit_message
 
 echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null

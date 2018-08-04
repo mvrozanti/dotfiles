@@ -1,2 +1,0 @@
-#!/bin/bash
-xdotool key "Super_L" sleep 0.3 key a p p l Return sleep 1.0 key Tab Tab space sleep 0.5 key "Super_L+q"

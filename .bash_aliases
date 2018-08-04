@@ -91,7 +91,6 @@ alias gipar='re "\(([^\)]+)"'
 alias gip='re "((\d{1,3}\.){3}\d{1,3})"'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias cutecat='awk "{print $0; system(\"sleep .001\");}"'
 #   text to speech:
 function tts(){ printf "(SayText "`cat -`")" | festival -i;}
@@ -114,7 +113,7 @@ function t2d(){ timestamp="`cat -`"; date -d "@$timestamp"; }
 function knock(){ nc -z -w3 "$1" "$2"; echo $?; }
 # exit code of arg
 function ec() { [[ "$1" == "-h" ]] && { shift && eval $* > /dev/null 2>&1; ec=$?; echo $ec; } || eval $*; ec=$?; }
-function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]];do sleep 1; done; beep; ssh "$1"; }
+function sshasap(){ while [[ $(nc -z -w1 "$1" 22) -gt 0 ]]; do sleep 1; done; beep; ssh "$1"; }
 # function copa(){ kek="$(curl -s http://worldcup.sfg.io/matches/current)"; echo -n $kek|jq '.[0].home_team.goals'|tr -d '\n'; echo -n 'x'; echo $kek|jq '.[0].away_team.goals'; }
 alias cfs='ls /home/nexor/Dropbox/Sys4Bank\ -\ Programas\ Java/**/config_*.properties|v -'
 alias diff='diff --color=auto'
@@ -128,3 +127,5 @@ function addalias(){ echo "alias $1='${@:2}'" >> $HOME/.bash_aliases; }
 function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@:3}"; for i in {1..$n}; do sh -c $cmd; done; }
 function vw() { whereis "$1" | cut -d':' -f2 | cut -d' ' -f2 | xargs vim; }
 function wi(){ wal --staturate 1.0 -i "${@:1}"; }
+# lol color vim bug
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

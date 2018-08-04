@@ -1,13 +1,14 @@
 :root
 {
---mainBg: /*[[mainBg]]*/; --mainHvr: /*[[mainHvr]]*/;
---txtIcns: /*[[txtIcns]]*/; --mnuPnls: /*[[mnuPnls]]*/;
+*: color: #ffffff
+--mainBg: /*[[mainBg-rgb]]*/; --mainHvr: /*[[mainHvr]]*/;
+--txtIcns: /*[[txtIcns]]*/; --mnuPnls: /*[[mnuPnls-rgb]]*/;
 --alrt: /*[[alrt]]*/;
 }
 
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, ._2cLHw, ._25Ooe, ._3Bxar, ._2EXPL._1f1zm ._1AwDx, ._1AwDx, ._2zCDG, .Gd51Q._3sgkv, ._3_7SH, .Y9G3K, ._1DZAH, ._1sYdX, ._3LL06, .iYPsH, ._484uz, .Cpiae
 {
-color: var(--txtIcns) !important;
+color: #ffffff !important;
 /*[[font-family]]*/
 ;
 }
@@ -21,7 +22,7 @@ color: var(--txtIcns) !important;
 ::-moz-selection
 {
 background-color: var(--alrt) !important;
-color: var(--txtIcns) !important;
+color: #ffffff !important;
 }
 
 body, html[dir] ._3dqpi, html[dir] ._1WliW, html[dir] .gQzdc::after, html[dir] ._2EXPL, html[dir] ._3AwwN::after, html[dir] ._1GX8_, html[dir] ._3oju3, button, html[dir] ._1FKgS::after, html[dir] ._3D9Wd, html[dir] ._1o1sm._2nOMz, html[dir] ._2EXPL._1f1zm, html[dir] ._2EXPL, html[dir] ._1FroB, html[dir] ._1CRb5, html[dir] .bZ3B9, ._2tNFJ, ._2i2ET, html[dir] ._3F6QL._16pR3, html[dir] ._1CSx9, html[dir] ._1CkkN, ._1iopp, html[dir] .YAPQk, .gQzdc, ._1VD7W, html[dir] ._3XpR2, html[dir] ._3gUiM, html[dir] .PNlAR, html[dir] ._2ByZq, html[dir] .Sbkt2, html[dir] ._2rR_l, html[dir] .wDFKR, html[dir] ._3nuGo, html[dir] .GpvML, html[dir] ._2gZno._2UCiX .GpvML::after, html[dir] ._2gZno::after, html[dir] ._1ypOz, html[dir] ._3hV1n, html[dir] .zl5TR, html[dir] .MS-DH._1baOM, html[dir] .MS-DH._2-mCk, html[dir] ._3b2Cf, html[dir] ._3b2Cf::before, html[dir] ._1sGGp._2nFG1, html[dir] ._2lwig._2nFG1, html[dir] ._1AKfk, html[dir] .iHLo1, input, html[dir] ._1zcz2, html[dir] ._1mq8g, html[dir] ._3qlW9, html[dir] .TL5dU, html[dir] ._1iJeo, html[dir] ._2EYZY, html[dir] ._1VeYA ._3PmkG, html[dir] ._39pS-, html[dir] ._2zkF3, html[dir] ._66JgU, html[dir] ._1lIXT, html[dir] ._1jJLh, html[dir] .TYhk9, html[dir] .MS-DH::before, html[dir] .MS-DH._1baOM::after, html[dir] .MS-DH._1baOM::before, html[dir] .MS-DH._2-mCk:before, html[dir] .MS-DH._2-mCk:after, html[dir] ._2U_Zc::before, html[dir] .HnNfm, #startup, #initial_startup, html[dir] ._3FAwT, html[dir] ._3v_lq.j5Hcb, html[dir] .j5Hcb, html[dir] ._1XwnX, html[dir] ._2flas, html[dir] .Um7sh, #main header, html[dir] ._3pkkz, html[dir] ._3pkkz, html[dir] ._2tW_W, html[dir] ._3tlsa, html[dir] ._36ApL
@@ -77,7 +78,6 @@ box-shadow: none !important;
 
 body
 {
-color:#101010
 background-color: #040404!important;
 background-image: url(/*[[bgImg]]*/) !important;
 background-size: cover !important;
@@ -152,7 +152,7 @@ stroke: var(--txtIcns) !important;
 html[dir] ._1sB6s, html[dir] ._3dGYA, html[dir] .MwhOx, html[dir] ._1UvQg, html[dir] ._298R6, html[dir] ._3S8Q-, html[dir] .Zq3Mc, html[dir] ._2fq0t, html[dir] ._2uLFU, html[dir] ._1CnF3, html[dir] .L89LI, html[dir] ._3v_lq.j5Hcb, ._2dwaZ, html[dir] ._3sacU, ._3S8hp, html[dir] ._34Sa-, ._3OHGh, html[dir] ._35DHA, html[dir] .ao2gD, html[dir] ._2YdsD, html[dir] ._2Par4, html[dir] ._1UbeR, ._1vDUw .RLfQR, html[dir] ._2HBs4
 {
 background-color: var(--mnuPnls) !important;
-color: var(--txtIcns) !important;
+color: #ffffff !important;
 }
 
 .me9CP, html[dir] ._2e8Mu
@@ -172,7 +172,7 @@ border-color: var(--alrt)!important;
 
 ._2548U, ._1qi0v, ._1WZqU.PNlAR
 {
-color: var(--mnuPnls) !important;
+color: #ffffff !important;
 }
 
 ._1qi0v, ._1WZqU.PNlAR
@@ -187,7 +187,7 @@ fill: var(--alrt) !important;
 
 .vdXUe
 {
-color: var(--alrt) !important;
+color: #ffffff  !important;
 }
 
 html[dir] .OUeyt, html[dir] .YGHyX
