@@ -103,8 +103,7 @@ cp -fR /usr/local/bin/add-komorebi-wallpaper             usr-local-bin
 # pip3 list > pip3_packages.txt
 
 # push
-echo kek
-gitap $commit_message
+gitap "$commit_message"
 
 echo "Cleaning up..."
 find . |grep -vE "*.(css|gif|sh|md)"|grep -v ".git"|xargs rm -rf 2> /dev/null
