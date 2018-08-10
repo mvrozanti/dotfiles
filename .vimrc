@@ -18,7 +18,7 @@ nnoremap <Space><Space> f<Space>i
 
 " general shortcuts
 inoremap #!/bin/bash #!/bin/bash
-inoremap re<tab> return
+inoremap re<tab> return<Space>
 
 
 " python shortcuts
