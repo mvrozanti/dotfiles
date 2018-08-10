@@ -24,6 +24,7 @@ alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
 alias vmutt='sudo vim $HOME/.muttrc'
 alias cfv='sudo vim $HOME/.vimrc'
 alias vr='sudo vim $HOME/.config/ranger'
+alias gfd='git fetch origin; git diff master'
 alias gc='git clone'
 alias gac='git add -A; git commit -m '
 alias gs='git status'
