@@ -84,7 +84,7 @@
                 "theme": "purple",
                 "title": "TODO",
                 "type": "note",
-                "text": "\nha quanto tempo esta rodando um processo unix\n\nestagio documento\n\nqtd de parcelas ao calcular a tir e cet no jpanel_boleto está em 73: verificar quando parcelas sao adicionadas: Suboperacao#addParcela pode ser o culpado\n\nconsertar BoletoEmprestimo#Parcelas -> nao esta recalculando (0 parcelas)"
+                "text": "\nha quanto tempo esta rodando um processo unix\n\nestagio documento\n\nqtd de parcelas ao calcular a tir e cet no jpanel_boleto está em 73: verificar quando parcelas sao adicionadas: Suboperacao#addParcela pode ser o culpado\n\nconsertar BoletoEmprestimo#Parcelas -> nao esta recalculando (0 parcelas)\n\n\nARRAYS.ASLIST EH UM HAZARD"
             }
         ],
         "type": "generic"
