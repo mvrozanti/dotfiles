@@ -99,8 +99,8 @@ cp -fR `realpath /usr/local/bin/xpath`           usr-local-bin
 cp -fR /usr/local/bin/add-komorebi-wallpaper             usr-local-bin
 
 # pip packages
-# pip2 list > pip2_packages.txt
-# pip3 list > pip3_packages.txt
+pip2 list > pip2_packages.txt
+pip3 list > pip3_packages.txt
 
 # push
 gitap "$commit_message"
