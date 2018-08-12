@@ -132,5 +132,7 @@ function domany() { if [[ "$1" == "-n" ]]; then n=$2; else n=99999; fi; cmd="${@
 function vw() { whereis "$1" | cut -d':' -f2 | cut -d' ' -f2 | xargs vim; }
 function wi(){ wal --staturate 1.0 -i "${@:1}"; }
 alias biggest-files='du -hsx *|sudo sort -rh|head -10'
+alias lg='lazygit'
+
 # lol color vim bug
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
