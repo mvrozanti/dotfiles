@@ -1,6 +1,5 @@
 *foreground: #ff1100
 *foreground_bold: #033f40
-*cursor: #ffffff
 URxvt*background: rgba:0500/0500/0500/f800
 *color0: #000
 *color9: #7600ff
