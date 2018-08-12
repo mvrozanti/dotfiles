@@ -26,7 +26,7 @@ alias cfv='sudo vim $HOME/.vimrc'
 alias vr='sudo vim $HOME/.config/ranger'
 alias gfd='git fetch origin; git diff master'
 alias gc='git clone'
-function gac(){ git add -A; git commit -m "${@:1}"; }
+function gac(){ commit_message="${@:1}"; git add -A; git commit -m $commit_message; }
 alias gs='git status'
 alias gco='git checkout'
 alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
