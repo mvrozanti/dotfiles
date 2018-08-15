@@ -101,5 +101,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
 stty -ixon
 unsetopt HIST_VERIFY
-#xrdb ~/.Xresources
-wal -q -R
+wal -q -R 2> /dev/null
