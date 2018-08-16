@@ -17,7 +17,7 @@ nmap S ysiw
 nnoremap <Space><Space> f<Space>i
 
 " general shortcuts
-inoremap #!/bin/bash #!/bin/bash
+inoremap she<tab> #!/bin/bash
 inoremap re<tab> return<Space>
 
 
@@ -25,7 +25,7 @@ inoremap re<tab> return<Space>
 autocmd FileType python inoremap ci<tab> code.interact(local=locals())<Esc> 
 autocmd FileType python inoremap ld<tab> LOG.debug()<Esc>i
 autocmd FileType python inoremap pr<tab> print()<Esc>i
-autocmd FileType python inoremap she #!/usr/bin/env python
+autocmd FileType python inoremap she<tab> #!/usr/bin/env python
 autocmd FileType python inoremap Fa<tab> False
 autocmd FileType python inoremap Tr<tab> True
 

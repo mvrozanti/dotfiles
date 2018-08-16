@@ -100,7 +100,7 @@
     },
     "displayState": {
         "default": 0,
-        "value": 0,
+        "value": 2,
         "type": "generic"
     }
 }

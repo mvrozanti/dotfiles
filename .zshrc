@@ -5,7 +5,7 @@
 export ZSH=/home/nexor/.oh-my-zsh
 # export PATH=/home/nexor/miniconda3/bin:$PATH
 
-ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART=false
 ZSH_TMUX_FIXTERM=true
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=12'
 bindkey '^ ' autosuggest-accept
