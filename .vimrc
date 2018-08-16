@@ -17,7 +17,7 @@ nmap S ysiw
 nnoremap <Space><Space> f<Space>i
 
 " general shortcuts
-inoremap she<tab> #!/bin/bash
+inoremap she<tab> #!/bin/bash<Esc>o
 inoremap re<tab> return<Space>
 
 
