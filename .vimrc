@@ -41,7 +41,7 @@ nnoremap gK gt
 
 " nnoremap M :tabedit %<CR>
 nnoremap <C-N> :tabe<CR>
-nnoremap ,w <C-W>
+nnoremap [ <C-W>
 
 " WIP
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
