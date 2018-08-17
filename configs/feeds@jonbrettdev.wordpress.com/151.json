@@ -29,7 +29,7 @@
         "units": "minutes",
         "description": "Update interval",
         "tooltip": "Interval between checking for new items",
-        "value": 5
+        "value": 30
     },
     "notifications_enabled": {
         "type": "checkbox",

@@ -80,11 +80,11 @@
                 "x": 2051.998046875,
                 "y": 299.99945068359375,
                 "height": 425,
-                "width": 601,
+                "width": 591,
                 "theme": "purple",
                 "title": "TODO",
                 "type": "note",
-                "text": "\nha quanto tempo esta rodando um processo unix\n\nestagio documento\n\nfixo sa no s4Desk?\ndeletar Conexao_backup\n\nComparatorImpl ClassCastException para Datas especificamente a tab_pessoa_fisica\n\n"
+                "text": "\nha quanto tempo esta rodando um processo unix\n\nestagio documento\n\nfixo sa no s4Desk?\ndeletar Conexao_backup\n\nComparatorImpl ClassCastException para Datas especificamente a tab_pessoa_fisica\n\n\njnlp"
             }
         ],
         "type": "generic"
