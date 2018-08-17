@@ -41,7 +41,7 @@ nnoremap gK gt
 
 " nnoremap M :tabedit %<CR>
 nnoremap <C-N> :tabe<CR>
-nnoremap <Leader>w <C-W>
+nnoremap ,w <C-W>
 
 " WIP
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
@@ -71,15 +71,11 @@ set nosmd   " short for 'showmode' for powerline
 filetype off  " required
 set exrc
 
-"move between vim splits
-"inoremap <C-H> <Esc> :wincmd h <CR>
-"inoremap <C-J> <Esc> :wincmd j <CR>
-"inoremap <C-K> <Esc> :wincmd k <CR> 
-"inoremap <C-L> <Esc> :wincmd l <CR>
-"nnoremap <C-H> :wincmd h 
-"nnoremap <C-K> :wincmd k
-"nnoremap <C-L> :wincmd l 
-"nnoremap <C-J> :wincmd j
+"move vim splits
+nnoremap <C-LEFT> :10winc <
+nnoremap <C-UP> :10wincmd +
+nnoremap <C-RIGHT> :10wincmd > 
+nnoremap <C-DOWN> :10wincmd -
 
 "autocomplete colors
 "highlight Pmenu ctermfg=2 ctermbg=4 guifg=1 guibg=4
@@ -92,10 +88,11 @@ Plugin 'christoomey/vim-system-copy'
 let g:system_copy#copy_command='xclip -sel clipboard -i'
 let g:system_copy#paste_command='xclip -sel clipboard -o'
 
+Plugin 'ehamberg/vim-cute-python'
+
 "==== plugin manager
 Plugin 'VundleVim/Vundle.vim'
 
-"==== plugin manager
 Plugin 'pangloss/vim-javascript'
 set conceallevel=1
 let g:javascript_conceal_function = "ƒ"
