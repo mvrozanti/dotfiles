@@ -62,6 +62,7 @@ cp -fR ~/.bash_aliases .
 cp -fR ~/.muttrc .
 
 # .cinnamon
+cp -fR ~/nexor.ascii .
 cp -fR ~/.cinnamon/configs .
 cp -fR /usr/share/themes/Mint-Y-Dark/ .
 dconf dump /org/cinnamon/desktop/keybindings/ > dconf-settings.conf
