@@ -1,0 +1,26 @@
+
+{
+    "directories": ["~/emacs.d"],
+    
+    "link": {
+        "source": "dest",
+        "zshrc": "~/.zshrc"
+        //directories can be linked too
+        "emacs/lisp/": "~/.emacs.d/lisp"
+    },
+
+    "copy": {
+        "source": "dest",
+        "offlineimaprc": "~/.offlineimaprc"
+    },
+
+    "install_cmd": "pacaur -Syu",
+    "install": [
+        "zsh",
+        "emacs"
+    ],
+		
+    "commands": [
+        "emacs -batch -Q -l ~/.emacs.d/firstrun.el"
+    ]
+}
