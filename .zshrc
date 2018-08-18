@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+source $HOME/.ranger_aliases
 source $HOME/.bash_aliases
 stty -ixon
 unsetopt HIST_VERIFY

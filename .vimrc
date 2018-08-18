@@ -113,6 +113,10 @@ let g:CXXFLAGS='-std=c++11'
 " ==== File tree
 Plugin 'scrooloose/nerdtree'
 
+" ==== overwrite vim banner
+Plugin 'mhinz/vim-startify'
+Plugin 'mhinz/vim-signify'
+
 " ==== Completion
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
