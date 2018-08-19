@@ -1,0 +1,5 @@
+#!/bin/sh
+exec_command="$@"
+while inotifywait -qqre modify $(pwd); do
+    sh -c $exec_command
+done

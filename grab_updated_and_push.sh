@@ -91,6 +91,7 @@ cp -fR /usr/local/bin/ping-steam-user               usr-local-bin
 cp -fR /usr/local/bin/ytdl                          usr-local-bin
 cp -fR /usr/local/bin/clip                          usr-local-bin
 cp -fR /usr/local/bin/re                            usr-local-bin
+cp -fR /usr/local/bin/oce                           usr-local-bin
 cp -fR /usr/local/bin/usage                         usr-local-bin
 cp -fR /usr/local/bin/todo                          usr-local-bin
 cp -fR /usr/local/bin/youtube-pl                    usr-local-bin
