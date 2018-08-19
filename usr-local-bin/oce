@@ -1,5 +1,7 @@
 #!/bin/sh
 exec_command="$@"
-while inotifywait -qqre modify $(pwd); do
-    sh -c $exec_command
+cwd=`pwd`
+while inotifywait -qqre modify "$cwd"; do
+    clear
+    sh -c "$cwd/$exec_command"
 done
