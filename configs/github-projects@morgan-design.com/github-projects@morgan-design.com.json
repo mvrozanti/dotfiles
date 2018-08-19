@@ -54,7 +54,7 @@
         "description": "Refresh Interval:",
         "dependency": "enable-auto-refresh",
         "tooltip": "Change the amount of time between checking GitHub for changes to your Repositories",
-        "value": 10.0
+        "value": 10
     },
     "div2": {
         "type": "separator"
