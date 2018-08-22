@@ -93,7 +93,7 @@ keras-rl                   0.4.2
 kitchen                    1.2.5                 
 klepto                     0.1.4                 
 louis                      2.6.4                 
-lxml                       3.5.0                 
+lxml                       4.2.4                 
 mailcap-fix                1.0.1                 
 Mako                       1.0.3                 
 Markdown                   2.6.9                 
@@ -167,6 +167,7 @@ PyQt5                      5.9
 pyroute2                   0.4.21                
 PySocks                    1.6.8                 
 python-apt                 1.1.0b1+ubuntu0.16.4.2
+python-automata            0.0.1                 
 python-axolotl             0.1.39                
 python-axolotl-curve25519  0.1                   
 python-dateutil            2.7.3                 
@@ -237,6 +238,7 @@ traitlets                  4.3.2
 Twisted                    18.4.0                
 twitter                    1.18.0                
 txaio                      2.10.0                
+ubuntu-drivers-common      0.0.0                 
 ufw                        0.35                  
 ujson                      1.35                  
 universe                   0.21.3                
@@ -252,6 +254,7 @@ webwhatsapi                1.0.3
 Werkzeug                   0.12.2                
 wheel                      0.30.0                
 widgetsnbextension         3.0.8                 
+wordster                   0.0.2                 
 xkit                       0.0.0                 
 yarl                       0.16.0                
 youtube-dl                 2017.10.29            

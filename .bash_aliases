@@ -7,6 +7,7 @@ alias l='ls --sort=time'
 alias watch='watch --color -n1'
 alias grep='egrep --color'
 alias agi='sudo apt-get install'
+alias agdu='sudo apt-get dist-upgrade'
 alias agu='sudo apt-get update'
 alias agr='sudo apt-get remove'
 alias py2='python2'
@@ -134,6 +135,7 @@ function wi(){ wal --staturate 1.0 -i "${@:1}"; }
 alias biggest-files='du -hsx *|sudo sort -rh|head -10'
 alias lg='lazygit'
 alias unp='unp -U'
+alias pwdc="pwd | tr -d '\n' | xsel -i -b"
 
 # lol color vim bug
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

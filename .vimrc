@@ -251,8 +251,7 @@ autocmd FileType javascript                                         set omnifunc
 autocmd FileType python                                             let b:run_script = '! clear;python3 %'
 autocmd FileType python                                             let g:pymode_python = 'python3'
 autocmd FileType cpp                                                let b:run_script = '! clear; make && !%:r'
-autocmd BufEnter *.c :setlocal filetype=c
-autocmd FileType c                                                  let b:run_script = ':!echo kek'
+" autocmd FileType *.c                                                  let b:run_script='gcc\ %\ &&\ ./!%:r.out'
 
 inoremap <A-Left> <ESC>h
 inoremap <A-Down> <ESC>j
