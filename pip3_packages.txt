@@ -14,6 +14,7 @@ attrs                      18.1.0
 autobahn                   18.5.1                
 autokeras                  0.2.1                 
 Automat                    0.6.0                 
+automata-lib               2.1.0                 
 backports.weakref          1.0rc1                
 beautifulsoup4             4.6.0                 
 bleach                     1.5.0                 
@@ -167,7 +168,6 @@ PyQt5                      5.9
 pyroute2                   0.4.21                
 PySocks                    1.6.8                 
 python-apt                 1.1.0b1+ubuntu0.16.4.2
-python-automata            0.0.1                 
 python-axolotl             0.1.39                
 python-axolotl-curve25519  0.1                   
 python-dateutil            2.7.3                 
