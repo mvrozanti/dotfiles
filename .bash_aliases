@@ -34,7 +34,6 @@ alias vp='vim "$HOME/Dropbox/Sys4Bank - Programas Java/pendencias.txt"'
 alias sv='sudoedit'
 alias vtmux='vim $HOME/.tmux.conf'
 alias srm='sudo rm'
-alias find='sudo find'
 alias mkdir='mkdir -p'
 # terminal geographic map
 alias termap='telnet mapscii.me'
@@ -136,6 +135,7 @@ alias biggest-files='du -hsx *|sudo sort -rh|head -10'
 alias lg='lazygit'
 alias unp='unp -U'
 alias pwdc="pwd | tr -d '\n' | xsel -i -b"
+function f(){ sudo find . -iname "*$@*"; }
 
 # lol color vim bug
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
