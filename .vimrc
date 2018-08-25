@@ -29,6 +29,8 @@ autocmd FileType python inoremap she<tab> #!/usr/bin/env python
 autocmd FileType python inoremap Fa<tab> False
 autocmd FileType python inoremap Tr<tab> True
 
+" autocmd FileType c set makeprg=gcc\ -O2\ -g\ -Wall\ -Wextra\ -o'%<'\ '%'\ -lm ; ./%\:r
+
 " bash shortcuts
 " autocmd FileType sh     
 
@@ -45,6 +47,7 @@ nnoremap [ <C-W>
 
 " WIP
 nnoremap <buffer> <F5> <Esc>:w<CR>:call system(b:run_script)<CR>
+autocmd FileType c nnoremap <buffer> <F5> <Esc>:make<CR>
 
 " remap mark
 nnoremap , '
