@@ -25,6 +25,7 @@ alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
 alias vmutt='sudoedit $HOME/.muttrc'
 alias cfv='sudoedit $HOME/.vimrc'
 alias cfr='sudoedit $HOME/.config/ranger'
+alias cfx='sudoedit $HOME/.Xresources; xrdb $HOME/.Xresources'
 alias gfd='git fetch origin; git diff master'
 alias gc='git clone'
 function gac(){ commit_message="${@:1}"; git add -A; git commit -m $commit_message; }
@@ -41,7 +42,6 @@ alias termap='telnet mapscii.me'
 alias ta='tmux a -t sess0'
 alias smv='sudo mv'
 alias msk='ncmpcpp'
-alias vxdef='sudoedit $HOME/.Xresources; xrdb $HOME/.Xresources'
 # config bashrc
 alias cfb='sudoedit $HOME/.bashrc'
 # config this
