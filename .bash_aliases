@@ -24,7 +24,7 @@ alias cutefetch='while true; do screenfetch_out="$(screenfetch -a $HOME/nexor.as
 alias neofetch="screenfetch -a $HOME/nexor.ascii -p"
 alias vmutt='sudoedit $HOME/.muttrc'
 alias cfv='sudoedit $HOME/.vimrc'
-alias vr='sudoedit $HOME/.config/ranger'
+alias cfr='sudoedit $HOME/.config/ranger'
 alias gfd='git fetch origin; git diff master'
 alias gc='git clone'
 function gac(){ commit_message="${@:1}"; git add -A; git commit -m $commit_message; }
@@ -136,6 +136,7 @@ alias lg='lazygit'
 alias unp='unp -U'
 alias pwdc="pwd | tr -d '\n' | xsel -i -b"
 function f(){ sudo find . -iname "*$@*"; }
+alias curpos="cnee --record --mouse | awk  '/7,4,0,0,1/ { system("xdotool getmouselocation") }'"
 
 # lol color vim bug
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

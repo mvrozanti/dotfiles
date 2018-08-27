@@ -2,6 +2,7 @@ let g:colorizer_auto_color = 1
 " nnoremap <Space><Space> /<++><CR>
 set nofoldenable
 set foldmethod=manual
+" let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 
 " hits bong: 
 vnoremap ( xi()<Esc>PF(i
@@ -121,7 +122,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'mhinz/vim-signify'
 
 " ==== Completion
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
 
 " ==== Git
